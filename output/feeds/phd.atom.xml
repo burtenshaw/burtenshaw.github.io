@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - PhD</title><link href="/" rel="alternate"></link><link href="/feeds/phd.atom.xml" rel="self"></link><id>/</id><updated>2019-09-09T14:07:00+00:00</updated><entry><title>Conversational Tactics Against Offence</title><link href="/528.html" rel="alternate"></link><published>2019-09-09T14:07:00+00:00</published><updated>2019-09-09T14:07:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2019-09-09:/528.html</id><summary type="html">&lt;p&gt;As an initial outcome to my work with Johannes Schaefer from the University of Hildesheim, we have published a short paper on offence direction detection in online comments. We attempted to detect whether conversation are becoming more or less offensive over their duration. &lt;/p&gt;
+&lt;p&gt;Johannes Schäfer and Ben Burtenshaw
+Offence in …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As an initial outcome to my work with Johannes Schaefer from the University of Hildesheim, we have published a short paper on offence direction detection in online comments. We attempted to detect whether conversation are becoming more or less offensive over their duration. &lt;/p&gt;
+&lt;p&gt;Johannes Schäfer and Ben Burtenshaw
+Offence in Dialogues: A Corpus-Based Study
+Proceedings of the International Conference Recent Advances in Natural Language Processing (RANLP 2019), pages 1085-1093, Varna, Bulgaria, September 2-4, 2019.
+&lt;a href="https://www.uni-hildesheim.de/~schae010/files/JS-BB_ranlp2019-paper.pdf"&gt;Research Paper&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Paper Abstract&lt;/h2&gt;
+&lt;p&gt;In  recent  years  an  increasing  number  of analyses  of  offensive  language  has  been published,  however,  dealing  mainly  with the automatic detection and classification of  isolated  instances.    In  this  paper  we aim  to  understand  the  impact  of  offensive messages in online conversations diachronically, and in particular the change in offensiveness of dialogue turns. In turn,we aim to measure the progression of of-fence  level  as  well  as  its  direction  –  For example,  whether a conversation is escalating or declining in offence.  We present our method of extracting linear dialogues from  tree-structured  conversations  in  social  media  data  and  make  our  code  publicly available.1Furthermore, we discuss methods  to  analyse  this  dataset  through changes  in  discourse  offensiveness.   Our paper  includes  two  main  contributions;first,  using  a  neural  network  to  measure the level of offensiveness in conversations;and second, the analysis of conversations around offensive comments using decoupling functions.&lt;/p&gt;</content><category term="PhD"></category><category term="NLP"></category><category term="Offence Detection"></category><category term="Toxicity"></category><category term="Johannes Schaefer"></category></entry><entry><title>Visiting Researcher at CISUC, The University of Coimbra</title><link href="/526.html" rel="alternate"></link><published>2019-09-09T14:06:00+00:00</published><updated>2019-09-09T14:06:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2019-09-09:/526.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;As part of the PhD at the University of Antwerp I visited The &lt;a href="https://www.cisuc.uc.pt/groups/show/cms"&gt;Cognitive and Media Systems Group&lt;/a&gt; at The University of Coimbra. I spent 3 months working with &lt;a href="https://eden.dei.uc.pt/~hroliv/"&gt;Hugo Gonçalo Oliveira&lt;/a&gt;, on computational creativity and natural language generation problems. We looked at the task of humour generation and evaluation …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;As part of the PhD at the University of Antwerp I visited The &lt;a href="https://www.cisuc.uc.pt/groups/show/cms"&gt;Cognitive and Media Systems Group&lt;/a&gt; at The University of Coimbra. I spent 3 months working with &lt;a href="https://eden.dei.uc.pt/~hroliv/"&gt;Hugo Gonçalo Oliveira&lt;/a&gt;, on computational creativity and natural language generation problems. We looked at the task of humour generation and evaluation, and focused specifically on detecting offensive forms of humour. This process led into subsequent work on offence detection. &lt;/p&gt;</content><category term="PhD"></category><category term="The University of Coimbra"></category><category term="CISUC"></category><category term="Hugo Gonçalo Oliveira"></category><category term="Humour Generation"></category></entry><entry><title>Detecting Offence Direction in AI</title><link href="/'nlg_offensive_language'.html" rel="alternate"></link><published>2019-05-10T09:23:00+00:00</published><updated>2019-05-10T09:23:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2019-05-10:/'nlg_offensive_language'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Over the past six months I have worked with &lt;a href="https://www.uni-hildesheim.de/~schae010/publications.html"&gt;Johannes Schafer&lt;/a&gt; from The University of Hildesheim, on detecting offensive and toxic comments in machine generated language. This a protracted and nuanced task, that should become an integral part of my PhD. As yet we have been able to detect conversation …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Over the past six months I have worked with &lt;a href="https://www.uni-hildesheim.de/~schae010/publications.html"&gt;Johannes Schafer&lt;/a&gt; from The University of Hildesheim, on detecting offensive and toxic comments in machine generated language. This a protracted and nuanced task, that should become an integral part of my PhD. As yet we have been able to detect conversation 'Offence Direction', i.e. whether conversations are becoming more or less offensive. This novel outcome has used a bespoke Reddit dataset, the code for which we've &lt;a href="https://github.com/burtenshaw/offence-detection"&gt;published on github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In 2020 we will publish a long paper on the details of this metric:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Future Paper Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This paper outlines an ongoing corpus study and gradient based search of conversations by offence probability direction; for example, becoming more or less offensive. With the motivation of retrieving examples of humans' conversational tactics against offence. Such a database would be a lucrative resource in evaluating dialogue systems on the same task, where a central challenge is dealing with offensive input. This problem is compounded when working in ethically sensitive areas, where replies should be validated and context appropriate. Literature from care and pedagogy advises professionals that when subjects become offensive, methods like expansion, clarification, and adaptation are necessary rather than warning alone. By appropriately handling the offence, the professional carer removes blame and opens the door for the subject to process their intention. However, these nuanced and delicate forms of language are challenging to implement in a dialogue system, from conceptual literature alone. We use state of the art offence classification from the recent Offenseval 2019 Task 6. We predict an offence direction based on linear gradients of the classification probability. &lt;/p&gt;</content><category term="PhD"></category><category term="CLiPS"></category><category term="EMRG"></category><category term="ACDC"></category><category term="Hildesheim"></category><category term="Johannes Schaefer"></category><category term="NLG"></category><category term="AI &amp; ETHICS"></category></entry><entry><title>The Internet of Things</title><link href="/481.html" rel="alternate"></link><published>2018-04-12T07:24:00+00:00</published><updated>2018-04-12T07:24:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2018-04-12:/481.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;As a continuation of the Asibot project, I gave a presentation to the &lt;a href="https://iotrotterdam.nl/2018/humanizing-iot/"&gt;internet of things conference&lt;/a&gt; in Rotterdam. With &lt;a href="https://emanjavacas.github.io/"&gt;Enrique Manjavacas&lt;/a&gt;, I then gave a more technical and hands-on workshop for bachelors and masters students, where we explained in detail how asibot worked, as well as discussing the conceptual …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;As a continuation of the Asibot project, I gave a presentation to the &lt;a href="https://iotrotterdam.nl/2018/humanizing-iot/"&gt;internet of things conference&lt;/a&gt; in Rotterdam. With &lt;a href="https://emanjavacas.github.io/"&gt;Enrique Manjavacas&lt;/a&gt;, I then gave a more technical and hands-on workshop for bachelors and masters students, where we explained in detail how asibot worked, as well as discussing the conceptual challenges in language generation. &lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;h3&gt;Presentation : Synthetic Literature - Writing Science Fiction in a Co-Creative Process - Ben Burtenshaw (The University of Antwerp)&lt;/h3&gt;
+&lt;p&gt;Synthetic literature refers to stories written with and by machines. The lecture outlines a natural language generation project named Asibot, that allowed members of the public to collaborate in the writing of a science fiction story with a neural network based text generator. Crucially, the system set up a collaborative environment, through which users were able to creatively write. The lecture will focus on the ramifications of this creative process, and go in to detail on how one evaluates and analyses it. It would be interesting for those working with natural language generation or processing, as well those who are interested in recent developments in the fields of computational creativity and story generation.&lt;/p&gt;
+&lt;h3&gt;Workshop Asibot, Under the Hood - Ben Burtenshaw &amp;amp; Enrique Manjavacas (The University of Antwerp)&lt;/h3&gt;
+&lt;p&gt;In this workshop, Ben Burtenshaw will follow up on his plenary lecture, and show participants how the Asibot system works on a more practical level. You will get the opportunity to interact with the Asibot system, a neural network based text generator that wrote a science fiction story in collaboration with Dutch writer Ronald Giphart. Since the project’s public completion, researchers at the The University of Antwerp and The Meertens Institute have been analysing how Asibot was used. The workshop will delve into these findings, and explain how these methodologies can be reused in participants’ own projects.&lt;/p&gt;</content><category term="PhD"></category><category term="The Internet of Things"></category><category term="Asibot"></category><category term="Language Generation"></category><category term="Conference"></category><category term="Workshop"></category><category term="Invited Talk"></category></entry><entry><title>Asibot</title><link href="/asibot.html" rel="alternate"></link><published>2018-04-12T07:23:00+00:00</published><updated>2018-04-12T07:23:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2018-04-12:/asibot.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;As part of a research fellowship at the University of Antwerp, I collaborated on a Language Generation project within the application of science fiction generation.  &lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This paper describes a co-creative text gener-ation system applied within a science fictionsetting to be used by an established novelist.The project was initiated …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;As part of a research fellowship at the University of Antwerp, I collaborated on a Language Generation project within the application of science fiction generation.  &lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This paper describes a co-creative text gener-ation system applied within a science fictionsetting to be used by an established novelist.The project was initiated as part of The DutchBook  Week,  and  the  generated  text  will  bepublished within a volume of science fictionstories. We explore the ramifications of apply-ing Natural Language Generation within a co-creative process,  and examine where the co-creative setting challenges both writer and ma-chine.  We employ a character-level languagemodel to generate text based on a large corpusof Dutch novels that exposes a number of tun-able parameters to the user. The system is usedthrough a custom graphical user interface, thathelps  the  writer  to  elicit,  modify  and  incor-porate suggestions by the text generation sys-tem. Besides a literary work, the output of thepresent  project  also  includes  user-generatedmeta-data that is expected to contribute to thequantitative evaluation of the text-generationsystem and the co-creative process involved.&lt;/p&gt;
+&lt;h2&gt;Outcome&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.nederlandleest.nl/wat-schreef-giphart-wat-schreef-asibot/"&gt;Public info page&lt;/a&gt;
+&lt;a href="https://pdfs.semanticscholar.org/a5cf/8757ba4c0201f623aab41da7d19f65a07922.pdf"&gt;Research Paper&lt;/a&gt;
+&lt;a href="https://asibot.nl/register?next=%2F"&gt;Demo Site&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;People&lt;/h2&gt;
+&lt;p&gt;&lt;a href=""&gt;Ronald Giphart&lt;/a&gt;
+&lt;a href=""&gt;Enrique Manjavacas&lt;/a&gt;
+&lt;a href=""&gt;Folgert Karsdorp&lt;/a&gt;
+&lt;a href=""&gt;Mike Kestemont&lt;/a&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="Language Generation"></category><category term="Dutch book week"></category><category term="Nederland Leest"></category><category term="Sci-fi"></category><category term="Ronald Giphart"></category><category term="Neural Language Generation"></category><category term="Enrique Manjavacas"></category><category term="Mike Kestemont"></category><category term="Folgert Karsdorp"></category></entry><entry><title>FWO Strategic Basic Research Funding</title><link href="/fwo-grant.html" rel="alternate"></link><published>2018-01-01T09:00:00+00:00</published><updated>2018-01-01T09:00:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2018-01-01:/fwo-grant.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Over the last year, through a fellowship at the University of Antwerp, I developed a scientific funding application to the FWO &lt;em&gt;Fonds Wetenschappelijk Onderzoek&lt;/em&gt; or Belgian Scientific Research Funding. That application has been accepted, and over the next four years I will work on the task of evaluation dialogue systems …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Over the last year, through a fellowship at the University of Antwerp, I developed a scientific funding application to the FWO &lt;em&gt;Fonds Wetenschappelijk Onderzoek&lt;/em&gt; or Belgian Scientific Research Funding. That application has been accepted, and over the next four years I will work on the task of evaluation dialogue systems for healthcare applications.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="timeline chart" src="content/images/gantt_with_years_2.svg.png"&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="FWO"></category><category term="Grants"></category><category term="PhD"></category></entry><entry><title>Computational Creativity in Natural Language Generation</title><link href="/'computational-creativity-in-natural-language-generation'.html" rel="alternate"></link><published>2017-09-12T07:23:00+00:00</published><updated>2017-09-12T07:23:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2017-09-12:/'computational-creativity-in-natural-language-generation'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;As part of my research fellowship, I organised a workshop at the
+International Conference on Natural Language Generation. Along with the
+&lt;a href="http://www.ccnlg.org/index.php/people/"&gt;organising committee&lt;/a&gt;, I
+selected papers that worked toward creative goals within the field of
+NLG.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workshop Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CC-NLG is a workshop on Computational Creativity through natural
+language generation, collocated …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;As part of my research fellowship, I organised a workshop at the
+International Conference on Natural Language Generation. Along with the
+&lt;a href="http://www.ccnlg.org/index.php/people/"&gt;organising committee&lt;/a&gt;, I
+selected papers that worked toward creative goals within the field of
+NLG.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workshop Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CC-NLG is a workshop on Computational Creativity through natural
+language generation, collocated  with
+&lt;a href="http://eventos.citius.usc.es/inlg2017/index"&gt;INLG&lt;/a&gt;, the International
+Conference on Natural Language Generation. The workshop will bring
+together researchers from the communities of computational creativity in
+text generation, and natural language generation broadly. We will
+discuss the crossovers in CC and NLG, as well as looking to dialogue
+systems and their creative possibilities, for example in social
+networks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ccnlg.org/"&gt;Workshop Site&lt;/a&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="'2017"></category><category term="inlg"></category><category term="nlg"></category><category term="santiago di compestela"></category><category term="workshop committee'"></category></entry><entry><title>'International Conference on Computational Creativity 2017, Atlanta, USA'</title><link href="/'international-conference-on-computational-creativity-2017-atlanta-usa'.html" rel="alternate"></link><published>2017-06-12T06:54:00+00:00</published><updated>2017-06-12T06:54:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2017-06-12:/'international-conference-on-computational-creativity-2017-atlanta-usa'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Within the framework of my research fellowship, I presented my research
+at ICCC as part of a workshop for doctoral candidates. This was
+immensely useful and rewarding experience, where more established
+researchers within the field took the time to contribute to the work of
+less experience doctoral candidates like myself …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Within the framework of my research fellowship, I presented my research
+at ICCC as part of a workshop for doctoral candidates. This was
+immensely useful and rewarding experience, where more established
+researchers within the field took the time to contribute to the work of
+less experience doctoral candidates like myself.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AIStories is a proposed interactive dialogue system, that lets children
+co-create narrative worlds through conversation. Over the next three
+years this system will be developed and tested within pediatric wards,
+where it offers a useful resource between the gap of education and play.
+Telling and making stories is a fundamental part of language play, and
+its chatty and nonsensical qualities are important; therefore, the
+prologued usage an automated system offers is a benefit to children. In
+this paper I will present the current state of this project, in its more
+experimental and general guise.Conceptually story-telling through
+dialogue relates to the pre-print interpretation of story, beyond the
+static and linear medium, where stories were performative, temporal, and
+social.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://computationalcreativity.net/iccc2017/dc_papers/dciccc17_burtenshaw.pdf"&gt;Paper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://computationalcreativity.net/iccc2017/doctoralconsortium/"&gt;Programme&lt;/a&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="2017"></category><category term="Atlanta"></category><category term="conference"></category><category term="ICCC"></category></entry><entry><title>Generating Interactive Narratives from Wikipedia Articles</title><link href="/'generating-interactive-narratives-from-wikipedia-articles'.html" rel="alternate"></link><published>2017-06-12T06:47:00+00:00</published><updated>2017-06-12T06:47:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2017-06-12:/'generating-interactive-narratives-from-wikipedia-articles'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Within the framework of the research fellowship at the University of Antwerp,
+I presented my research so far to a conference on Digital Humanities in
+Utrecht.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dhbenelux2017.eu/programme/sessions/wednesday-morning/"&gt;DHBenelux&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper Extract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Stories play a vital role in the lives of children. The alternative
+worlds they produce encourage imagination and creativity, but also …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Within the framework of the research fellowship at the University of Antwerp,
+I presented my research so far to a conference on Digital Humanities in
+Utrecht.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dhbenelux2017.eu/programme/sessions/wednesday-morning/"&gt;DHBenelux&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper Extract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Stories play a vital role in the lives of children. The alternative
+worlds they produce encourage imagination and creativity, but also
+transform knowledge into structures that children can understand and
+relate to. We present an interactive story system that creates
+narratives from Wikipedia articles, and reveals them through dialogue
+with a user. Using state-of-the-art narrative generation tools and a
+chatbot dialogue system, information from Wikipedia is revealed to the
+child based on their input. Generating narratives from any text has long
+been a goal of Artificial Intelligence researchers because narrative
+structures are useful for learners of all ages. However, many of the
+existing story generation systems have relied on hand - written
+techniques that cannot meet the scale of data online. In recent years
+search - based systems have been able to incorporate broader topics, but
+they have sacrificed continuity, producing fragmented narrative. Here we
+propose a search - based system that scours Wikipedia for articles
+relating to user input, and then restricts its generation material to
+that article; in doing so, the system utilises the defined topic and
+chronology of the article to retain context.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dhbenelux2017.eu/wp-content/uploads/sites/187/2017/06/Abstracts_DHBenelux_Wednesday.pdf#page=5"&gt;Full
+example&lt;/a&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="2017"></category><category term="AI stories"></category><category term="conference"></category></entry></feed>

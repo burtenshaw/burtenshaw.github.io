@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-11-21T09:07:00+00:00</updated><entry><title>Conversational Tactics Against Offence</title><link href="/art-in-ai.html" rel="alternate"></link><published>2019-11-21T09:07:00+00:00</published><updated>2019-11-21T09:07:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2019-11-21:/art-in-ai.html</id><summary type="html">&lt;p&gt;At The Centre for Advanced Internet Studies in Bochum, Germany I reconnected with Renée Ridgway &lt;a href="https://www.cais.nrw/veranstaltungen/what-is-the-art-in-artificial-intelligence/"&gt;Art in Artificial Intelligence&lt;/a&gt;. Renée curated a workshop on dialogue systems and personal assistants, from a critical and open-source perspective. It was immensely useful to take this tangential perspective toward something I'm deeply engrossed with …&lt;/p&gt;</summary><content type="html">&lt;p&gt;At The Centre for Advanced Internet Studies in Bochum, Germany I reconnected with Renée Ridgway &lt;a href="https://www.cais.nrw/veranstaltungen/what-is-the-art-in-artificial-intelligence/"&gt;Art in Artificial Intelligence&lt;/a&gt;. Renée curated a workshop on dialogue systems and personal assistants, from a critical and open-source perspective. It was immensely useful to take this tangential perspective toward something I'm deeply engrossed with at the moment. I believe the challenges of this workshop will reverberate through my work over the next few years. &lt;/p&gt;
+&lt;h1&gt;Workshop Description&lt;/h1&gt;
+&lt;p&gt;From : https://www.cais.nrw/veranstaltungen/what-is-the-art-in-artificial-intelligence/&lt;/p&gt;
+&lt;p&gt;SUSI.ai: What is the Art in Artificial Intelligence? brings together a group of international researchers in an open and experimental format that explores the ‘future of search’ with an opensource personal assistant &lt;a href="https://skills.susi.ai/"&gt;SUSI.ai&lt;/a&gt;. With hands-on interaction and a ‘behind the scenes’ in-depth analysis by Michael Christen, along with the interests and expertise of the participants, the event will focus on teaching ‘art’ to artificial intelligence – contributing content to SUSI’s library of potential answers  so that it could ‘learn’.&lt;/p&gt;
+&lt;p&gt;The event also intends to investigate some of the consequences of feeding and training AI concerning digital labour and gender bias with Personal Assistants along with ‘surveillance activities’ in the home and office. Besides linguistic understanding, ethics of AI will also be explored regarding questions of teaching AI and ways  in which AI could be trained differently.&lt;/p&gt;
+&lt;h1&gt;Participants&lt;/h1&gt;
+&lt;p&gt;Michael Christen, SUSI.ai/YaCy
+Vladan Joler, Associate Professor and Chair of New Media, University Novi Sad, Serbia
+Daphne Dragona, Independent curator and writer (Berlin)
+Luis Rodil-Fernandez, ArtEZ University of the Arts, Arnhem and Amsterdam University of Applied Sciences in the Masters of Digital Design
+Eric Snodgrass, Senior Lecturer at the Department of Design, Faculty of Arts and Humanities, Linnaeus University, Sweden
+Rosemary Lee, Artist and PhD fellow at the IT-University of Copenhagen
+Mace Ojala, Research Assistant, IT University of Copenhagen and at the University of Copenhagen, Denmark
+Ben Burtenshaw, PhD fellow in Computational Linguistics and Natural Language Generation at The University of Antwerp
+Hrvoje Hiršl, Artist and Researcher at Donau-Universität Krems, Austria&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="Art"></category><category term="Renée Ridgway"></category><category term="AI"></category><category term="Dialogue Systems"></category><category term="Bochum"></category></entry><entry><title>Conversational Tactics Against Offence</title><link href="/528.html" rel="alternate"></link><published>2019-09-09T14:07:00+00:00</published><updated>2019-09-09T14:07:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2019-09-09:/528.html</id><summary type="html">&lt;p&gt;As an initial outcome to my work with Johannes Schaefer from the University of Hildesheim, we have published a short paper on offence direction detection in online comments. We attempted to detect whether conversation are becoming more or less offensive over their duration. &lt;/p&gt;
+&lt;p&gt;Johannes Schäfer and Ben Burtenshaw
+Offence in …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As an initial outcome to my work with Johannes Schaefer from the University of Hildesheim, we have published a short paper on offence direction detection in online comments. We attempted to detect whether conversation are becoming more or less offensive over their duration. &lt;/p&gt;
+&lt;p&gt;Johannes Schäfer and Ben Burtenshaw
+Offence in Dialogues: A Corpus-Based Study
+Proceedings of the International Conference Recent Advances in Natural Language Processing (RANLP 2019), pages 1085-1093, Varna, Bulgaria, September 2-4, 2019.
+&lt;a href="https://www.uni-hildesheim.de/~schae010/files/JS-BB_ranlp2019-paper.pdf"&gt;Research Paper&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Paper Abstract&lt;/h2&gt;
+&lt;p&gt;In  recent  years  an  increasing  number  of analyses  of  offensive  language  has  been published,  however,  dealing  mainly  with the automatic detection and classification of  isolated  instances.    In  this  paper  we aim  to  understand  the  impact  of  offensive messages in online conversations diachronically, and in particular the change in offensiveness of dialogue turns. In turn,we aim to measure the progression of of-fence  level  as  well  as  its  direction  –  For example,  whether a conversation is escalating or declining in offence.  We present our method of extracting linear dialogues from  tree-structured  conversations  in  social  media  data  and  make  our  code  publicly available.1Furthermore, we discuss methods  to  analyse  this  dataset  through changes  in  discourse  offensiveness.   Our paper  includes  two  main  contributions;first,  using  a  neural  network  to  measure the level of offensiveness in conversations;and second, the analysis of conversations around offensive comments using decoupling functions.&lt;/p&gt;</content><category term="PhD"></category><category term="NLP"></category><category term="Offence Detection"></category><category term="Toxicity"></category><category term="Johannes Schaefer"></category></entry><entry><title>Visiting Researcher at CISUC, The University of Coimbra</title><link href="/526.html" rel="alternate"></link><published>2019-09-09T14:06:00+00:00</published><updated>2019-09-09T14:06:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2019-09-09:/526.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;As part of the PhD at the University of Antwerp I visited The &lt;a href="https://www.cisuc.uc.pt/groups/show/cms"&gt;Cognitive and Media Systems Group&lt;/a&gt; at The University of Coimbra. I spent 3 months working with &lt;a href="https://eden.dei.uc.pt/~hroliv/"&gt;Hugo Gonçalo Oliveira&lt;/a&gt;, on computational creativity and natural language generation problems. We looked at the task of humour generation and evaluation …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;As part of the PhD at the University of Antwerp I visited The &lt;a href="https://www.cisuc.uc.pt/groups/show/cms"&gt;Cognitive and Media Systems Group&lt;/a&gt; at The University of Coimbra. I spent 3 months working with &lt;a href="https://eden.dei.uc.pt/~hroliv/"&gt;Hugo Gonçalo Oliveira&lt;/a&gt;, on computational creativity and natural language generation problems. We looked at the task of humour generation and evaluation, and focused specifically on detecting offensive forms of humour. This process led into subsequent work on offence detection. &lt;/p&gt;</content><category term="PhD"></category><category term="The University of Coimbra"></category><category term="CISUC"></category><category term="Hugo Gonçalo Oliveira"></category><category term="Humour Generation"></category></entry><entry><title>Detecting Offence Direction in AI</title><link href="/'nlg_offensive_language'.html" rel="alternate"></link><published>2019-05-10T09:23:00+00:00</published><updated>2019-05-10T09:23:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2019-05-10:/'nlg_offensive_language'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Over the past six months I have worked with &lt;a href="https://www.uni-hildesheim.de/~schae010/publications.html"&gt;Johannes Schafer&lt;/a&gt; from The University of Hildesheim, on detecting offensive and toxic comments in machine generated language. This a protracted and nuanced task, that should become an integral part of my PhD. As yet we have been able to detect conversation …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Over the past six months I have worked with &lt;a href="https://www.uni-hildesheim.de/~schae010/publications.html"&gt;Johannes Schafer&lt;/a&gt; from The University of Hildesheim, on detecting offensive and toxic comments in machine generated language. This a protracted and nuanced task, that should become an integral part of my PhD. As yet we have been able to detect conversation 'Offence Direction', i.e. whether conversations are becoming more or less offensive. This novel outcome has used a bespoke Reddit dataset, the code for which we've &lt;a href="https://github.com/burtenshaw/offence-detection"&gt;published on github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In 2020 we will publish a long paper on the details of this metric:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Future Paper Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This paper outlines an ongoing corpus study and gradient based search of conversations by offence probability direction; for example, becoming more or less offensive. With the motivation of retrieving examples of humans' conversational tactics against offence. Such a database would be a lucrative resource in evaluating dialogue systems on the same task, where a central challenge is dealing with offensive input. This problem is compounded when working in ethically sensitive areas, where replies should be validated and context appropriate. Literature from care and pedagogy advises professionals that when subjects become offensive, methods like expansion, clarification, and adaptation are necessary rather than warning alone. By appropriately handling the offence, the professional carer removes blame and opens the door for the subject to process their intention. However, these nuanced and delicate forms of language are challenging to implement in a dialogue system, from conceptual literature alone. We use state of the art offence classification from the recent Offenseval 2019 Task 6. We predict an offence direction based on linear gradients of the classification probability. &lt;/p&gt;</content><category term="PhD"></category><category term="CLiPS"></category><category term="EMRG"></category><category term="ACDC"></category><category term="Hildesheim"></category><category term="Johannes Schaefer"></category><category term="NLG"></category><category term="AI &amp; ETHICS"></category></entry><entry><title>The Internet of Things</title><link href="/481.html" rel="alternate"></link><published>2018-04-12T07:24:00+00:00</published><updated>2018-04-12T07:24:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2018-04-12:/481.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;As a continuation of the Asibot project, I gave a presentation to the &lt;a href="https://iotrotterdam.nl/2018/humanizing-iot/"&gt;internet of things conference&lt;/a&gt; in Rotterdam. With &lt;a href="https://emanjavacas.github.io/"&gt;Enrique Manjavacas&lt;/a&gt;, I then gave a more technical and hands-on workshop for bachelors and masters students, where we explained in detail how asibot worked, as well as discussing the conceptual …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;As a continuation of the Asibot project, I gave a presentation to the &lt;a href="https://iotrotterdam.nl/2018/humanizing-iot/"&gt;internet of things conference&lt;/a&gt; in Rotterdam. With &lt;a href="https://emanjavacas.github.io/"&gt;Enrique Manjavacas&lt;/a&gt;, I then gave a more technical and hands-on workshop for bachelors and masters students, where we explained in detail how asibot worked, as well as discussing the conceptual challenges in language generation. &lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;h3&gt;Presentation : Synthetic Literature - Writing Science Fiction in a Co-Creative Process - Ben Burtenshaw (The University of Antwerp)&lt;/h3&gt;
+&lt;p&gt;Synthetic literature refers to stories written with and by machines. The lecture outlines a natural language generation project named Asibot, that allowed members of the public to collaborate in the writing of a science fiction story with a neural network based text generator. Crucially, the system set up a collaborative environment, through which users were able to creatively write. The lecture will focus on the ramifications of this creative process, and go in to detail on how one evaluates and analyses it. It would be interesting for those working with natural language generation or processing, as well those who are interested in recent developments in the fields of computational creativity and story generation.&lt;/p&gt;
+&lt;h3&gt;Workshop Asibot, Under the Hood - Ben Burtenshaw &amp;amp; Enrique Manjavacas (The University of Antwerp)&lt;/h3&gt;
+&lt;p&gt;In this workshop, Ben Burtenshaw will follow up on his plenary lecture, and show participants how the Asibot system works on a more practical level. You will get the opportunity to interact with the Asibot system, a neural network based text generator that wrote a science fiction story in collaboration with Dutch writer Ronald Giphart. Since the project’s public completion, researchers at the The University of Antwerp and The Meertens Institute have been analysing how Asibot was used. The workshop will delve into these findings, and explain how these methodologies can be reused in participants’ own projects.&lt;/p&gt;</content><category term="PhD"></category><category term="The Internet of Things"></category><category term="Asibot"></category><category term="Language Generation"></category><category term="Conference"></category><category term="Workshop"></category><category term="Invited Talk"></category></entry><entry><title>Asibot</title><link href="/asibot.html" rel="alternate"></link><published>2018-04-12T07:23:00+00:00</published><updated>2018-04-12T07:23:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2018-04-12:/asibot.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;As part of a research fellowship at the University of Antwerp, I collaborated on a Language Generation project within the application of science fiction generation.  &lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This paper describes a co-creative text gener-ation system applied within a science fictionsetting to be used by an established novelist.The project was initiated …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;As part of a research fellowship at the University of Antwerp, I collaborated on a Language Generation project within the application of science fiction generation.  &lt;/p&gt;
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This paper describes a co-creative text gener-ation system applied within a science fictionsetting to be used by an established novelist.The project was initiated as part of The DutchBook  Week,  and  the  generated  text  will  bepublished within a volume of science fictionstories. We explore the ramifications of apply-ing Natural Language Generation within a co-creative process,  and examine where the co-creative setting challenges both writer and ma-chine.  We employ a character-level languagemodel to generate text based on a large corpusof Dutch novels that exposes a number of tun-able parameters to the user. The system is usedthrough a custom graphical user interface, thathelps  the  writer  to  elicit,  modify  and  incor-porate suggestions by the text generation sys-tem. Besides a literary work, the output of thepresent  project  also  includes  user-generatedmeta-data that is expected to contribute to thequantitative evaluation of the text-generationsystem and the co-creative process involved.&lt;/p&gt;
+&lt;h2&gt;Outcome&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.nederlandleest.nl/wat-schreef-giphart-wat-schreef-asibot/"&gt;Public info page&lt;/a&gt;
+&lt;a href="https://pdfs.semanticscholar.org/a5cf/8757ba4c0201f623aab41da7d19f65a07922.pdf"&gt;Research Paper&lt;/a&gt;
+&lt;a href="https://asibot.nl/register?next=%2F"&gt;Demo Site&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;People&lt;/h2&gt;
+&lt;p&gt;&lt;a href=""&gt;Ronald Giphart&lt;/a&gt;
+&lt;a href=""&gt;Enrique Manjavacas&lt;/a&gt;
+&lt;a href=""&gt;Folgert Karsdorp&lt;/a&gt;
+&lt;a href=""&gt;Mike Kestemont&lt;/a&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="Language Generation"></category><category term="Dutch book week"></category><category term="Nederland Leest"></category><category term="Sci-fi"></category><category term="Ronald Giphart"></category><category term="Neural Language Generation"></category><category term="Enrique Manjavacas"></category><category term="Mike Kestemont"></category><category term="Folgert Karsdorp"></category></entry><entry><title>FWO Strategic Basic Research Funding</title><link href="/fwo-grant.html" rel="alternate"></link><published>2018-01-01T09:00:00+00:00</published><updated>2018-01-01T09:00:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2018-01-01:/fwo-grant.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Over the last year, through a fellowship at the University of Antwerp, I developed a scientific funding application to the FWO &lt;em&gt;Fonds Wetenschappelijk Onderzoek&lt;/em&gt; or Belgian Scientific Research Funding. That application has been accepted, and over the next four years I will work on the task of evaluation dialogue systems …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Over the last year, through a fellowship at the University of Antwerp, I developed a scientific funding application to the FWO &lt;em&gt;Fonds Wetenschappelijk Onderzoek&lt;/em&gt; or Belgian Scientific Research Funding. That application has been accepted, and over the next four years I will work on the task of evaluation dialogue systems for healthcare applications.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="timeline chart" src="content/images/gantt_with_years_2.svg.png"&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="FWO"></category><category term="Grants"></category><category term="PhD"></category></entry><entry><title>Computational Creativity in Natural Language Generation</title><link href="/'computational-creativity-in-natural-language-generation'.html" rel="alternate"></link><published>2017-09-12T07:23:00+00:00</published><updated>2017-09-12T07:23:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2017-09-12:/'computational-creativity-in-natural-language-generation'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;As part of my research fellowship, I organised a workshop at the
+International Conference on Natural Language Generation. Along with the
+&lt;a href="http://www.ccnlg.org/index.php/people/"&gt;organising committee&lt;/a&gt;, I
+selected papers that worked toward creative goals within the field of
+NLG.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workshop Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CC-NLG is a workshop on Computational Creativity through natural
+language generation, collocated …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;As part of my research fellowship, I organised a workshop at the
+International Conference on Natural Language Generation. Along with the
+&lt;a href="http://www.ccnlg.org/index.php/people/"&gt;organising committee&lt;/a&gt;, I
+selected papers that worked toward creative goals within the field of
+NLG.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workshop Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CC-NLG is a workshop on Computational Creativity through natural
+language generation, collocated  with
+&lt;a href="http://eventos.citius.usc.es/inlg2017/index"&gt;INLG&lt;/a&gt;, the International
+Conference on Natural Language Generation. The workshop will bring
+together researchers from the communities of computational creativity in
+text generation, and natural language generation broadly. We will
+discuss the crossovers in CC and NLG, as well as looking to dialogue
+systems and their creative possibilities, for example in social
+networks.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ccnlg.org/"&gt;Workshop Site&lt;/a&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="'2017"></category><category term="inlg"></category><category term="nlg"></category><category term="santiago di compestela"></category><category term="workshop committee'"></category></entry><entry><title>'International Conference on Computational Creativity 2017, Atlanta, USA'</title><link href="/'international-conference-on-computational-creativity-2017-atlanta-usa'.html" rel="alternate"></link><published>2017-06-12T06:54:00+00:00</published><updated>2017-06-12T06:54:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2017-06-12:/'international-conference-on-computational-creativity-2017-atlanta-usa'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Within the framework of my research fellowship, I presented my research
+at ICCC as part of a workshop for doctoral candidates. This was
+immensely useful and rewarding experience, where more established
+researchers within the field took the time to contribute to the work of
+less experience doctoral candidates like myself …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Within the framework of my research fellowship, I presented my research
+at ICCC as part of a workshop for doctoral candidates. This was
+immensely useful and rewarding experience, where more established
+researchers within the field took the time to contribute to the work of
+less experience doctoral candidates like myself.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AIStories is a proposed interactive dialogue system, that lets children
+co-create narrative worlds through conversation. Over the next three
+years this system will be developed and tested within pediatric wards,
+where it offers a useful resource between the gap of education and play.
+Telling and making stories is a fundamental part of language play, and
+its chatty and nonsensical qualities are important; therefore, the
+prologued usage an automated system offers is a benefit to children. In
+this paper I will present the current state of this project, in its more
+experimental and general guise.Conceptually story-telling through
+dialogue relates to the pre-print interpretation of story, beyond the
+static and linear medium, where stories were performative, temporal, and
+social.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://computationalcreativity.net/iccc2017/dc_papers/dciccc17_burtenshaw.pdf"&gt;Paper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://computationalcreativity.net/iccc2017/doctoralconsortium/"&gt;Programme&lt;/a&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="2017"></category><category term="Atlanta"></category><category term="conference"></category><category term="ICCC"></category></entry><entry><title>Generating Interactive Narratives from Wikipedia Articles</title><link href="/'generating-interactive-narratives-from-wikipedia-articles'.html" rel="alternate"></link><published>2017-06-12T06:47:00+00:00</published><updated>2017-06-12T06:47:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2017-06-12:/'generating-interactive-narratives-from-wikipedia-articles'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Within the framework of the research fellowship at the University of Antwerp,
+I presented my research so far to a conference on Digital Humanities in
+Utrecht.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dhbenelux2017.eu/programme/sessions/wednesday-morning/"&gt;DHBenelux&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper Extract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Stories play a vital role in the lives of children. The alternative
+worlds they produce encourage imagination and creativity, but also …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Within the framework of the research fellowship at the University of Antwerp,
+I presented my research so far to a conference on Digital Humanities in
+Utrecht.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dhbenelux2017.eu/programme/sessions/wednesday-morning/"&gt;DHBenelux&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper Extract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Stories play a vital role in the lives of children. The alternative
+worlds they produce encourage imagination and creativity, but also
+transform knowledge into structures that children can understand and
+relate to. We present an interactive story system that creates
+narratives from Wikipedia articles, and reveals them through dialogue
+with a user. Using state-of-the-art narrative generation tools and a
+chatbot dialogue system, information from Wikipedia is revealed to the
+child based on their input. Generating narratives from any text has long
+been a goal of Artificial Intelligence researchers because narrative
+structures are useful for learners of all ages. However, many of the
+existing story generation systems have relied on hand - written
+techniques that cannot meet the scale of data online. In recent years
+search - based systems have been able to incorporate broader topics, but
+they have sacrificed continuity, producing fragmented narrative. Here we
+propose a search - based system that scours Wikipedia for articles
+relating to user input, and then restricts its generation material to
+that article; in doing so, the system utilises the defined topic and
+chronology of the article to retain context.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dhbenelux2017.eu/wp-content/uploads/sites/187/2017/06/Abstracts_DHBenelux_Wednesday.pdf#page=5"&gt;Full
+example&lt;/a&gt;&lt;/p&gt;</content><category term="PhD"></category><category term="2017"></category><category term="AI stories"></category><category term="conference"></category></entry><entry><title>Research Fellowship in Computational Linguistics</title><link href="/'research-fellowship-in-computational-linguistics'.html" rel="alternate"></link><published>2016-12-17T06:34:00+00:00</published><updated>2016-12-17T06:34:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2016-12-17:/'research-fellowship-in-computational-linguistics'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;In January 2017 I will begin a one year research fellowship at
+&lt;a href="https://www.clips.uantwerpen.be/"&gt;Clips&lt;/a&gt;, a computational linguistics
+research group, at The University of Antwerp. As well as learning about
+this interesting subfield of artificial intelligence, I will assist on
+the 'Story Table' project; an applied project developing autonomous
+story agents to …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;In January 2017 I will begin a one year research fellowship at
+&lt;a href="https://www.clips.uantwerpen.be/"&gt;Clips&lt;/a&gt;, a computational linguistics
+research group, at The University of Antwerp. As well as learning about
+this interesting subfield of artificial intelligence, I will assist on
+the 'Story Table' project; an applied project developing autonomous
+story agents to be used within paediatrics. The project is lead by
+researchers from the &lt;a href="https://www.emrg.be/"&gt;Experimental Media Research Group&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Project Bio&lt;/h2&gt;
+&lt;p&gt;Ben Burtenshaw has a background in media arts and cultural research. He
+is PhD candidate at the Computational Linguistics Group (CLiPS,
+University of Antwerp). Ben is interested in generating narrative and
+poetic language through programming methods, and applying such systems
+within healthcare for children and the elderly. His PhD project is to
+develop an autonomous and interactive software client, that will respond
+to natural language input by generating stories and poems.&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="2017"></category><category term="antwerp"></category><category term="research grant"></category><category term="NLP"></category><category term="NLG"></category><category term="Narratives"></category></entry><entry><title>Prometheanism 2.0 - Roaming Assembly - Symposium by Bassam el Baroni</title><link href="/'prometheanism-2-0-roaming-assembly-symposium-by-bassam-el-baroni'.html" rel="alternate"></link><published>2016-05-03T12:08:00+00:00</published><updated>2016-05-03T12:08:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2016-05-03:/'prometheanism-2-0-roaming-assembly-symposium-by-bassam-el-baroni'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;"Prometheanism is simply the claim that there is no reason to assume a
+predetermined limit to what we can achieve or to the ways in which we
+can transform ourselves and our world."&lt;/em&gt;
+&lt;a href="http://dutchartinstitute.eu/page/8317/roaming-assembly-5-prometheanism-2-0-curated-by-bassam-el-baroni#_ftn1"&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Concurrent to global post-financial crisis politics, a theory for a
+contemporary prometheanism has been carving itself …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;"Prometheanism is simply the claim that there is no reason to assume a
+predetermined limit to what we can achieve or to the ways in which we
+can transform ourselves and our world."&lt;/em&gt;
+&lt;a href="http://dutchartinstitute.eu/page/8317/roaming-assembly-5-prometheanism-2-0-curated-by-bassam-el-baroni#_ftn1"&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Concurrent to global post-financial crisis politics, a theory for a
+contemporary prometheanism has been carving itself out from different
+strands of philosophy and transdisciplinary research. As an event,
+Prometheanism 2.0 is a condensed and partial account of this strain of
+thought that cuts across rationalism, pragmatism, realism, materialism,
+science, technology, computation, economics, politics, and art to shape
+its foundations. It attempts to articulate the major positions,
+concerns, and questions for a contemporary prometheanism through both
+theoretical talks and artistic representations. In which sense can art
+practice be promethean? Where does the urge come from? Why and how
+should art take on this challenge? This event hopes to bring to the
+table discussions and questions regarding a contemporary promethean
+position and its embrace in art practice, contributing to further
+sharpening, clarifying, and formulating a prometheanism 2.0 that, to an
+extent, still remains germinal. &lt;a href="http://dutchartinstitute.eu/page/8367/prometheanism-2-0-introduction-part-2"&gt;READ
+MORE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;by &lt;strong&gt;Bassam El Baroni&lt;/strong&gt;, curator, writer and core theory-tutor, DAI&lt;/p&gt;
+&lt;p&gt;Description of my contribution&lt;/p&gt;
+&lt;p&gt;Often when we attempt to visualise prometheanism, we use some version of
+science-fiction cyborg as technology's best effort at human, a Human
+2.0. But prometheanism is more nuanced than just advancement. To see
+this, we need to look past humans running faster and living longer in a
+distant utopian future, and put prometheanism alongside other planetary
+scaled challenges. Beyond Cyborgs attempts to ignore the initial desire
+for advancement, that prometheanism conjures up, and instead asks 'what
+does prometheanism look like in a state of survival?' To grasp this
+interpretation, the audio performance samples science fiction novels
+which move beyond the traditional cyborg in cinematic portrayals. These
+narratives tackle humanity through complex uses of prometheanism, based
+on technologies completely separate from our own. They are based on
+biological or psychological enhancement, rather than digital technology.
+Through this they offer a version of prometheanism that can be applied
+to contemporary issues, without seeming far-fetched.&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="'2016"></category><category term="Arnhem"></category><category term="Bassam el Baroni"></category><category term="DAI"></category><category term="Prometheanism'"></category></entry><entry><title>'did you feel it?' A SYMPOSIUM ON DIGITAL INTERFACES AND THEIR AFFECT</title><link href="/'did-you-feel-it'.html" rel="alternate"></link><published>2015-09-19T08:14:00+00:00</published><updated>2015-09-19T08:14:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2015-09-19:/'did-you-feel-it'.html</id><summary type="html">&lt;hr&gt;
+&lt;h1&gt;&lt;img alt="12042817_10204917734926673_7940000562667755702_n" class="alignnone size-full wp-image-387" height="640px" src="images/wp-content/uploads/2015/09/12042817_10204917734926673_7940000562667755702_n.jpg" width="960px"&gt;&lt;/h1&gt;
+&lt;h1&gt;The Premise of the symposium&lt;/h1&gt;
+&lt;p&gt;The symposium &lt;a href="http://dutchartinstitute.eu/page/7263/didyoufeelitjoinusforadaylongsymposiumcuratedandorganizedbyst"&gt;"did you feel it
+?"&lt;/a&gt;
+will approach the concern of how affect manifests through technology, by
+taking the idea of the interface as a way of understanding the creation
+and mediation of affective forces and their influence on our social,
+political and artistic encounters …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;h1&gt;&lt;img alt="12042817_10204917734926673_7940000562667755702_n" class="alignnone size-full wp-image-387" height="640px" src="images/wp-content/uploads/2015/09/12042817_10204917734926673_7940000562667755702_n.jpg" width="960px"&gt;&lt;/h1&gt;
+&lt;h1&gt;The Premise of the symposium&lt;/h1&gt;
+&lt;p&gt;The symposium &lt;a href="http://dutchartinstitute.eu/page/7263/didyoufeelitjoinusforadaylongsymposiumcuratedandorganizedbyst"&gt;"did you feel it
+?"&lt;/a&gt;
+will approach the concern of how affect manifests through technology, by
+taking the idea of the interface as a way of understanding the creation
+and mediation of affective forces and their influence on our social,
+political and artistic encounters.&lt;/p&gt;
+&lt;p&gt;Affect can be defined as as "a pre-personal intensity corresponding to
+the passage from one experiential state of the body to another and
+implying an augmentation or diminution in that body\'s capacity to act."
+(Brian Massumi) In our contemporary situation these experiential states
+and feelings are readily exchanged and traded upon in many areas of
+life: Your Facebook friends are editing and mediating their lives so
+that you can engage with them through liking and sharing. News media
+increasingly appeals to us on an affective register, influencing our
+reactions from occupation to commodification. With the growth of the
+service industry, an increasing number of workers no longer merely
+exchange the labour of their bodies, rather they exchange on an
+affective spectrum, like the call centre worker who must present a
+relentless kind and civil demeanor, no matter what.&lt;/p&gt;
+&lt;p&gt;What we do in the media is enabled and disabled by interfaces. The
+interface is the ubiquitous and largely hidden layer between human and
+machine, but its transparency does not make it neutral. It is also an
+autonomous zone of aesthetic activity, guided by its own logic and its
+own ends. (Alexander Galloway). The interface permanently shapes our
+view of the material, the social, the political and the technological.&lt;/p&gt;
+&lt;p&gt;This premise was written in May by myself, &lt;a href="http://www.jammienicholas.com/"&gt;Jammie
+Nicholas&lt;/a&gt; and &lt;a href="http://www.miguelangelrego.com/"&gt;Miguel Ángel
+Rego Robles&lt;/a&gt; . Through writing this and
+developing the whole symposium, we were supported by Jorinde Seijdel,
+the editor for &lt;a href="http://www.onlineopen.org/"&gt;Open&lt;/a&gt;, and artist &lt;a href="http://www.floriangoettke.com/"&gt;Florian
+Göttke&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The symposium was organised by student from The Dutch Art Institute,
+that I studied with as part of the project, &lt;a href="http://dutchartinstitute.eu/page/6061/coop-academyopen--presents--affective-images--how-public-images-produce-affec"&gt;Affective Images: How
+Public Images Produce Affect in a Digital
+Age&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://eduardocachucho.com/"&gt;Eduardo Cachucho&lt;/a&gt;, &lt;a href="http://www.moniquehendriksen.nl/"&gt;Charlie
+Dance&lt;/a&gt;, &lt;a href="http://www.moniquehendriksen.nl/"&gt;Monique
+Hendriksen&lt;/a&gt;, &lt;a href="http://marieapellerin.info/"&gt;Marie-Andrée
+Pellerin&lt;/a&gt;, &lt;a href="http://www.kaste.lt/en/"&gt;Kaste
+Šeškeviciute&lt;/a&gt;, &lt;a href="http://aartisunder.tumblr.com/"&gt;Aarti
+Sunder&lt;/a&gt;, &lt;a href="http://cargocollective.com/yunghanjuan"&gt;Yung Han
+Juan&lt;/a&gt;, &lt;a href="http://dutchartinstitute.eu/page/6464/2014-2016-sebastian-de-line--canada"&gt;Sebastian De
+Line&lt;/a&gt;,
+&lt;a href="http://dutchartinstitute.eu/page/6465/2014-2016-chris-den-dulk--netherlands"&gt;Chris den
+Dulk&lt;/a&gt;,
+ &lt;a href="http://dutchartinstitute.eu/page/6473/2014-2016-jammie-nicholas--uk"&gt;Jammie
+Nicholas&lt;/a&gt;, &lt;a href="http://dutchartinstitute.eu/page/6476/2014-2016-miguel--ngel-rego-robles--spain"&gt;Miguel
+Angel Rego
+Robles&lt;/a&gt; and
+&lt;a href="http://dutchartinstitute.eu/page/6467/2014-2016-wei-hu--china-pr"&gt;Hu
+Wei&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="12009567_10204917734566664_4191899728489183891_n" src="images/wp-content/uploads/2015/09/12009567_10204917734566664_4191899728489183891_n.jpg"&gt;
+&lt;img alt="12039214_10204917724206405_4748419188652091820_n" src="images/wp-content/uploads/2015/09/12039214_10204917724206405_4748419188652091820_n.jpg"&gt;
+&lt;img alt="12042802_10204917721046326_5380454075934871717_n" src="images/wp-content/uploads/2015/09/12042802_10204917721046326_5380454075934871717_n.jpg"&gt;
+&lt;img alt="12047088_10204917720486312_3585897238577115132_n" src="images/wp-content/uploads/2015/09/12047088_10204917720486312_3585897238577115132_n.jpg"&gt;&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="2015"></category><category term="affect theory"></category><category term="Did you feel it?"></category><category term="Dutch art Institute"></category><category term="Erica Scourti"></category><category term="Mark Fisher"></category><category term="Mercedes Bunz"></category><category term="Nishant Shah"></category><category term="Open!"></category><category term="symposium"></category><category term="Veridiana Zuria"></category></entry><entry><title>'Our Techno Jouissance - Published on onlineopen.org'</title><link href="/'a-techno-jouissance-published-on-onlineopen-org'.html" rel="alternate"></link><published>2015-09-03T08:58:00+00:00</published><updated>2015-09-03T08:58:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2015-09-03:/'a-techno-jouissance-published-on-onlineopen-org'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img alt="open essay" src="images/wp-content/uploads/2015/09/open_essay_2015_burtenshaw_exmachina.jpg"&gt;&lt;/p&gt;
+&lt;h1&gt;Our Techno Jouissance - How Could Intelligent and Affectively Orientated Technologies Effect the Brain?&lt;/h1&gt;
+&lt;p&gt;Availible at &lt;a href="http://onlineopen.org/article.php?id=485"&gt;Open! &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This essay (part of the &lt;em&gt;Open!&lt;/em&gt; Co-Op Academy project "did you feel
+it?") is concerned with how affective forces move through our
+technological encounters and how technology itself can alter these, as
+well as …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img alt="open essay" src="images/wp-content/uploads/2015/09/open_essay_2015_burtenshaw_exmachina.jpg"&gt;&lt;/p&gt;
+&lt;h1&gt;Our Techno Jouissance - How Could Intelligent and Affectively Orientated Technologies Effect the Brain?&lt;/h1&gt;
+&lt;p&gt;Availible at &lt;a href="http://onlineopen.org/article.php?id=485"&gt;Open! &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This essay (part of the &lt;em&gt;Open!&lt;/em&gt; Co-Op Academy project "did you feel
+it?") is concerned with how affective forces move through our
+technological encounters and how technology itself can alter these, as
+well as their perception within our brain. It's not so much about the
+exchanges between one another, as about the situations where other,
+non-human, intelligences come into the fray. How and where do these
+intelligences manifest and what psychology do they bring about? In the
+latter part of the essay, I'll compare some examples with existing
+theories of affective labour in order to give us an idea of what could
+come of these forces in the future. Affective labour has become central
+to consumer capitalism, seen in the prevalence of roles like the call
+centre worker, and so related theories can show how capital already
+functions affectively.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Open!&lt;/em&gt; is an Amsterdam-based publication platform that fosters and
+disseminates experimental knowledge on art, culture and the public
+domain. &lt;em&gt;Open!&lt;/em&gt; explores the changing conditions of the public domain
+and new viewpoints on publicness from a variety of international and
+interdisciplinary perspectives. &lt;em&gt;Open!&lt;/em&gt; addresses the commons and the
+community, ownership and power relationships, and it examines the
+consequences of current privatisation, mediatisation and
+globalisation processes on our social and artistic practices. &lt;em&gt;Open!&lt;/em&gt;
+works with theorists, artists and designers who contribute to the
+creation of an experimental and critical body of thought. &lt;em&gt;Open!&lt;/em&gt; is an
+independent organisation and the online continuation of &lt;em&gt;Open. Cahier on
+Art &amp;amp; the Public Domain&lt;/em&gt;, the biannual print publication that existed
+from 2004--2012 and received support from SKOR | Foundation for Art &amp;amp;
+Public Domain in Amsterdam. [&lt;a href="http://onlineopen.org/about.php"&gt;http://onlineopen.org/about.php&lt;/a&gt;]&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="2015"></category><category term="Apple watch"></category><category term="Coop Academy"></category><category term="Did you feel it?"></category><category term="Dutch art Institute"></category><category term="exmachina"></category><category term="Nike run"></category><category term="Open!"></category><category term="The Call Centre"></category></entry><entry><title>Running on Cruise Control at \''do the right thing\'' \[DAI, Arnhem\]</title><link href="/'running-on-cruise-control-at-do-the-right-thing-dai-arnhem'.html" rel="alternate"></link><published>2015-07-06T14:30:00+00:00</published><updated>2015-07-06T14:30:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2015-07-06:/'running-on-cruise-control-at-do-the-right-thing-dai-arnhem'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img alt="_99A9796" src="images/wp-content/uploads/2015/09/99A9796-1024x683.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;To complete my time at the DAI, I colaborated with Alex
+Jeoronymides-norie to make &lt;em&gt;Running a cruise control,&lt;/em&gt; a sound work, a
+poem and a performance.&lt;/p&gt;
+&lt;p&gt;The video will soon be available, until then there are some images
+below.&lt;/p&gt;
+&lt;p&gt;The Blurb from the catalogue:&lt;/p&gt;
+&lt;p&gt;The Garden Thrives by Jam city …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img alt="_99A9796" src="images/wp-content/uploads/2015/09/99A9796-1024x683.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;To complete my time at the DAI, I colaborated with Alex
+Jeoronymides-norie to make &lt;em&gt;Running a cruise control,&lt;/em&gt; a sound work, a
+poem and a performance.&lt;/p&gt;
+&lt;p&gt;The video will soon be available, until then there are some images
+below.&lt;/p&gt;
+&lt;p&gt;The Blurb from the catalogue:&lt;/p&gt;
+&lt;p&gt;The Garden Thrives by Jam city is a severe and grating beat, with
+interludes of soft and easy funk. It will start the presentation, and
+then be interrupted by a sound work based on running. This will then be
+elaborated on and mused on by poet Alex Jeronymides-Norie. After which
+I'll present the research over the last year that has led up to this
+presentation; relating to, artificial intelligence, prometheanism,
+consumer sport science.&lt;/p&gt;
+&lt;p&gt;The for &lt;em&gt;Do the right thing&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;During a three day \'marathon\' 22 graduating DAI-students will all
+present a 20 minute final lecture-performance. Other than the
+constraints of the framework of time and space there are no restrictions
+to the content of the presentation. Following each performance, in a
+conversational mode, (invited)respondents reflect on the presentation
+while simultaneously engaging with a well considered key question,
+brought forward by each presenter at the beginning of her presentation.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="_99A9814" src="images/wp-content/uploads/2015/09/99A9814-1024x683.jpg"&gt;
+&lt;img alt="_99A9826" src="images/wp-content/uploads/2015/09/99A9826-1024x683.jpg"&gt;
+&lt;img alt="_99A9827" src="images/wp-content/uploads/2015/09/99A9827-1024x683.jpg"&gt;&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="2015"></category><category term="Alex Jeronymides-Norie"></category><category term="Arnhem"></category><category term="DAI-final-show"></category><category term="Dutch art Institute"></category><category term="Nike run"></category><category term="Showroom Arnhem"></category></entry><entry><title>BioSymphony @ Summerhall, Edinburgh Science Festival</title><link href="/'biosymphony-summerhall-edinburgh-science-festival'.html" rel="alternate"></link><published>2015-04-04T08:28:00+00:00</published><updated>2015-04-04T08:28:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2015-04-04:/'biosymphony-summerhall-edinburgh-science-festival'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img alt="IMG_1872_small" src="images/wp-content/uploads/2015/02/IMG_1872_small.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Bio-Symphony: Oliver Jennings and Sarah Jones, curated by Ben Burtenshaw&lt;/p&gt;
+&lt;p&gt;In 2014 Oliver Jennings researched the life cycles of plants at
+Devodama, a plant research institute in Italy. Whilst there Jennings
+developed a sound work that using Devodama's technology analyses the
+electrical impedance of a plant, and applies correlating audio …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img alt="IMG_1872_small" src="images/wp-content/uploads/2015/02/IMG_1872_small.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Bio-Symphony: Oliver Jennings and Sarah Jones, curated by Ben Burtenshaw&lt;/p&gt;
+&lt;p&gt;In 2014 Oliver Jennings researched the life cycles of plants at
+Devodama, a plant research institute in Italy. Whilst there Jennings
+developed a sound work that using Devodama's technology analyses the
+electrical impedance of a plant, and applies correlating audio to its
+fluctuations.&lt;/p&gt;
+&lt;p&gt;For the Edinburgh Science Festival, the artists were interested in the
+terms that art and science meet. For example how poetry can move beyond
+the illustration of scientific data, and in turn how scientific data can
+find an affective resonance through poetry.&lt;/p&gt;
+&lt;p&gt;Jones' poem &lt;em&gt;New things&lt;/em&gt; was written in response to Jenning's first
+work, specifically the moment when one encounters the familiar rhythm of
+nature, mediated by technology. For this project though, Devodama's
+technology has been applied to continuously reconfigure the stanzas of
+Sarah Jones' poem.&lt;/p&gt;
+&lt;p&gt;Jennings' video work also titled &lt;em&gt;Bio-Symphony&lt;/em&gt;, explains the
+association of the plant and technology with his artistic practice. As
+well as the specific stories and beliefs of Devodama, the inventors of
+the technology. Their private eco-village in Italy has a very spiritual
+understanding of why the plant can make sounds, which Jennings had to
+understand in order to research this science.&lt;/p&gt;
+&lt;p&gt;Opening: 3rd April 2015, as part of &lt;a href="http://www.sciencefestival.co.uk/event-details/how-the-light-gets-in"&gt;'How the lights get
+in'&lt;/a&gt;
+@ &lt;a href="http://www.summerhall.co.uk/"&gt;Summerhall&lt;/a&gt;, during&lt;a href="http://www.sciencefestival.co.uk/"&gt;Edinburgh science
+festival.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Oliver Jenning's uses video and sound to reveal the inner workings of
+natural structures. It\'s this inquisitive philosophy which led to his
+work Every Object Has A Spirit [2012], which was concerned with
+exploring and finding ways of generating patterns from life-cycles in
+nature. Oliver's work wishes to explore past art's capacity to
+illustrate science, and engage directly with the emotive and
+psychological ramifications of what these patterns mean. Ultimately his
+works aims to use technology to explore and understand nature.&lt;/p&gt;
+&lt;p&gt;Sarah Jones (1982) is an artist, writer and curator. Through first
+person narrative, both written and performed, Sarah is interested in
+exploring the micro-perceptual within the event, and the production of
+these spaces, between the landscape and the body in movement. Sarah was
+awarded her Masters of Fine Art, by the Dutch Art Institute (NL) in June
+2014, after completing her Bachelor of Fine Arts at the University of
+Tasmania (AUS) in 2007. She recently participated in the NOA Language
+School at SMBA, Amsterdam (NL); and the TAAK - Marfa Summer School
+Residency Program Texas (US). Her most recent exhibitions include: Felt
+&amp;amp; Fa(c)t, Ormston House Gallery, (IRE) 2014; The rise and fall of the
+continuous cycle, DeServiceGarage, Amsterdam (NL) 2013; Come to Life at
+the Queen Victoria Museum and Art Gallery, Launceston (AUS) 2012;
+Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="IMG_1891_small" src="images/wp-content/uploads/2015/02/IMG_1891_small-1024x682.jpg"&gt;&lt;/p&gt;</content><category term="Curating"></category><category term="2015"></category><category term="Damanhur"></category><category term="Edinburgh"></category><category term="Edinburgh Science Festival"></category><category term="Music of the plants"></category><category term="Oliver Jennings"></category><category term="Sarah Jones"></category><category term="Summerhall"></category></entry><entry><title>To Make a work</title><link href="/'to-make-a-work-molecular-revolutions-sao-paulo'.html" rel="alternate"></link><published>2015-04-01T14:42:00+00:00</published><updated>2015-04-01T14:42:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2015-04-01:/'to-make-a-work-molecular-revolutions-sao-paulo'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img alt="IMG_3837(1)" src="images/wp-content/uploads/2015/04/IMG_38371.jpg"&gt;{.alignnone
+.size-full .wp-image-339 width="3264px" height="2448px"}&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;To Make a Work&lt;/em&gt; is a long running educational program, curated by
+&lt;a href="http://dutchartinstitute.eu/page/624/grant-watson"&gt;Grant Watson&lt;/a&gt; and a
+part of The DAI\'s Roaming academy. I took part in a trip to São Paulo,
+Brazil in order to Research Molecular revolutions and develop a work …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img alt="IMG_3837(1)" src="images/wp-content/uploads/2015/04/IMG_38371.jpg"&gt;{.alignnone
+.size-full .wp-image-339 width="3264px" height="2448px"}&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;To Make a Work&lt;/em&gt; is a long running educational program, curated by
+&lt;a href="http://dutchartinstitute.eu/page/624/grant-watson"&gt;Grant Watson&lt;/a&gt; and a
+part of The DAI\'s Roaming academy. I took part in a trip to São Paulo,
+Brazil in order to Research Molecular revolutions and develop a work in
+progress, that we exhibited at &lt;a href="http://casadopovo.org.br/"&gt;Casa do
+Povo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;\"This project will take the form of a one-year process of making a
+work, and will explore how a regular monthly seminar can support this.
+For the seminar the group will bring their research as well as their
+collective questions to the table and track the process of making a work
+individually and collectively, through its different stages from
+conception to presentation. The seminar is a place to consider practice
+but also to reflect on questions related to making a work more broadly
+in terms of cultural politics. For this we propose to look at
+subjectivity and micro-politics including through a reading of
+schizo-analysis, in relation to artistic production coming out of our
+approaches as artist, curator, and psychologist.&lt;/p&gt;
+&lt;p&gt;We propose to explore these questions as a group in the seminar, through
+a series of readings and workshops, as well as during a research trip to
+Brazil, a country where these issues have played an important role --
+not only in politics and culture but also in clinical work. The research
+trip will include a weeklong seminar at the Casa de Povo in São Paulo,
+with as workshop leaders Suely Rolnik, Peter Pal Pelbert, Wanderely
+Moreira Dos Santos, Paula Cheiffi, Yael Davids, Grant Watson and others.&lt;/p&gt;
+&lt;p&gt;[Above quoted from
+&lt;a href="http://dutchartinstitute.eu/page/6062/roaming-academygrant-watson--yael-davidswanderley-moreira-dos-santos-prese"&gt;here&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;In São Paulo I worked with &lt;a href="http://www.julietaaguinaco.com/"&gt;Julieta
+Aguinaco&lt;/a&gt; and Sarah Demoen on a
+continuation of out &lt;em&gt;Site of future trailer park&lt;/em&gt; project. We jointly
+wrote and performed a text titled &lt;em&gt;From one thing to something else.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The text will hopefully become available online.&lt;/p&gt;
+&lt;p&gt;Below is an extract from the text, the extracted section was written by
+&lt;a href="http://www.julietaaguinaco.com/"&gt;Julieta Aguinaco&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;From Home to a kind of ideal Bolivia&lt;/p&gt;
+&lt;p&gt;From Rome to a kind of ideal Bolivia.&lt;/p&gt;
+&lt;p&gt;From University to a kind of ideal Bolivia.&lt;/p&gt;
+&lt;p&gt;From Home to a Kind of ideal University. From Arnhem to a kind of ideal
+Bolivia. From Mexico to a kind of ideal Arnhem. From Mexico to a kind of
+ideal Bolivia.&lt;/p&gt;
+&lt;p&gt;From a kind of Ideal Bolivia to an ancient salt flat. From the airport
+to a kind of ideal Jurassic Park.&lt;/p&gt;
+&lt;p&gt;From Jurassic Park to a kind of ideal desert, via a kind of ideal city.&lt;/p&gt;
+&lt;p&gt;From ancient sea beds to a kind of ideal.&lt;/p&gt;
+&lt;p&gt;From a kind of ideal to Mexico. From Mexico to a kind of ideal Mexico.&lt;/p&gt;
+&lt;p&gt;From her to a kind of ideal her.&lt;/p&gt;
+&lt;p&gt;From answering-email mode to party mode. From one her to another her;
+from caring to not. From not caring to caring. From wanting to not.&lt;/p&gt;
+&lt;p&gt;From expectation to disappointment. From disappointment to desire. From
+surprise to desire. From desire to satisfaction. From one uncanny to
+another uncanny.&lt;/p&gt;
+&lt;p&gt;From thinking each other to knowing each other to missing each other.&lt;/p&gt;
+&lt;p&gt;From wanting it to being bothered by it.&lt;/p&gt;
+&lt;p&gt;From Home to a kind of ideal becoming. From child to a kind of ideal
+adult-child. From child to a kind of ideal perpetual child. From adult
+to a kind of ideal child. From work to a kind of ideal play.&lt;/p&gt;
+&lt;p&gt;From a life to a kind of ideal play. From work to love and from sober to
+hangover.&lt;/p&gt;
+&lt;p&gt;Nostalgia for the night. Nostalgia for the day. Something that happens
+when one state is transformed into another.&lt;/p&gt;</content><category term="Education"></category><category term="2015"></category><category term="Benjamin Serrousi"></category><category term="featured"></category><category term="Grant Watson"></category><category term="Julieta Aguinaco"></category><category term="Paula Cheiffi"></category><category term="Peter Pál Pelbart"></category><category term="Sarah Demoen"></category><category term="Suely Rolnik"></category></entry><entry><title>Site of Future trailer park, Arnhem NL</title><link href="/'news-site-future-trailer-park'.html" rel="alternate"></link><published>2014-11-01T21:31:00+00:00</published><updated>2014-11-01T21:31:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-11-01:/'news-site-future-trailer-park'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;With Sarah Demoan and Julieta Aguinaco, we have Curated; Site of future
+trailer park, a return to an exchange that took place during the Welcome
+to Econotopia project, initiated at the Dutch Art Institute in 2013, and
+curated by &lt;a href="http://dutchartinstitute.eu/page/2631/renee-ridgway"&gt;Renée
+Ridgway&lt;/a&gt;. The
+participants traveled to Mexico city and Marfa, Texas …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;With Sarah Demoan and Julieta Aguinaco, we have Curated; Site of future
+trailer park, a return to an exchange that took place during the Welcome
+to Econotopia project, initiated at the Dutch Art Institute in 2013, and
+curated by &lt;a href="http://dutchartinstitute.eu/page/2631/renee-ridgway"&gt;Renée
+Ridgway&lt;/a&gt;. The
+participants traveled to Mexico city and Marfa, Texas as a close
+research of the relationship between the geo-political issues, Donald
+Judd and the mirage. The exhibition shows a series of outcomes made on
+site and after, as well as a publication. These re-articulations are an
+attempt to relate the issues explored within Welcome to Econotopia; now
+in the context of the land we stood on as a physical and social space.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="IMG_7006" src="images/wp-content/uploads/2014/11/IMG_7006-1024x682.jpg"&gt;&lt;/p&gt;</content><category term="Curating"></category><category term="2014"></category><category term="Arnhem"></category><category term="Borders"></category><category term="Curating"></category><category term="DAI"></category><category term="Dutch art Institute"></category><category term="Julieta Aguinaco"></category><category term="Marfa"></category><category term="mexico city"></category><category term="Sarah Demoen"></category><category term="Welcome to econotopia"></category></entry><entry><title>No man is an Island</title><link href="/'no-man-is-an-island'.html" rel="alternate"></link><published>2014-10-04T10:39:00+00:00</published><updated>2014-10-04T10:39:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-10-04:/'no-man-is-an-island'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;No Man Is an Island, a video work within a printed publication, contains
+three perspectives on solitude within a community. That through
+fictional text and video, explore the notion of being alone as a
+potential component in the formation of micro communities. No Man Is an
+Island asks the question …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;No Man Is an Island, a video work within a printed publication, contains
+three perspectives on solitude within a community. That through
+fictional text and video, explore the notion of being alone as a
+potential component in the formation of micro communities. No Man Is an
+Island asks the question; is there still a place for solitude, left
+within our perpetually sharing-making-public-digitised society.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;No man is an Island&lt;/em&gt; was developed at the Dutch Art Institute, as part
+of &lt;em&gt;Community in print;&lt;/em&gt; Curated by Casco, Utrecht.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="img_6956.jpg(568x568)(upscale)(BBD81D06C4067B370B6828A7D71486EB)" src="images/wp-content/uploads/2014/11/img_6956.jpg568x568upscaleBBD81D06C4067B370B6828A7D71486EB.jpg"&gt;{.alignright
+.wp-image-275 .size-full width="568px" height="426px"}&lt;/p&gt;
+&lt;p&gt;\"Community in Print focuses on serial publishing inspired by
+art-publishing enterprises that were for the most part in series form:
+from magazines prevalent in the 1970s like the American counterculture
+catalog, published by writer Stewart Brand, Whole Earth Catalog or the
+collective General Idea's FILE magazine, to more contemporary examples
+such as artist, critic, philosopher, and writer workgroup Chto Delat's
+newspaper that takes the name of the collective, the bilingual magazine
+Pages, which looks into the Iranian context and initiated by Nasrin
+Tabatabai &amp;amp; Babak Afrassiabi or artist Can Atlay's journal Ahali. What
+is significantly in common among them, are their self-institutional
+agency. Be the vehicle a journal, magazine, or periodical, they offer a
+space for ongoing, self-disciplinary practices of artistic research.
+This space, in turn, forms a community of readers and interferes in
+existing cultural spheres. \" &lt;a href="http://cascoprojects.org/community-in-print-the-fourth-edition-of-publishing-class-2013-2014"&gt;(Casco,
+2014)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[gallery columns=\"4\" link=\"file\" ids=\"280,277,278,279\"]&lt;/p&gt;
+&lt;p&gt;&lt;a href="images/wp-content/uploads/2014/11/NMIAI_-still_stretch.jpg"&gt;&lt;img alt="image1" src="images/wp-content/uploads/2014/11/NMIAI_-still_stretch-1024x523.jpg"&gt;{.alignright
+.wp-image-274 .size-large width="474px"
+height="242px"}&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Texts: Ben Burtenshaw, &lt;a href="http://www.sarahjones.net.au/"&gt;Sarah Jones&lt;/a&gt;,
+&lt;a href="http://isabellesully.blogspot.nl/"&gt;Isabelle Sully&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Design: &lt;a href="http://issuu.com/amir-avraham"&gt;Amir Avraham&lt;/a&gt;; &lt;a href="http://www.werkplaatstypografie.org/"&gt;Werkplaats
+Typografie&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Editing: &lt;a href="http://www.onlineopen.org/reviews/the-highest-poverty-monastic-rules-and-form-of-life"&gt;Janine
+Armin&lt;/a&gt;,
+&lt;a href="http://cascoprojects.org/"&gt;Binna Choi, Yolande van der Heide&lt;/a&gt;,
+&lt;a href="http://yaleunion.org/"&gt;Benjamin Thorel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Title: Donne, John. 1839. \"Devotions Upon Emergent Occasions:
+MEDITATION XVII.\" In The Works of John Donne, vol 3, by Henry Alford,
+575. London: John W. Parker.&lt;/p&gt;</content><category term="Art Practice"></category><category term="2014"></category><category term="Amir Avraham"></category><category term="Arnhem"></category><category term="casco"></category><category term="Dutch art Institute"></category><category term="Isabelle Sully"></category><category term="Publishing"></category><category term="Sarah Jones"></category><category term="Utrecht"></category><category term="Werkplaats"></category></entry><entry><title>Critical Writers' Residency</title><link href="/'news-group-critical-writing-residency-cooper-gallery-dundee'.html" rel="alternate"></link><published>2014-08-21T16:41:00+00:00</published><updated>2014-08-21T16:41:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-08-21:/'news-group-critical-writing-residency-cooper-gallery-dundee'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;We'll focus on the subject position an individual holds within a
+collaboration, exploring how this can be navigated away from the
+position of the professional sceptic [1] to one that embodies a
+pragmatism, through commitment [2] as a subject position. The idea
+of losing individual authorship within collaboration inherently conjures …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;We'll focus on the subject position an individual holds within a
+collaboration, exploring how this can be navigated away from the
+position of the professional sceptic [1] to one that embodies a
+pragmatism, through commitment [2] as a subject position. The idea
+of losing individual authorship within collaboration inherently conjures
+up ideas of a symbiotic working style, with two minds working as one.
+And though this can often appear as a desirably &lt;em&gt;open&lt;/em&gt; working model, it
+has the potential to supply a hindering subject position for respective
+parties.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://studiojammingwritingresidency.dundee.ac.uk/texts/yeoman-burtenshaw/"&gt;Text Can be found
+here&lt;/a&gt;&lt;/p&gt;</content><category term="Curating"></category><category term="Cooper Gallery, Duncan of Jordanstone College of Art &amp;amp"></category><category term="Design, dundee, featured, Generation 25, Holly Knox Yeoman, Jamming Sessions, Writing Residency"></category></entry><entry><title>Participation; FIELDWORK - REPORTS ON EVENT CURATING</title><link href="/'news-fieldwork-reports-event-curating'.html" rel="alternate"></link><published>2014-08-21T16:39:00+00:00</published><updated>2014-08-21T16:39:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-08-21:/'news-fieldwork-reports-event-curating'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;FIELDWORK: REPORTS ON EVENT CURATING, was a three-day conversation to
+unpack the curatorial presentation of durational art work  namely:
+the event. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FIELDWORK&lt;/strong&gt; &lt;strong&gt;addressed the mechanics behind event production: the use
+of the event as a short-circuit within or an alternative to the space of
+exhibition production; the changing intentions of …&lt;/strong&gt;&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;FIELDWORK: REPORTS ON EVENT CURATING, was a three-day conversation to
+unpack the curatorial presentation of durational art work  namely:
+the event. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FIELDWORK&lt;/strong&gt; &lt;strong&gt;addressed the mechanics behind event production: the use
+of the event as a short-circuit within or an alternative to the space of
+exhibition production; the changing intentions of documentation in
+shaping the event, both prior to and as postscript; the role of
+curatorial qualifications and schooling in engendering customised
+knowledge about and established formats for the event; and the conflicts
+between the arrival of the event and the location in which it occurs.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;**With reports by international curators Isla Leaver-Yap, Fionn Meade,
+Sam Korman, Vivian Ziherl; and parallel conversations hosted by Gerrie
+Van Noord and Sarah Cook that explored the role of the event in local
+contexts, FIELDWORK examined the event as a space of circulation and
+becoming. **&lt;/p&gt;</content><category term="Curating"></category><category term="Arbroath"></category><category term="Conference"></category><category term="Curating"></category><category term="event based curating"></category><category term="featured"></category><category term="Fieldworks"></category><category term="Hospitalfields"></category></entry><entry><title>'Elevating Water, Marfa, Texas'</title><link href="/'elevating-water'.html" rel="alternate"></link><published>2014-06-24T12:00:00+00:00</published><updated>2014-06-24T12:00:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-06-24:/'elevating-water'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Elevating water &lt;/em&gt;Is a speculative fiction base around the town of
+Marfa, Texas. The text was produced in Colaboration with &lt;a href="http://www.sarahjones.net.au/"&gt;Sarah
+Jones&lt;/a&gt; whilst on residency in Marfa, as a
+part of &lt;a href="taak.me/?lang=en"&gt;TAAK\'s Summer School&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The full text can be found at &lt;a href="http://www.amoving.net"&gt;amoving.net&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="print_small" src="images/wp-content/uploads/2014/06/print_small-859x1024.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Long before the fall the tower …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Elevating water &lt;/em&gt;Is a speculative fiction base around the town of
+Marfa, Texas. The text was produced in Colaboration with &lt;a href="http://www.sarahjones.net.au/"&gt;Sarah
+Jones&lt;/a&gt; whilst on residency in Marfa, as a
+part of &lt;a href="taak.me/?lang=en"&gt;TAAK\'s Summer School&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The full text can be found at &lt;a href="http://www.amoving.net"&gt;amoving.net&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="print_small" src="images/wp-content/uploads/2014/06/print_small-859x1024.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Long before the fall the tower stood taller than the town hall.
+Taller than the courthouse, the neon signs on the gas stations. Dwarfed
+only by the distant ring of mountains, it shone endlessly in the desert.
+It shone with the silver of a star, ignored and distant. Holding our
+water but not our imaginations; a monument to the benign. It still
+shines, but it shines here on the new ground, the risen ground. The
+glittering sunspot is our obsession. We stare into its blinding light
+and tell it over and over again of our tragedy. We tell the shining
+tower, with a virulent regret, of how we gave it our train, our trees
+and our mountains. We feed the tower the ghosts of everything it has
+already swallowed. And the shining tower, in whose shadow we kneel, the
+shining tower who took our town, is all we have left. It casts its
+shadow inside of us and out, it is our only shade. We sit in its
+darkness now and the sounds we make are echoed and reuttered for us by
+our tower.2 We whistle into its darkness. It masters our voices as we
+retell its story. Everything is smaller now. One hundred miles between
+lilac and silver,3 reduced to a diameter of forty feet of steel.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Since we lost the things we loved to see, we have started to listen.
+Sound is something else without the amphitheatre of the lost mountains.
+It's something close to us that lives with hot breath in the empty
+silver belly of our tower. We empty ourselves into the tower,
+confessionally we flood its emptiness, as it flooded ours. We talk about
+events that preceded the flood but the time lines have fallen apart, our
+memories collide and collapse into one another. We can no longer date
+the sculptures or the storms. We remember the explosion and we remember
+the flood. Everything else is evaporating history and we know that as
+our stories dissolve, our past straightens out into a fine line. First
+the explosion, then the fall. The tower holds these things for us.
+Nature eats everything else.\"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Footnote 2 Monuments and ruins act as "sentinel[s] of historicism"
+(Sadek) within society, keeping the process of &lt;em&gt;history making&lt;/em&gt; on a
+linear trajectory. They intervene in the process of remembering and
+forgetting. However, only monuments utilise a remembering forgetting in
+order to sustain a perpetual forward motion regardless of the
+ramifications. They do not implore an amnesia but instead, an assignment
+of the present to the past, or a &lt;em&gt;putting on record&lt;/em&gt;. This is manifested
+in the use of commemoration over memory that removes the wound of the
+event but maintains &lt;em&gt;honour&lt;/em&gt; or potential for revenge.&lt;/p&gt;
+&lt;p&gt;Unlike the monument, the ruin dutifully retreats to allow an object to
+act as "aestheticized dilapidation." (Sadek) This object holds "two
+opposing tendencies of ruination and edification, of life and death"
+from here we can either enter into the commemoration of past events,
+mechanised through nostalgic formalism, or we can "stand outside
+nostalgic formalism and recognize in the ruin the synthesis which
+overcomes the terms of a false and ancient enmity." In order for the
+ruin to convince us to commemorate, it is fundamental that it is not
+current. Being in the past removes the ruin from a heightened state of
+urgency. "In this form [the ruin], we thus feel the vitality of those
+opposing tendencies-and, instinctively sensing these antitheses in
+ourselves, we notice, beyond everything merely formal and aesthetic, the
+significance of the configuration in whose serene unity they have their
+synthesis." (Simmel 381) Like the monument, the ruin, stepped back from
+urgency, is capable of commemoration over memory, which is fundamental
+in the maintenance of a linear history.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ruins perform their historicist role most fully when employed to
+expedite the withdrawal of the negative from the present. In other
+words, the catastrophe that may inhabit the present and bind it tight to
+the crushing weight of its own unyielding presentness must be swiftly
+evicted and efficiently framed as a ruin, lest our resident belief in a
+planned and better future be hindered and jeopardized." (Sadek 1) Here,
+Sadek describes how the ruin expedites the negative from the present and
+into the past by masking the ramifications of past events.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Reza Negerastani's analysis of a ramification in relation to a
+commitment to human can be used here to explain the nature of a
+ramification on the present from the past: "By eroding the anchoring
+link between present commitments and their past, and by seeing present
+commitments from the perspective of their ramifications, revision forces
+the updating of present commitments in a cascading fashion that spreads
+globally over the entire system. The rational structure of a commitment,
+or more specifically, of commitment to humanity, constructs the
+opportunities of the present by cultivating the positive trends of the
+past through the revisionary forces of the future." (Negarestani) If one
+compares this orientation of the ramification - here through reason,
+rather than through the disregard that takes place within Sadek's
+definition of a monument or ruin - the anti-revisionary potential that
+Sadek sets out above is exposed by Negerastani's commitment to human.
+The present is "cultivated" through its connection to the past, rather
+than through commemoration, which masks the past and in turn the
+ramifications of the present.\"&lt;/p&gt;
+&lt;p&gt;The full text can be found at &lt;a href="http://www.amoving.net"&gt;amoving.net&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sarah Jones (Perth, 1982) is a writer, artist and curator based in
+Berlin. She graduated from the Tasmanian School of Art (UTAS) in 2007
+and is currently completing a Masters of Fine Arts at the Dutch Art
+Institute (DAI), Netherlands. Sarah recently participated in &lt;em&gt;Felt &amp;amp;
+Fa(c)t &lt;/em&gt;at Ormston House, Limerick, 2014; the &lt;em&gt;NOA Language School&lt;/em&gt; at
+SMBA, Amsterdam, 2013; &lt;em&gt;The rise and fall of the continuous cycle&lt;/em&gt;,
+DeServiceGarage, Amsterdam, 2013; and&lt;em&gt;come to life&lt;/em&gt; at the Queen
+Victoria Museum and Art Gallery, Tasmania, 2012. Selected curatorial
+projects include: &lt;em&gt;Both sides of everything about something&lt;/em&gt; at Sawtooth
+ARI, Launceston; &lt;em&gt;The Hobart Urban Illumination Project &lt;/em&gt;as part of
+ITERATION:AGAIN, Tasmania; &lt;em&gt;trophywife &lt;/em&gt;at Death Be Kind, Melbourne
+and &lt;em&gt;Erotographomania&lt;/em&gt; at CAST Gallery, Hobart, all 2011.&lt;/p&gt;</content><category term="Art Practice"></category><category term="'Dutch art Institute"></category><category term="Marfa"></category><category term="Renée Ridgway"></category><category term="Sarah Jones"></category><category term="TAAK"></category><category term="Texas'"></category></entry><entry><title>Lecture Presentation - No Man is an Island</title><link href="/'lecture-presentation-man-island'.html" rel="alternate"></link><published>2014-06-24T09:30:00+00:00</published><updated>2014-06-24T09:30:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-06-24:/'lecture-presentation-man-island'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;I am going to present to you two of the works from the publication I've
+assembled, as a part of Casco's community in print. The publication, is
+yet to be printed, but will include a video [contained on a DVD] ;
+that I'll show. and 2 text's; one of which I'll …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;I am going to present to you two of the works from the publication I've
+assembled, as a part of Casco's community in print. The publication, is
+yet to be printed, but will include a video [contained on a DVD] ;
+that I'll show. and 2 text's; one of which I'll read.&lt;/p&gt;
+&lt;p&gt;The publication explores the position of the individual or self within
+producing a community. Focussing on the process that takes place when
+one shares their 'self' with a community -- and how this relates to the
+perpetual sharing of ones self, as a subject viewpoint, that takes place
+in contemporary society.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Essentially what is it in this act of 'opening up' or becoming social
+that eventually adds to, or takes away from a community? And when is a
+closing down or&lt;strong&gt;&lt;em&gt;retreat&lt;/em&gt;&lt;/strong&gt;necessary to maintain one self; in turn the
+community as a whole.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As a way of investigating, this act of retreat, or closing down to what
+is sometimes called a 'safe place'. I started from the poem; &lt;em&gt;No man Is
+an island&lt;/em&gt; by Jon Donne, That was also the title of the publication. The
+poem starts;&lt;/p&gt;
+&lt;p&gt;*No man is an island, Entire of itself, Every man is a piece of the
+continent, A part of the main.*&lt;/p&gt;
+&lt;p&gt;Jon Donne's Poem embodies a notion of the self.  -  In the way that one
+cannot separate the act of cutting from the knife; we cannot separate
+the self, and the acts that manifest it, from our identity.&lt;/p&gt;
+&lt;p&gt;In order to explore this &lt;strong&gt;bound&lt;/strong&gt; connection the publication intended
+to make public, or share, the self  the island  using the only one
+available: my own.&lt;/p&gt;
+&lt;p&gt;Sharing one\'s identity, or the personal characteristics that make it
+up, is an inherent part of being in a community. Time spent within this
+community, of any kind, but specifically when it transcends a
+sensibility, allows individuals to access each other on a more personal
+level; gradually learning what it is that makes up their respective
+viewpoints. Reflected in Donne's poem by the lines, "Every man is a
+piece of the continent, / A part of the main."&lt;/p&gt;
+&lt;p&gt;This transcendence from sensibility to community is a key intersection
+within the construction of a community; &lt;strong&gt;to&lt;/strong&gt; one that is able to
+actually comprehend or know the viewpoint (subjectivities) of our
+"comrades", rather than merely know &lt;strong&gt;of&lt;/strong&gt; them. Of course, the sharing
+or making public of our self is in no way rare. In a time when updating,
+posting, and sharing is an integral part of everyday life, we
+perpetually publish our inner subjectivities, for various means but
+often with the undertone of "to be heard". So on a societal level the
+act of constructing one's impossible island, is a retreat that in its
+own farsity, highlights its inherent absence from the larger debate
+around a community in contemporary society. A drive for community that
+is of course not resolved by a retreat, but would come at this point of
+permeability when sensibility mixes with community, &lt;strong&gt;or&lt;/strong&gt; the
+coastlines/ borders begin to open up to the continent.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Play No Man is an Island Video&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;| No man is an island,
+| Entire of itself,
+| Every man is a piece of the continent,
+| A part of the main.
+| If a clod be washed away by the sea,
+| Europe is the less.
+| As well as if a promontory were.
+| As well as if a manor of thy friend\'s
+| Or of thine own were:
+| Any man\'s death diminishes me,
+| Because I am involved in mankind,
+| And therefore never send to know for whom the bell tolls;
+| It tolls for thee.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Read Balance not Substance by Sarah Jones&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In balance not substance,there is a continual switching taking place
+between the position of the isolated and the other. The man's positions
+is admired and desired, as if half of this community of two needs the
+others halves attempts at retreat. But then ultimately she watches over
+his house burn with a new sense of admiration; now as if he's lost his
+island - forced to open up to the continent.&lt;/p&gt;
+&lt;p&gt;For this Publication this text takes the position of the other,
+embodying the community or the outsider, through the man's attempts at
+retreat. Where the video creates a farse at the idea of retreat from
+within, by subjectifying the outsider as the person behind the camera,
+balance not substance re-articulates this outside position to one that
+encapsulates a wanting of permeability. In other words, whether retreat
+is necessary or not, a community doesn't need it.&lt;/p&gt;
+&lt;p&gt;The video was made through a collaboration with Amir Avraham at the
+werkplaats that in itself became somewhat of a case study of a
+community, permeability and these &lt;em&gt;coastlines. -&lt;/em&gt;That are evident within
+artistic collaboration.&lt;/p&gt;
+&lt;p&gt;From the conception of this project, a specific statement has guided my
+own understanding of the island: &lt;em&gt;what can you bring to the table?&lt;/em&gt;
+Essentially, what of you or of your practice is given to this shared
+work? This act of sharing, or being appropriated &lt;em&gt;from&lt;/em&gt; within a
+collaboration is a relevant example of the breakdown of borders that
+lead to a cohesive collaboration as an example of a community. Of course
+this places a lot of ownership over ideas behind a work and in itself is
+a detrimental avenue of thought in collaboration. But I raise the point
+to ask: Can one only collaborate, only be a part of a community, or is
+it integral to this process of sharing to retreat, to find a "safe
+place" in an effort to return with more? Or does this process simply
+entail being reminded of what you are in a time when the rising tide of
+subjectivity that we experience as users  and also as artists 
+seems to wash us away?&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://vimeo.com/99027213"&gt;Lecture Presentation: No man is an island by Ben
+Burtenshaw&lt;/a&gt; from &lt;a href="http://vimeo.com/user12439427"&gt;Benjamin
+Burtenshaw&lt;/a&gt; on
+&lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</content><category term="Art Practice"></category><category term="Amir Avraham"></category><category term="Arnhem"></category><category term="casco"></category><category term="featured"></category><category term="Sarah Jones. Isabelle Sully"></category><category term="Utrecht"></category><category term="Werkplaats typografie"></category></entry><entry><title>Welcome to Econotopia, Mexico City</title><link href="/'welcome-econotopia-mexico-city'.html" rel="alternate"></link><published>2014-06-24T09:23:00+00:00</published><updated>2014-06-24T09:23:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-06-24:/'welcome-econotopia-mexico-city'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;a href="http://learn.taak.me/?nk_entry=welcome-to-econotopia-commons-of-the-contemporary&amp;amp;lang=en"&gt;WELCOME TO ECONOTOPIA: COMMONS OF THE CONTEMPORARY&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dutch Art Institute's (DAI) Roaming Academy curriculum** Welcome to
+Econotopia: commons of the contemporary **curated and organised by
+Renée Ridgway.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;\"Welcome to Econotopia: commons of the contemporary &lt;/em&gt;addresses areas
+of transgression, ranging from institutions of culture to contemporary
+hubs of spectacle to the …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;a href="http://learn.taak.me/?nk_entry=welcome-to-econotopia-commons-of-the-contemporary&amp;amp;lang=en"&gt;WELCOME TO ECONOTOPIA: COMMONS OF THE CONTEMPORARY&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dutch Art Institute's (DAI) Roaming Academy curriculum** Welcome to
+Econotopia: commons of the contemporary **curated and organised by
+Renée Ridgway.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;\"Welcome to Econotopia: commons of the contemporary &lt;/em&gt;addresses areas
+of transgression, ranging from institutions of culture to contemporary
+hubs of spectacle to the internet. A portmanteau of 'economy' and
+'topia', the term econotopia is coined by artist Stephanie Rothenberg
+and draws on Foucault's term 'heterotopias', which he employs in an
+analysis of social and cultural spaces. These delineations could include
+geo-political conflicts, border crossings, gender-bending, cultural
+configurations of nature and the creation of meccas of contemporary art.
+Within these non-hegemonic spaces, physical forms or states of mind
+offer the transgression of these very same borders. The exchange systems
+and the currencies that operate within these crossings are the focus of
+this contribution to Marfa Summer School 2014.&lt;/p&gt;
+&lt;p&gt;The concept of enclosure brings to mind delimiting some form of spatial
+terrain in a field of wide openness, reining in the freedom to roam. But
+by the very nature of building fences or even walled gardens,
+delineation occurs, giving rise to the idea of property and building
+constructs of power. As knowledge and opinion become harder to access,
+transmission only becomes possible through cracks in the infrastructure.
+High tech surveillance systems monitor borders, keeping tabs on migrants
+through 'technotopia'. Therefore our contemporary landscape is measured
+by the extent of our personal mobility and the ability to freely cross
+borders privileges some citizens over others.\"&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://dutchartinstitute.eu/page/4450/roaming-research-academy-welcome-to-econotopia-commons-of-the-contemporary"&gt;Course Description&lt;/a&gt;&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="Dutch art Institute"></category><category term="featured"></category><category term="mexico city"></category><category term="Renée Ridgway"></category><category term="Welcome to econotopia"></category></entry><entry><title>Taak Summer School, Marfa, Texas</title><link href="/'taak-summer-school-marfa-texas'.html" rel="alternate"></link><published>2014-06-24T09:13:00+00:00</published><updated>2014-06-24T09:13:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-06-24:/'taak-summer-school-marfa-texas'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;\"From May 26 to June 14 2014, 20 students from&lt;/strong&gt;&lt;a href="http://dutchartinstitute.eu/"&gt;Dutch Art
+Institute&lt;/a&gt;&lt;strong&gt;, the &lt;/strong&gt;&lt;a href="http://www.gerritrietveldacademie.nl/en/sandberg-institute"&gt;Sandberg
+Instituut/Gerrit Rietveld
+Academie&lt;/a&gt;** and *&lt;em&gt;`California
+College of Arts (CCA) \&amp;lt;http://www.cca.edu/&gt;`__&lt;/em&gt;* will stay
+in &lt;strong&gt;`Building 98
+\&amp;lt;http://www.haciendadelarcon.org/Building98.html&gt;`__&lt;/strong&gt; in Marfa,
+Texas. During the second edition of …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;\"From May 26 to June 14 2014, 20 students from&lt;/strong&gt;&lt;a href="http://dutchartinstitute.eu/"&gt;Dutch Art
+Institute&lt;/a&gt;&lt;strong&gt;, the &lt;/strong&gt;&lt;a href="http://www.gerritrietveldacademie.nl/en/sandberg-institute"&gt;Sandberg
+Instituut/Gerrit Rietveld
+Academie&lt;/a&gt;** and *&lt;em&gt;`California
+College of Arts (CCA) \&amp;lt;http://www.cca.edu/&gt;`__&lt;/em&gt;* will stay
+in &lt;strong&gt;`Building 98
+\&amp;lt;http://www.haciendadelarcon.org/Building98.html&gt;`__&lt;/strong&gt; in Marfa,
+Texas. During the second edition of Summer School Marfa they will
+explore this town in the high desert in West Texas, the impressive
+landscape and the legendary works of Donald Judd. For three weeks they
+will expand contemporary discourses, social practices and politics in
+art. By creating a unique experience they will gain an understanding of
+the dynamics and social impact of art in public spaces.  **&lt;/p&gt;
+&lt;p&gt;Marfa was built during the Texas oil boom in the late 19th century.
+During the Mexican revolution (1910-1915), the US Army established a
+presence in the outskirts.  The army maintained a presence during World
+War 2. During the war, German prisoners of war were housed at the Fort
+Russell where they obtained expansive murals of West Texas Living. In
+1973 Judd moved to Marfa. He realized several large-scale artworks that
+are inseparable from the desert landscape and commissioned his
+contemporaries to develop art works in a former military fortress. Due
+to the presence of the &lt;a href="http://www.juddfoundation.org/"&gt;Judd
+Foundation&lt;/a&gt; and the &lt;a href="https://www.chinati.org/"&gt;Chinati
+Foundation&lt;/a&gt;, Marfa became one of the major art
+hubs in the U.S., a place where the art world meets and the cultural
+industry is thriving.&lt;/p&gt;
+&lt;p&gt;Supervised by tutors from the participating institutions, students
+examine the natural -- and cultural historical and sociological meanings
+of the area. They analyze the different actors in the transformation of
+the area and will critically relate to the value and importance of
+public art in this specific context.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The curriculum is built up around three different program lines;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A deep reading of the work and writings of Judd, the impact of his legacy on contemporary art, Marfa and the meaning of preservation.&lt;/li&gt;
+&lt;li&gt;An understanding and experience of the desert landscape, the impact of climate change and land use on it's ecology&lt;/li&gt;
+&lt;li&gt;The socio-political history and present of the town that nowadays provides a home for high art landscape and headquarters of National Security.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;During Summer School Marfa many subjects related to the conflicting
+ideas and issues that arose with Judds arrival in Marfa and with his
+legacy will be researched. These subjects include: the history of the
+area, the border, the Mexican-American war, the geology, geography,
+psychogeography of the region, the specifics of the town government as
+well as a structural examination of the Judd -- and Chinati Foundation,
+the expanding of the US border Patrol and the local Latino history.&lt;/p&gt;
+&lt;p&gt;Participants of Summer School Marfa: Gerrit Rietveld Academie/ Sandberg
+Institute, Curdin Tones; Dutch Art Institute, Renee Ridgway
+en California College of Arts, Shaun O'dell. New partner: &lt;a href="http://aridjournal.com/"&gt;ARID, A
+Journal of Desert Art, Design and Ecology. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This program is supported as part of the Dutch Culture USA program by
+the Consulate General of the Netherlands in New York.\"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;[TAAK, Amsterdam]&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="California College of Art"></category><category term="Dutch art Institute"></category><category term="Marfa"></category><category term="Renée Ridgway"></category><category term="TAAK"></category><category term="Welcome to econotopia"></category></entry><entry><title>Pangaea Sculptor's Centre</title><link href="/'pangaea-sculptors-centre'.html" rel="alternate"></link><published>2014-04-27T12:05:00+00:00</published><updated>2014-04-27T12:05:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-04-27:/'pangaea-sculptors-centre'.html</id><content type="html">&lt;hr&gt;
+&lt;p&gt;I\'ve just completed work on &lt;a href="http://pangaeasculptorscentre.com/"&gt;Pangaea Sculptor\'s
+Centre\'s&lt;/a&gt; new site.  A new
+organisation in london with a specifically sculptural focus and some
+really interesting projects already completed and on the site.&lt;/p&gt;</content><category term="Design"></category><category term="'featured"></category><category term="london"></category><category term="lucy tomlins"></category><category term="marsha bradfield"></category><category term="sculpture"></category><category term="web design'"></category></entry><entry><title>Amsterdam March 2014</title><link href="/'amsterdam-march-2014'.html" rel="alternate"></link><published>2014-04-27T11:57:00+00:00</published><updated>2014-04-27T11:57:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-04-27:/'amsterdam-march-2014'.html</id><content type="html">&lt;hr&gt;
+&lt;p&gt;For most of march I stayed in Amsterdam, filling the shoes, flat and
+studio of &lt;a href="http://annadasovic.nl/"&gt;Anna Dasovic&lt;/a&gt;.  A slightly
+spontaneous \'base-move\' that allowed me to get to know the city/
+country, that I pass in and out of, a little better.&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="'amsterdam"></category><category term="featured'"></category></entry><entry><title>Alternative Learning Tank</title><link href="/'alternative-learning-tank-amsterdam'.html" rel="alternate"></link><published>2014-03-31T13:03:00+00:00</published><updated>2014-03-31T13:03:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-03-31:/'alternative-learning-tank-amsterdam'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;The First Rendition of ALT, developed at New Academy, December 2013 took
+place in Amsterdam. A few extracts below are from the class  \'Digital
+Civil Rights\' by bits of freedom:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;\" Privacy; a proxy for democracy and freedom\"&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;em&gt;\"Thinking about freedom is thinking about digital freedom\"&lt;/em&gt;&lt;/h1&gt;
+&lt;h2&gt;\"what would google know about …&lt;/h2&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;The First Rendition of ALT, developed at New Academy, December 2013 took
+place in Amsterdam. A few extracts below are from the class  \'Digital
+Civil Rights\' by bits of freedom:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;\" Privacy; a proxy for democracy and freedom\"&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;em&gt;\"Thinking about freedom is thinking about digital freedom\"&lt;/em&gt;&lt;/h1&gt;
+&lt;h2&gt;\"what would google know about you?\"&lt;/h2&gt;
+&lt;h2&gt;why care about privacy?&lt;/h2&gt;
+&lt;p&gt;anonymity, reserve, intimacy]\"&lt;/p&gt;
+&lt;h2&gt;&lt;em&gt;\"true public spaces are disappearing\"&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Links:
+&lt;img alt="Megan\'s Law" src="http://en.wikipedia.org/wiki/Megan%27s_Law"&gt;
+&lt;img alt="Privacy Law" src="http://cyber.law.harvard.edu/privacy/Privacy_R2d_Torts_Sections.htm"&gt;
+&lt;img alt="Memopol" src="http://works.timo.ee/memopol/"&gt;
+&lt;img alt="Super Sad True Love Story" src="http://en.wikipedia.org/wiki/Super_Sad_True_Love_Story"&gt;
+&lt;img alt="The Circle" src="http://www.theguardian.com/books/2013/oct/09/circle-dave-eggers-review"&gt;
+&lt;img alt="News Tweek" src="http://newstweek.com/"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="10014611_424241174346260_179937365_n" src="images/wp-content/uploads/2014/03/10014611_424241174346260_179937365_n.jpg"&gt;&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="'alt"></category><category term="amsterdam"></category><category term="featured"></category><category term="new world academy'"></category></entry><entry><title>News; Artist Talk - Grays school of Art</title><link href="/'artist-talk-grays-school-of-art-aberdeen'.html" rel="alternate"></link><published>2014-03-31T12:30:00+00:00</published><updated>2014-03-31T12:30:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-03-31:/'artist-talk-grays-school-of-art-aberdeen'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;"Today I am going to introduce to you 3 works that are probably from
+the poles of my practice but can be understood by a specific statement
+that i wrote about 6 months ago when I was asked for a bio on how my
+practice relates to sculpture. I really …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;"Today I am going to introduce to you 3 works that are probably from
+the poles of my practice but can be understood by a specific statement
+that i wrote about 6 months ago when I was asked for a bio on how my
+practice relates to sculpture. I really struggled with this idea, I
+would never call myself a sculptor, though my practice somewhat circles
+the field. So in the process of writing this I came up with one line
+that stuck with me - \"Sculpture as the marrying of physical and human
+resources."&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Guest At Grays" src="http://guestsatgrays.wordpress.com/2014/03/03/ben-burtenshaw/"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="1" src="images/wp-content/uploadsds/2014/03/j.jpg"&gt;
+&lt;img alt="3" src="images/wp-content/uploads/2014/03/x.jpg"&gt;
+&lt;img alt="o" src="images/wp-content/uploads/2014/03/o.jpg"&gt;&lt;/p&gt;</content><category term="Teaching"></category><category term="aberdeen"></category><category term="Artist Talk"></category><category term="featured"></category><category term="grays school of art"></category><category term="resources in art making"></category></entry><entry><title>Skill Scape - Scottish Sculpture Workshop</title><link href="/'skill-scape-scottish-sculpture-workshop'.html" rel="alternate"></link><published>2014-03-15T12:14:00+00:00</published><updated>2014-03-15T12:14:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-03-15:/'skill-scape-scottish-sculpture-workshop'.html</id><content type="html">&lt;hr&gt;
+&lt;p&gt;The outcome to a long and investigative project into the skill and craft
+in Aberdeenshire by The Scottish Sculpture Workshop.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://skillscape.ssw.org.uk/"&gt;Skill Scape&lt;/a&gt;&lt;/p&gt;</content><category term="Design"></category><category term="aberdeenshire"></category><category term="craft"></category><category term="featured"></category><category term="heather maslen"></category><category term="nuno sacramento"></category><category term="sera irvine"></category><category term="skill"></category><category term="the scottish sculpture workshop"></category><category term="trades"></category><category term="web design"></category></entry><entry><title>Bio-Symphony</title><link href="/'bio-symphonychelsea-flower-show-2014'.html" rel="alternate"></link><published>2014-03-02T10:04:00+00:00</published><updated>2014-03-02T10:04:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-03-02:/'bio-symphonychelsea-flower-show-2014'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;In May 2014 I was the curator for Bio-Symphony: Music of the plants, a
+long-running video and sound piece by Oliver Jennings, exhibited at
+Royal Horticultural Societies\' Chelsea Flower Show.  Supported by
+Damanhur in Italy and Funded by the Arts Council England.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Documentation in the chealsea flower show" src="images/wp-content/uploads/2014/03/IMG_9032_small-1024x682.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Bio-Symphony: Music of the plants Press Release&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;In May 2014 I was the curator for Bio-Symphony: Music of the plants, a
+long-running video and sound piece by Oliver Jennings, exhibited at
+Royal Horticultural Societies\' Chelsea Flower Show.  Supported by
+Damanhur in Italy and Funded by the Arts Council England.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Documentation in the chealsea flower show" src="images/wp-content/uploads/2014/03/IMG_9032_small-1024x682.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Bio-Symphony: Music of the plants Press Release&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Cave Studios is acollaborationoftwovisualartists;Oliver Jennings &amp;amp;
+Ben Burtenshaw.Who\'spractices deal with notions of social
+collaboration, skill sharing and aesthetic
+learning.JenningsstudiedatCamberwell College of Artsand works as a
+graphic designer/ film-maker, though his workisgraphic- design in the
+loosest sense of the word.Itis better explained as sound
+art.Understanding communicationas a means topoint directly to ether of
+things.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;TheCave studios exhibit at theChelseaflower show is born out
+ofJenningsvideo work,every object has a spirit,in which he used
+alternative means of recording to find sounds hidden in architecture,
+everyday objects and plant life.The rest of the collaboration is made up
+by Ben Burtenshaw who\'sinvolvement in the exhibit comes from an
+intention to to highlight the subtleties at stake within what Jennings
+is trying to communicate; the inner workings of a plants life-cycle.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Through audio and video medium, directly from electro-magnetic
+frequencies of the plants within the exhibit, visitors will witness what
+can actually affect a plant. Placement, light and water will all be
+exposed to highlight the microscopic activity within a plant.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Bio-Symphony: Music of the plants Press&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.everydaylistening.com/articles/category/5-questions/"&gt;Everyday Listening&lt;/a&gt;
+&lt;a href="http://inverted-audio.com/watch-oliver-jennings-interactive-bio-symphony-installation-for-rhs-chelsea/"&gt;Inverted Audio&lt;/a&gt;
+&lt;a href="http://www.pan-portugal.com/blogs/novidades-de-pan-portugal/169-bio-symphony-music-of-the-plants-damanhur"&gt;Pan Portugal&lt;/a&gt;&lt;/p&gt;</content><category term="Curating"></category><category term="Betsy Pool"></category><category term="Chelsea Flower Show"></category><category term="Damanhur"></category><category term="Devodama"></category><category term="Italy"></category><category term="london"></category><category term="Music of the plants"></category><category term="Oliver Jennings"></category><category term="Royal Horticultural Society"></category><category term="The Cave Studios"></category></entry><entry><title>Lumsden 2014</title><link href="/'lumsden-2014'.html" rel="alternate"></link><published>2014-02-21T10:19:00+00:00</published><updated>2014-02-21T10:19:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2014-02-21:/'lumsden-2014'.html</id><content type="html">&lt;hr&gt;
+&lt;p&gt;From January 13th to March 9th and April 14th to April 2nd I will be
+based once again at the Scottish Sculpture Workshop, Lumsden,
+Aberdeenshire.&lt;/p&gt;</content><category term="Art Practice"></category><category term="featured"></category></entry><entry><title>New World Academy</title><link href="/'new-world-academy-leaderless-politics'.html" rel="alternate"></link><published>2013-12-21T09:34:00+00:00</published><updated>2013-12-21T09:34:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2013-12-21:/'new-world-academy-leaderless-politics'.html</id><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img alt="nwa_presentation" src="images/wp-content/uploads/2014/02/nwa_presentation-200x300.jpg"&gt;&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="featured"></category></entry><entry><title>Turn right at the anchor, London</title><link href="/'turn-right-at-the-anchor'.html" rel="alternate"></link><published>2013-11-18T15:00:00+00:00</published><updated>2013-11-18T15:00:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2013-11-18:/'turn-right-at-the-anchor'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Tess Faria And Ben Burtenshaw will return the Anchor to Deptford high
+street. The anchor was originally intended as a monument to Deptford\'s
+maritime history. But in recent times had been appropriated by the
+community to represent something new. In April 2013 it was removed by
+Lewisham Council to …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Tess Faria And Ben Burtenshaw will return the Anchor to Deptford high
+street. The anchor was originally intended as a monument to Deptford\'s
+maritime history. But in recent times had been appropriated by the
+community to represent something new. In April 2013 it was removed by
+Lewisham Council to create a "welcoming, open 'entrance' to the
+street ".Through a one hour performance the anchor will be \'dropped\'
+on to Deptford. With the help of the community the now silenced space at
+the end of the high street will be re-appropriated. Highlighting how
+this site has served to mediate with an altering local identity/ history
+not always relevant to war. And what this silenced space now means.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image_5" src="images/wp-content/uploads/2013/12/image_5.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The anchor that once adorned the High St will be \'dropped\' on to
+Deptford. Participants will walk down the street collecting materials to
+briefly reconstruct the anchor and then remove it after the 2 minute
+silence. With the help of the community the now silenced space at the
+end of the high street will be re-appropriated. Highlighting altered
+local identity; separate to a maritime heritage.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Sunday 10th November : we are beginning to understand this performance
+as an act of rekindling/ sparking, in a conflict between some of
+Deptford\'s community and the development process taking place there.
+The contingent we have assembled to join in this performance are key in
+the rekindling/sparking process as sites of and potential sites of
+disdain or activism. How they approach, ignore or come to terms with
+this existing site of conflict will become evident over lunch.&lt;/p&gt;
+&lt;p&gt;Tomorrow a contingent of fourteen people will walk from The Albany,
+Deptford to the south end of Deptford high street; the previous site of
+an anchor monument. The contingent will lay down bin bags in the shape
+of an anchor on the ground. We will wait for 2 minutes during the
+organised silence and then remove the bags and return to the Albany.
+After this we will meet back at our studio for a shared lunch in front
+of the fire.&lt;/p&gt;
+&lt;h1&gt;I\'m Daniel Gaffney, an anthropology graduate and English teacher. I participated in &lt;em&gt;turn right at the anchor, &lt;/em&gt;2013. I arrived at the Albany to see Tess Faria and Ben Burtenshaw sifting and filtering through a large pile of rubbish and filling bin bags. Ben then gave us a briefing on what we were about to do, at this point the event seemed disjointed from me and the other participants. We then began walking down the high street in a uniformed manner. Once we had "reconstructed the anchor" we observed the 2 minute silence. We then returned down the high street, and later met Tess and Ben at their studio for lunch. This element of the piece seemed fundamental in understanding what we\'d been a part of. Ben described how our involvement had made us sights of "disdain or activism". The explanation and theory of the event gave clarity to me and the others involved, the purpose was evident.&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="image_4" src="images/wp-content/uploads/2013/12/image_4.jpg"&gt;
+&lt;img alt="image_3" src="images/wp-content/uploads/2013/12/image_3.jpg"&gt;
+&lt;img alt="image_2" src="images/wp-content/uploads/2013/12/image_2.jpg"&gt;
+&lt;img alt="image_1" src="images/wp-content/uploads/2013/12/image_1.jpg"&gt;  &lt;/p&gt;</content><category term="Curating"></category><category term="'deptford"></category><category term="monument"></category><category term="performance"></category><category term="tessfaria'"></category></entry><entry><title>The Dutch Art Institute</title><link href="/'the-dutch-art-institute'.html" rel="alternate"></link><published>2013-09-21T10:27:00+00:00</published><updated>2013-09-21T10:27:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2013-09-21:/'the-dutch-art-institute'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Until June 2015 I will be spending a week of every month in Arnhem, The
+netherlands; The base of the Dutch Art Institute.&lt;/p&gt;
+&lt;p&gt;I will be working with Renee Ridgeway to understand the
+term &lt;em&gt;econotopia, &lt;/em&gt;Casco projects, utrecht to create a \'publication\'
+and Bassam el Baroni learn to do things …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Until June 2015 I will be spending a week of every month in Arnhem, The
+netherlands; The base of the Dutch Art Institute.&lt;/p&gt;
+&lt;p&gt;I will be working with Renee Ridgeway to understand the
+term &lt;em&gt;econotopia, &lt;/em&gt;Casco projects, utrecht to create a \'publication\'
+and Bassam el Baroni learn to do things with theory and in turn write a
+thesis.&lt;/p&gt;</content><category term="Education"></category><category term="featured"></category></entry><entry><title>ON SCULPTURE</title><link href="/'on-sculpture'.html" rel="alternate"></link><published>2013-08-18T14:54:00+00:00</published><updated>2013-08-18T14:54:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2013-08-18:/'on-sculpture'.html</id><content type="html">&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;On sculpture&lt;/em&gt; is an art scrapping project: Metal sculptures   [&lt;img alt="onsculpture_r1_c1_s2images/wp-content/uploadsds/2013/12/onsculpture_r1_c1_s2.gif){.alignnone
+  scrapped for cash will pay for dinner/ drinks facilitating a  .size-full .wp-image-82 width=&amp;quot;400px&amp;quot;
+  conversation on the material waste of art.                    height=&amp;quot;566px&amp;quot;}" src="images/wp-content/uploads/2013/12/onsculpture_r1_c1_s2.gif"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Art Practice"></category><category term="'active project"></category><category term="open to participation"></category><category term="waste'"></category></entry><entry><title>Generator MGM, GENERATORprojects, Dundee</title><link href="/75.html" rel="alternate"></link><published>2013-08-18T14:13:00+00:00</published><updated>2013-08-18T14:13:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2013-08-18:/75.html</id><summary type="html">&lt;p&gt;Location: GENERATORprojects &lt;/p&gt;
+&lt;p&gt;Members Generel Meeting is a open an analysis of the GENERATORprojects members' base. On the 17th August, Generator will host a discussion to address an agenda assembled from commmunications between the members, committee and the artist.The agenda for the meeting is currently been drawn up by Ben …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Location: GENERATORprojects &lt;/p&gt;
+&lt;p&gt;Members Generel Meeting is a open an analysis of the GENERATORprojects members' base. On the 17th August, Generator will host a discussion to address an agenda assembled from commmunications between the members, committee and the artist.The agenda for the meeting is currently been drawn up by Ben through a series of correspondance with other members and via an open access&lt;/p&gt;
+&lt;p&gt;wiki -- www.generatormgm.eu. &lt;/p&gt;
+&lt;p&gt;The letters to date can be viewed below. &lt;/p&gt;
+&lt;p&gt;If you would like to bring up a particular point for the MGM agenda please contact Ben at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#109;&amp;#103;&amp;#109;&amp;#64;&amp;#103;&amp;#101;&amp;#110;&amp;#101;&amp;#114;&amp;#97;&amp;#116;&amp;#111;&amp;#114;&amp;#112;&amp;#114;&amp;#111;&amp;#106;&amp;#101;&amp;#99;&amp;#116;&amp;#115;&amp;#46;&amp;#99;&amp;#111;&amp;#46;&amp;#117;&amp;#107;"&gt;&amp;#109;&amp;#103;&amp;#109;&amp;#64;&amp;#103;&amp;#101;&amp;#110;&amp;#101;&amp;#114;&amp;#97;&amp;#116;&amp;#111;&amp;#114;&amp;#112;&amp;#114;&amp;#111;&amp;#106;&amp;#101;&amp;#99;&amp;#116;&amp;#115;&amp;#46;&amp;#99;&amp;#111;&amp;#46;&amp;#117;&amp;#107;&lt;/a&gt;. &lt;/p&gt;
+&lt;h3&gt;LETTER ONE -- Participation&lt;/h3&gt;
+&lt;p&gt;Dear Members, &lt;/p&gt;
+&lt;p&gt;I have recently become a member of Generator but have previouslyonly practiced outside of Dundee. In August, Generator will hostit's first ever Members General Meeting (MGM). This will be a curated response to the committee's performance, 'Opening', at the2013 Members' Show. For many organisations the AGM or MGM is a legal requirement andwill supply two main functions: To elect a committee and to enablemembers to have a say about the running of the organization, in turn
+increasing accountability. &lt;/p&gt;
+&lt;p&gt;In the next 3 months, I will ask members and the committee to raise open questions. I will then draft an itinerary and agenda fromthese; that highlights the collective concerns and confusions, in order to facilitate an open conversation. First of all I would like to ask for questions around member'sparticipation. For example; "Could members curate one show peryear?"Please could you reply to &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#109;&amp;#103;&amp;#109;&amp;#64;&amp;#103;&amp;#101;&amp;#110;&amp;#101;&amp;#114;&amp;#97;&amp;#116;&amp;#111;&amp;#114;&amp;#112;&amp;#114;&amp;#111;&amp;#106;&amp;#101;&amp;#99;&amp;#116;&amp;#115;&amp;#46;&amp;#99;&amp;#111;&amp;#46;&amp;#117;&amp;#107;"&gt;&amp;#109;&amp;#103;&amp;#109;&amp;#64;&amp;#103;&amp;#101;&amp;#110;&amp;#101;&amp;#114;&amp;#97;&amp;#116;&amp;#111;&amp;#114;&amp;#112;&amp;#114;&amp;#111;&amp;#106;&amp;#101;&amp;#99;&amp;#116;&amp;#115;&amp;#46;&amp;#99;&amp;#111;&amp;#46;&amp;#117;&amp;#107;&lt;/a&gt; by the June 23rd. &lt;/p&gt;
+&lt;p&gt;All the best, Ben Burtenshaw (GENERATORmember) &lt;/p&gt;
+&lt;h3&gt;LETTER TWO -- Committee&lt;/h3&gt;
+&lt;p&gt;Dear Members, &lt;/p&gt;
+&lt;p&gt;Thank you for your responses to my previous letter; Particpation. &lt;/p&gt;
+&lt;p&gt;I write to you now, to find your concerns specifically associated with the committee: Moreover, the relationship between the committee
+and members. This letter is accompanied by a similar letter thatwill only be sent to the current committee. In order to open the process of drafting an agenda for the MGM Ihave made a wiki: www.generatormgm.eu As well as replying to this email, you are welcome to input to this open process. Please send responses to &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#109;&amp;#103;&amp;#109;&amp;#64;&amp;#103;&amp;#101;&amp;#110;&amp;#101;&amp;#114;&amp;#97;&amp;#116;&amp;#111;&amp;#114;&amp;#112;&amp;#114;&amp;#111;&amp;#106;&amp;#101;&amp;#99;&amp;#116;&amp;#115;&amp;#46;&amp;#99;&amp;#111;&amp;#46;&amp;#117;&amp;#107;"&gt;&amp;#109;&amp;#103;&amp;#109;&amp;#64;&amp;#103;&amp;#101;&amp;#110;&amp;#101;&amp;#114;&amp;#97;&amp;#116;&amp;#111;&amp;#114;&amp;#112;&amp;#114;&amp;#111;&amp;#106;&amp;#101;&amp;#99;&amp;#116;&amp;#115;&amp;#46;&amp;#99;&amp;#111;&amp;#46;&amp;#117;&amp;#107;&lt;/a&gt; -- a closedemail address that only I can access. I look forward to hearing your
+responses.&lt;/p&gt;
+&lt;p&gt;All the best, Ben Burtenshaw (GENERATORmember) &lt;/p&gt;
+&lt;p&gt;P.S. Please note that the date for the MGM has been scheduled for the 17th of August, 4-6pm &lt;/p&gt;
+&lt;h3&gt;Original Letter&lt;/h3&gt;
+&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;I attended the member's show in february: As a response to the performance which I perceived as a challenge on the involvement of member's outside of the annual show. I wish to propose a solo show at Generator Projects. I am a London based artist with no involvement, past my visit to your member's show, in the Dundee art community
+. I am interested in becoming a fully fledged member and then exploring the role I can take within the organisation without any traditional participation. &lt;/p&gt;
+&lt;p&gt;The solo show in this instance representing the outlandish reward as a challenge to perceived lack in participation. Look forward to discussing this idea further with you, I have attached a CV and portfolio. &lt;/p&gt;
+&lt;p&gt;Ben Burtenshaw&lt;/p&gt;</content><category term="Curating"></category><category term="dundee"></category><category term="generator"></category><category term="participation"></category><category term="scotland"></category></entry><entry><title>abandonar.eu</title><link href="/'abandonar-eu-online-preview'.html" rel="alternate"></link><published>2013-04-18T13:04:00+00:00</published><updated>2013-04-18T13:04:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2013-04-18:/'abandonar-eu-online-preview'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;In 2013 Tess Faria and Ben Burtenshaw conducted a research project in
+the Montmell area of the Baix de Penedes. During this time they
+collaborated with Cerrca as a main base for conversation and reflection
+on their project; Abandonar.eu. The body of work developed out of a
+series of …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;In 2013 Tess Faria and Ben Burtenshaw conducted a research project in
+the Montmell area of the Baix de Penedes. During this time they
+collaborated with Cerrca as a main base for conversation and reflection
+on their project; Abandonar.eu. The body of work developed out of a
+series of walks to, from and around Marmellar and Selma, two abandoned
+villages within walking distance of the El Pla de Manlleu. Their stay
+culminated in a live broadcast of visual art works and texts from their
+body of research into the history of the villages. The villages
+functioned as dual points of reference; acting as guidelines within the
+project and as markers for later return.From the conception of the
+project Tess and Ben planned for abandonar.eu to facilitate further art
+works, advancing on this body of research: in March 2014 they will
+pursue this aim.&lt;/p&gt;
+&lt;p&gt;BB &amp;amp; Tess Faria, Novemebr 2013&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screen shot 2013-12-11 at11.18" src="images/wp-content/uploads/2013/12/Screen-shot-2013-12-11-at-11.18.jpg"&gt;&lt;/p&gt;</content><category term="Art &amp; Technology"></category><category term="'catalonia. spain"></category><category term="cercca"></category><category term="el pla de manlleu'"></category></entry><entry><title>'Pizza Evo 2.4, Aberdeenshire'</title><link href="/54.html" rel="alternate"></link><published>2013-04-18T12:42:00+00:00</published><updated>2013-04-18T12:42:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2013-04-18:/54.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;Pizza evo 2.4 was advertised to include free pizza being served from
+neon under lit slab of Aberdeenshire granite. The large flat slab of
+granite shone bright lights in seven different colours and with the
+title immediately referenced Car Modification.\"A new maker, not the
+tradesmen with his rules …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Pizza evo 2.4 was advertised to include free pizza being served from
+neon under lit slab of Aberdeenshire granite. The large flat slab of
+granite shone bright lights in seven different colours and with the
+title immediately referenced Car Modification.\"A new maker, not the
+tradesmen with his rules and \"structure to success\" but the self
+taught post production car enthusiast. The \'discourse\' we were told
+about at Try as we might had gone. Instead the slices all round and
+super fast turn over of various different topping\'s created in-depth
+conversation between a wide mix of people over the merit and worth of
+this piece. I relinquished control of discourse and handed it over to a
+slab of granite.\"BB, April 2013&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pizza cooking" src="images/wp-content/uploads/2013/12/pizzaevo2_web.jpg"&gt;&lt;/p&gt;</content><category term="Art Practice"></category><category term="'granite"></category><category term="neon lighting"></category><category term="pizza"></category><category term="scotland"></category><category term="scottish sculpture workshop'"></category></entry><entry><title>try as we might</title><link href="/'try-as-we-might'.html" rel="alternate"></link><published>2012-12-18T12:10:00+00:00</published><updated>2012-12-18T12:10:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2012-12-18:/'try-as-we-might'.html</id><summary type="html">&lt;hr&gt;
+&lt;p&gt;The exhibition, &lt;em&gt;Try As We Might&lt;/em&gt;, is a new body of work from
+ Benjamin's time in residency at SSW. The work is a continuation of 
+ his practice as a study of the references shared by artists and  &lt;br&gt;
+ tradesmen, having grown up working with his father. Looking at the 
+ materials historically …&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;The exhibition, &lt;em&gt;Try As We Might&lt;/em&gt;, is a new body of work from
+ Benjamin's time in residency at SSW. The work is a continuation of 
+ his practice as a study of the references shared by artists and  &lt;br&gt;
+ tradesmen, having grown up working with his father. Looking at the 
+ materials historically valued within the arts, such as granite or&lt;br&gt;
+ bronze, Benjamin explores how they translate into domestic       &lt;br&gt;
+ contexts, for example granite worktops on pre-fabricated melamine&lt;br&gt;
+ units, and then back into an arts language. His work juxtaposes  &lt;br&gt;
+ these materials and the shared trade references with works such as 
+ granite placed on carpet tiles, cast bronze on high glossed MDF  &lt;br&gt;
+ and abstract objects created within standard trade dimensions.\"&lt;/p&gt;
+&lt;p&gt;Emily Gray, SSW, December 2012&lt;/p&gt;
+&lt;p&gt;&lt;img alt="SONYDSC" src="http://www.benjaminburtenshaw.co.uk/blog/wp-content/uploads/2013/12/ben_10-198x300.jpg"&gt;
+&lt;img alt="SONYDSC" src="http://www.benjaminburtenshaw.co.uk/blog/wp-content/uploads/2013/12/ben_10-198x300.jpg"&gt;&lt;/p&gt;</content><category term="Art Practice"></category><category term="'performance"></category><category term="scottish sculpture workshop"></category><category term="sculpture'"></category></entry><entry><title>'5-35 \[Critical Forum\]'</title><link href="/'5-35-critical-forum'.html" rel="alternate"></link><published>2012-12-17T17:20:00+00:00</published><updated>2012-12-17T17:20:00+00:00</updated><author><name>burtenshaw</name></author><id>tag:None,2012-12-17:/'5-35-critical-forum'.html</id><summary type="html">&lt;p&gt;&lt;img alt="presentation of work" src="images/wp-content/uploads/2013/12/david-blyth-presenting-his-work-at-the-last-ssw-5-35-critical-forum.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;5-35 was an opportunity for artists based in rural Aberdeenshire to
+enter in to critical conversation around their work. The forum was based
+at the Scottish Sculpture Workshop, leading the conversations to be
+focused on a 'shop talk' or industry specific discourse.&lt;/p&gt;
+&lt;p&gt;"As the hangovers of discourse from Thursday night …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="presentation of work" src="images/wp-content/uploads/2013/12/david-blyth-presenting-his-work-at-the-last-ssw-5-35-critical-forum.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;5-35 was an opportunity for artists based in rural Aberdeenshire to
+enter in to critical conversation around their work. The forum was based
+at the Scottish Sculpture Workshop, leading the conversations to be
+focused on a 'shop talk' or industry specific discourse.&lt;/p&gt;
+&lt;p&gt;"As the hangovers of discourse from Thursday night are now met by the
+traditional hangover of a sunny Saturday morning; I felt it was the
+right time to begin the online discourse that will hopefully supplement
+our critical forum 5- 35. The feedback that I have received so far seems
+good, focusing mainly on a constructive yet enjoyable time. I definitely
+felt this was a warm meeting of peers and hopefully friends, and was
+certainly not the critical Tomatina that a 'crit' can so often be. I'd
+like to thank Joanna, Josh, Laura and Alan for sharing their practices
+with us, and everyone else for attending and contributing. It would be
+great if this email stream [now blog] could now become a way of
+sharing the referrals that were maybe illegibly written down in the heat
+of conversation and the brilliant eureka moments that came to us in the
+car ride home. I'd like to start the ball rolling with a recommendation
+for no one in particular; an article in this month's Art Monthly called
+'Paul O'kane on making art'. Its on the first page but sadly isn't
+available online. There is however a copy in the SSW library."&lt;/p&gt;
+&lt;p&gt;BB, Novemebr 2012&lt;/p&gt;</content><category term="Art Practice"></category><category term="'critical forum"></category><category term="discourse"></category><category term="scotland"></category><category term="scottish sculpture workshop'"></category></entry></feed>
