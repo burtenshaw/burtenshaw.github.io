@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css"/> 
+
+
+<script>
+        $(document).ready(function() {
+             $('#tipue_search_input').tipuesearch({
+                  'mode': 'json',
+                  'contentLocation': 'tipuesearch_content.json'
+             });
+        });
+    </script>
+
+
+
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 
 <head>
@@ -27,6 +44,7 @@
     <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
 
 
@@ -41,24 +59,14 @@
 
         <div class="row">
             <div class="col-sm-12">
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/">Burtenshaw</a> 
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="pages/more_than_work.html">MORE_THAN_WORK<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="pages/right_now.html">RIGHT_NOW<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="pages/contact.html">CONTACT<span class="sr-only">(current)</span></a>
-        </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <form action="/">
+    <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+    <div style="clear: both;"></div>
+</form>
+
+ <div id="tipue_search_content"></div>
 </nav>            </div>
         </div>
 
@@ -94,19 +102,19 @@
         [
 	<a href="/tag/2015.html" style="background-color:  ">2015</a>
         ,
-	<a href="/tag/damanhur.html" style="background-color: lightgreen ">Damanhur</a>
+	<a href="/tag/damanhur.html" style="background-color: lightcyan ">Damanhur</a>
         ,
-	<a href="/tag/edinburgh.html" style="background-color: lightpink ">Edinburgh</a>
+	<a href="/tag/edinburgh.html" style="background-color: lightseagreen ">Edinburgh</a>
         ,
 	<a href="/tag/edinburgh-science-festival.html" style="background-color: lightyellow ">Edinburgh Science Festival</a>
         ,
-	<a href="/tag/music-of-the-plants.html" style="background-color: lightcyan ">Music of the plants</a>
+	<a href="/tag/music-of-the-plants.html" style="background-color: lightyellow ">Music of the plants</a>
         ,
-	<a href="/tag/oliver-jennings.html" style="background-color: aqua ">Oliver Jennings</a>
+	<a href="/tag/oliver-jennings.html" style="background-color: lightcyan ">Oliver Jennings</a>
         ,
-	<a href="/tag/sarah-jones.html" style="background-color: lightblue ">Sarah Jones</a>
+	<a href="/tag/sarah-jones.html" style="background-color: lightpink ">Sarah Jones</a>
         ,
-	<a href="/tag/summerhall.html" style="background-color: lightblue ">Summerhall</a>
+	<a href="/tag/summerhall.html" style="background-color: aqua ">Summerhall</a>
         ]
 </div>    
 </footer><!-- /.post-info -->                    </div>
@@ -184,23 +192,23 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 [
             <a href="/tag/2014.html" style="background-color:  ">2014</a>
                 ,
-            <a href="/tag/amir-avraham.html" style="background-color: aqua ">Amir Avraham</a>
+            <a href="/tag/amir-avraham.html" style="background-color: lightyellow ">Amir Avraham</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/casco.html" style="background-color: lightyellow ">casco</a>
+            <a href="/tag/casco.html" style="background-color: lightcyan ">casco</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
-            <a href="/tag/isabelle-sully.html" style="background-color: lightyellow ">Isabelle Sully</a>
+            <a href="/tag/isabelle-sully.html" style="background-color: lightgreen ">Isabelle Sully</a>
                 ,
-            <a href="/tag/publishing.html" style="background-color: lightseagreen ">Publishing</a>
+            <a href="/tag/publishing.html" style="background-color: lightyellow ">Publishing</a>
                 ,
             <a href="/tag/sarah-jones.html" style="background-color:  ">Sarah Jones</a>
                 ,
-            <a href="/tag/utrecht.html" style="background-color: lightseagreen ">Utrecht</a>
+            <a href="/tag/utrecht.html" style="background-color: lightpink ">Utrecht</a>
                 ,
-            <a href="/tag/werkplaats.html" style="background-color: lightcoral ">Werkplaats</a>
+            <a href="/tag/werkplaats.html" style="background-color: lightyellow ">Werkplaats</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">'Dutch art Institute</a>
                 ,
@@ -210,9 +218,9 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/sarah-jones.html" style="background-color:  ">Sarah Jones</a>
                 ,
-            <a href="/tag/taak.html" style="background-color: lightcoral ">TAAK</a>
+            <a href="/tag/taak.html" style="background-color: lightcyan ">TAAK</a>
                 ,
-            <a href="/tag/texas.html" style="background-color: lightskyblue ">Texas'</a>
+            <a href="/tag/texas.html" style="background-color: aqua ">Texas'</a>
                 ,
             <a href="/tag/amir-avraham.html" style="background-color:  ">Amir Avraham</a>
                 ,
@@ -222,25 +230,25 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/sarah-jones-isabelle-sully.html" style="background-color: lightgreen ">Sarah Jones. Isabelle Sully</a>
+            <a href="/tag/sarah-jones-isabelle-sully.html" style="background-color: lightyellow ">Sarah Jones. Isabelle Sully</a>
                 ,
             <a href="/tag/utrecht.html" style="background-color:  ">Utrecht</a>
                 ,
-            <a href="/tag/werkplaats-typografie.html" style="background-color: lightpink ">Werkplaats typografie</a>
+            <a href="/tag/werkplaats-typografie.html" style="background-color: lightseagreen ">Werkplaats typografie</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/active-project.html" style="background-color: lightgreen ">'active project</a>
+            <a href="/tag/active-project.html" style="background-color: lightblue ">'active project</a>
                 ,
-            <a href="/tag/open-to-participation.html" style="background-color: lightblue ">open to participation</a>
+            <a href="/tag/open-to-participation.html" style="background-color: lightseagreen ">open to participation</a>
                 ,
-            <a href="/tag/waste.html" style="background-color: lightgreen ">waste'</a>
+            <a href="/tag/waste.html" style="background-color: lightyellow ">waste'</a>
                 ,
-            <a href="/tag/granite.html" style="background-color: lightpink ">'granite</a>
+            <a href="/tag/granite.html" style="background-color: lightyellow ">'granite</a>
                 ,
-            <a href="/tag/neon-lighting.html" style="background-color: lightseagreen ">neon lighting</a>
+            <a href="/tag/neon-lighting.html" style="background-color: lightskyblue ">neon lighting</a>
                 ,
-            <a href="/tag/pizza.html" style="background-color: lightseagreen ">pizza</a>
+            <a href="/tag/pizza.html" style="background-color: lightpink ">pizza</a>
                 ,
             <a href="/tag/scotland.html" style="background-color:  ">scotland</a>
                 ,
@@ -252,7 +260,7 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/sculpture.html" style="background-color:  ">sculpture'</a>
                 ,
-            <a href="/tag/critical-forum.html" style="background-color: lightcyan ">'critical forum</a>
+            <a href="/tag/critical-forum.html" style="background-color: lightyellow ">'critical forum</a>
                 ,
             <a href="/tag/discourse.html" style="background-color: lightyellow ">discourse</a>
                 ,
@@ -270,63 +278,63 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/art.html" style="background-color: aqua ">Art</a>
+            <a href="/tag/art.html" style="background-color: lightblue ">Art</a>
                 ,
             <a href="/tag/renee-ridgway.html" style="background-color: lightskyblue ">Renée Ridgway</a>
                 ,
-            <a href="/tag/ai.html" style="background-color: aqua ">AI</a>
+            <a href="/tag/ai.html" style="background-color: lightskyblue ">AI</a>
                 ,
-            <a href="/tag/dialogue-systems.html" style="background-color: lightcyan ">Dialogue Systems</a>
+            <a href="/tag/dialogue-systems.html" style="background-color: lightseagreen ">Dialogue Systems</a>
                 ,
-            <a href="/tag/bochum.html" style="background-color: lightyellow ">Bochum</a>
+            <a href="/tag/bochum.html" style="background-color: lightskyblue ">Bochum</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/antwerp.html" style="background-color: lightblue ">antwerp</a>
+            <a href="/tag/antwerp.html" style="background-color: lightskyblue ">antwerp</a>
                 ,
-            <a href="/tag/research-grant.html" style="background-color: lightseagreen ">research grant</a>
+            <a href="/tag/research-grant.html" style="background-color: lightblue ">research grant</a>
                 ,
             <a href="/tag/nlp.html" style="background-color:  ">NLP</a>
                 ,
             <a href="/tag/nlg.html" style="background-color:  ">NLG</a>
                 ,
-            <a href="/tag/narratives.html" style="background-color: lightpink ">Narratives</a>
+            <a href="/tag/narratives.html" style="background-color: lightyellow ">Narratives</a>
                 ,
-            <a href="/tag/2016.html" style="background-color: lightyellow ">'2016</a>
+            <a href="/tag/2016.html" style="background-color: aqua ">'2016</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color: lightyellow ">Arnhem</a>
                 ,
-            <a href="/tag/bassam-el-baroni.html" style="background-color: lightgreen ">Bassam el Baroni</a>
+            <a href="/tag/bassam-el-baroni.html" style="background-color: lightyellow ">Bassam el Baroni</a>
                 ,
             <a href="/tag/dai.html" style="background-color: lightyellow ">DAI</a>
                 ,
-            <a href="/tag/prometheanism.html" style="background-color: lightskyblue ">Prometheanism'</a>
+            <a href="/tag/prometheanism.html" style="background-color: lightyellow ">Prometheanism'</a>
                 ,
-            <a href="/tag/2015.html" style="background-color: lightyellow ">2015</a>
+            <a href="/tag/2015.html" style="background-color: lightseagreen ">2015</a>
                 ,
-            <a href="/tag/affect-theory.html" style="background-color: aqua ">affect theory</a>
+            <a href="/tag/affect-theory.html" style="background-color: lightpink ">affect theory</a>
                 ,
-            <a href="/tag/did-you-feel-it.html" style="background-color: lightblue ">Did you feel it?</a>
+            <a href="/tag/did-you-feel-it.html" style="background-color: lightskyblue ">Did you feel it?</a>
                 ,
-            <a href="/tag/dutch-art-institute.html" style="background-color: lightgreen ">Dutch art Institute</a>
+            <a href="/tag/dutch-art-institute.html" style="background-color: lightpink ">Dutch art Institute</a>
                 ,
-            <a href="/tag/erica-scourti.html" style="background-color: lightseagreen ">Erica Scourti</a>
+            <a href="/tag/erica-scourti.html" style="background-color: lightcyan ">Erica Scourti</a>
                 ,
-            <a href="/tag/mark-fisher.html" style="background-color: aqua ">Mark Fisher</a>
+            <a href="/tag/mark-fisher.html" style="background-color: lightyellow ">Mark Fisher</a>
                 ,
-            <a href="/tag/mercedes-bunz.html" style="background-color: lightskyblue ">Mercedes Bunz</a>
+            <a href="/tag/mercedes-bunz.html" style="background-color: lightgreen ">Mercedes Bunz</a>
                 ,
-            <a href="/tag/nishant-shah.html" style="background-color: lightgreen ">Nishant Shah</a>
+            <a href="/tag/nishant-shah.html" style="background-color: lightpink ">Nishant Shah</a>
                 ,
-            <a href="/tag/open.html" style="background-color: lightyellow ">Open!</a>
+            <a href="/tag/open.html" style="background-color: aqua ">Open!</a>
                 ,
-            <a href="/tag/symposium.html" style="background-color: lightpink ">symposium</a>
+            <a href="/tag/symposium.html" style="background-color: lightyellow ">symposium</a>
                 ,
-            <a href="/tag/veridiana-zuria.html" style="background-color: lightblue ">Veridiana Zuria</a>
+            <a href="/tag/veridiana-zuria.html" style="background-color: lightpink ">Veridiana Zuria</a>
                 ,
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/apple-watch.html" style="background-color: lightskyblue ">Apple watch</a>
+            <a href="/tag/apple-watch.html" style="background-color: lightyellow ">Apple watch</a>
                 ,
             <a href="/tag/coop-academy.html" style="background-color: lightyellow ">Coop Academy</a>
                 ,
@@ -336,19 +344,19 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/exmachina.html" style="background-color: lightcoral ">exmachina</a>
                 ,
-            <a href="/tag/nike-run.html" style="background-color: lightyellow ">Nike run</a>
+            <a href="/tag/nike-run.html" style="background-color: aqua ">Nike run</a>
                 ,
             <a href="/tag/open.html" style="background-color:  ">Open!</a>
                 ,
-            <a href="/tag/the-call-centre.html" style="background-color: lightyellow ">The Call Centre</a>
+            <a href="/tag/the-call-centre.html" style="background-color: lightblue ">The Call Centre</a>
                 ,
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/alex-jeronymides-norie.html" style="background-color: lightcoral ">Alex Jeronymides-Norie</a>
+            <a href="/tag/alex-jeronymides-norie.html" style="background-color: aqua ">Alex Jeronymides-Norie</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/dai-final-show.html" style="background-color: lightseagreen ">DAI-final-show</a>
+            <a href="/tag/dai-final-show.html" style="background-color: lightyellow ">DAI-final-show</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
@@ -366,7 +374,7 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/welcome-to-econotopia.html" style="background-color:  ">Welcome to econotopia</a>
                 ,
-            <a href="/tag/california-college-of-art.html" style="background-color: lightcyan ">California College of Art</a>
+            <a href="/tag/california-college-of-art.html" style="background-color: lightpink ">California College of Art</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
@@ -378,25 +386,25 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/welcome-to-econotopia.html" style="background-color:  ">Welcome to econotopia</a>
                 ,
-            <a href="/tag/amsterdam.html" style="background-color: lightyellow ">'amsterdam</a>
+            <a href="/tag/amsterdam.html" style="background-color: lightcoral ">'amsterdam</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured'</a>
                 ,
-            <a href="/tag/alt.html" style="background-color: lightblue ">'alt</a>
+            <a href="/tag/alt.html" style="background-color: lightyellow ">'alt</a>
                 ,
             <a href="/tag/amsterdam.html" style="background-color:  ">amsterdam</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/new-world-academy.html" style="background-color: lightcoral ">new world academy'</a>
+            <a href="/tag/new-world-academy.html" style="background-color: lightseagreen ">new world academy'</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/catalonia-spain.html" style="background-color: lightcyan ">'catalonia. spain</a>
+            <a href="/tag/catalonia-spain.html" style="background-color: lightblue ">'catalonia. spain</a>
                 ,
-            <a href="/tag/cercca.html" style="background-color: lightgreen ">cercca</a>
+            <a href="/tag/cercca.html" style="background-color: lightcyan ">cercca</a>
                 ,
-            <a href="/tag/el-pla-de-manlleu.html" style="background-color: lightskyblue ">el pla de manlleu'</a>
+            <a href="/tag/el-pla-de-manlleu.html" style="background-color: lightpink ">el pla de manlleu'</a>
                 ]
   </ul>
 </div>
@@ -410,27 +418,27 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 [
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/damanhur.html" style="background-color: lightgreen ">Damanhur</a>
+            <a href="/tag/damanhur.html" style="background-color: lightcyan ">Damanhur</a>
                 ,
-            <a href="/tag/edinburgh.html" style="background-color: lightpink ">Edinburgh</a>
+            <a href="/tag/edinburgh.html" style="background-color: lightseagreen ">Edinburgh</a>
                 ,
             <a href="/tag/edinburgh-science-festival.html" style="background-color: lightyellow ">Edinburgh Science Festival</a>
                 ,
-            <a href="/tag/music-of-the-plants.html" style="background-color: lightcyan ">Music of the plants</a>
+            <a href="/tag/music-of-the-plants.html" style="background-color: lightyellow ">Music of the plants</a>
                 ,
-            <a href="/tag/oliver-jennings.html" style="background-color: aqua ">Oliver Jennings</a>
+            <a href="/tag/oliver-jennings.html" style="background-color: lightcyan ">Oliver Jennings</a>
                 ,
-            <a href="/tag/sarah-jones.html" style="background-color: lightblue ">Sarah Jones</a>
+            <a href="/tag/sarah-jones.html" style="background-color: lightpink ">Sarah Jones</a>
                 ,
-            <a href="/tag/summerhall.html" style="background-color: lightblue ">Summerhall</a>
+            <a href="/tag/summerhall.html" style="background-color: aqua ">Summerhall</a>
                 ,
             <a href="/tag/2014.html" style="background-color: lightpink ">2014</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/borders.html" style="background-color: lightcyan ">Borders</a>
+            <a href="/tag/borders.html" style="background-color: lightyellow ">Borders</a>
                 ,
-            <a href="/tag/curating.html" style="background-color: lightyellow ">Curating</a>
+            <a href="/tag/curating.html" style="background-color: aqua ">Curating</a>
                 ,
             <a href="/tag/dai.html" style="background-color:  ">DAI</a>
                 ,
@@ -438,19 +446,19 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/julieta-aguinaco.html" style="background-color:  ">Julieta Aguinaco</a>
                 ,
-            <a href="/tag/marfa.html" style="background-color: lightseagreen ">Marfa</a>
+            <a href="/tag/marfa.html" style="background-color: aqua ">Marfa</a>
                 ,
-            <a href="/tag/mexico-city.html" style="background-color: lightyellow ">mexico city</a>
+            <a href="/tag/mexico-city.html" style="background-color: aqua ">mexico city</a>
                 ,
             <a href="/tag/sarah-demoen.html" style="background-color:  ">Sarah Demoen</a>
                 ,
             <a href="/tag/welcome-to-econotopia.html" style="background-color: lightskyblue ">Welcome to econotopia</a>
                 ,
-            <a href="/tag/cooper-gallery-duncan-of-jordanstone-college-of-art-amp.html" style="background-color: lightgreen ">Cooper Gallery, Duncan of Jordanstone College of Art &amp</a>
+            <a href="/tag/cooper-gallery-duncan-of-jordanstone-college-of-art-amp.html" style="background-color: aqua ">Cooper Gallery, Duncan of Jordanstone College of Art &amp</a>
                 ,
-            <a href="/tag/design-dundee-featured-generation-25-holly-knox-yeoman-jamming-sessions-writing-residency.html" style="background-color: lightyellow ">Design, dundee, featured, Generation 25, Holly Knox Yeoman, Jamming Sessions, Writing Residency</a>
+            <a href="/tag/design-dundee-featured-generation-25-holly-knox-yeoman-jamming-sessions-writing-residency.html" style="background-color: lightcyan ">Design, dundee, featured, Generation 25, Holly Knox Yeoman, Jamming Sessions, Writing Residency</a>
                 ,
-            <a href="/tag/arbroath.html" style="background-color: lightgreen ">Arbroath</a>
+            <a href="/tag/arbroath.html" style="background-color: lightseagreen ">Arbroath</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">Conference</a>
                 ,
@@ -462,17 +470,17 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/fieldworks.html" style="background-color: lightgreen ">Fieldworks</a>
                 ,
-            <a href="/tag/hospitalfields.html" style="background-color: lightyellow ">Hospitalfields</a>
+            <a href="/tag/hospitalfields.html" style="background-color: lightpink ">Hospitalfields</a>
                 ,
             <a href="/tag/betsy-pool.html" style="background-color: lightyellow ">Betsy Pool</a>
                 ,
-            <a href="/tag/chelsea-flower-show.html" style="background-color: lightseagreen ">Chelsea Flower Show</a>
+            <a href="/tag/chelsea-flower-show.html" style="background-color: lightyellow ">Chelsea Flower Show</a>
                 ,
             <a href="/tag/damanhur.html" style="background-color:  ">Damanhur</a>
                 ,
-            <a href="/tag/devodama.html" style="background-color: lightseagreen ">Devodama</a>
+            <a href="/tag/devodama.html" style="background-color: lightpink ">Devodama</a>
                 ,
-            <a href="/tag/italy.html" style="background-color: aqua ">Italy</a>
+            <a href="/tag/italy.html" style="background-color: lightyellow ">Italy</a>
                 ,
             <a href="/tag/london.html" style="background-color:  ">london</a>
                 ,
@@ -480,25 +488,25 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/oliver-jennings.html" style="background-color:  ">Oliver Jennings</a>
                 ,
-            <a href="/tag/royal-horticultural-society.html" style="background-color: lightcoral ">Royal Horticultural Society</a>
+            <a href="/tag/royal-horticultural-society.html" style="background-color: lightyellow ">Royal Horticultural Society</a>
                 ,
-            <a href="/tag/the-cave-studios.html" style="background-color: lightskyblue ">The Cave Studios</a>
+            <a href="/tag/the-cave-studios.html" style="background-color: lightcyan ">The Cave Studios</a>
                 ,
-            <a href="/tag/deptford.html" style="background-color: lightgreen ">'deptford</a>
+            <a href="/tag/deptford.html" style="background-color: lightpink ">'deptford</a>
                 ,
-            <a href="/tag/monument.html" style="background-color: lightblue ">monument</a>
+            <a href="/tag/monument.html" style="background-color: lightcyan ">monument</a>
                 ,
-            <a href="/tag/performance.html" style="background-color: lightgreen ">performance</a>
+            <a href="/tag/performance.html" style="background-color: lightyellow ">performance</a>
                 ,
-            <a href="/tag/tessfaria.html" style="background-color: lightyellow ">tessfaria'</a>
+            <a href="/tag/tessfaria.html" style="background-color: lightblue ">tessfaria'</a>
                 ,
-            <a href="/tag/dundee.html" style="background-color: lightcoral ">dundee</a>
+            <a href="/tag/dundee.html" style="background-color: lightyellow ">dundee</a>
                 ,
             <a href="/tag/generator.html" style="background-color: lightyellow ">generator</a>
                 ,
-            <a href="/tag/participation.html" style="background-color: lightskyblue ">participation</a>
+            <a href="/tag/participation.html" style="background-color: lightgreen ">participation</a>
                 ,
-            <a href="/tag/scotland.html" style="background-color: lightyellow ">scotland</a>
+            <a href="/tag/scotland.html" style="background-color: lightcyan ">scotland</a>
                 ]
   </ul>
 </div>
@@ -512,33 +520,33 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 [
             <a href="/tag/featured.html" style="background-color:  ">'featured</a>
                 ,
-            <a href="/tag/london.html" style="background-color: aqua ">london</a>
+            <a href="/tag/london.html" style="background-color: lightskyblue ">london</a>
                 ,
-            <a href="/tag/lucy-tomlins.html" style="background-color: aqua ">lucy tomlins</a>
+            <a href="/tag/lucy-tomlins.html" style="background-color: lightskyblue ">lucy tomlins</a>
                 ,
-            <a href="/tag/marsha-bradfield.html" style="background-color: lightseagreen ">marsha bradfield</a>
+            <a href="/tag/marsha-bradfield.html" style="background-color: lightyellow ">marsha bradfield</a>
                 ,
-            <a href="/tag/sculpture.html" style="background-color: aqua ">sculpture</a>
+            <a href="/tag/sculpture.html" style="background-color: lightseagreen ">sculpture</a>
                 ,
-            <a href="/tag/web-design.html" style="background-color: lightyellow ">web design'</a>
+            <a href="/tag/web-design.html" style="background-color: lightskyblue ">web design'</a>
                 ,
-            <a href="/tag/aberdeenshire.html" style="background-color: lightyellow ">aberdeenshire</a>
+            <a href="/tag/aberdeenshire.html" style="background-color: lightcoral ">aberdeenshire</a>
                 ,
-            <a href="/tag/craft.html" style="background-color: lightpink ">craft</a>
+            <a href="/tag/craft.html" style="background-color: lightyellow ">craft</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/heather-maslen.html" style="background-color: lightskyblue ">heather maslen</a>
+            <a href="/tag/heather-maslen.html" style="background-color: lightyellow ">heather maslen</a>
                 ,
-            <a href="/tag/nuno-sacramento.html" style="background-color: lightcoral ">nuno sacramento</a>
+            <a href="/tag/nuno-sacramento.html" style="background-color: aqua ">nuno sacramento</a>
                 ,
-            <a href="/tag/sera-irvine.html" style="background-color: lightyellow ">sera irvine</a>
+            <a href="/tag/sera-irvine.html" style="background-color: lightgreen ">sera irvine</a>
                 ,
-            <a href="/tag/skill.html" style="background-color: aqua ">skill</a>
+            <a href="/tag/skill.html" style="background-color: lightcoral ">skill</a>
                 ,
-            <a href="/tag/the-scottish-sculpture-workshop.html" style="background-color: lightyellow ">the scottish sculpture workshop</a>
+            <a href="/tag/the-scottish-sculpture-workshop.html" style="background-color: lightgreen ">the scottish sculpture workshop</a>
                 ,
-            <a href="/tag/trades.html" style="background-color: lightskyblue ">trades</a>
+            <a href="/tag/trades.html" style="background-color: lightcoral ">trades</a>
                 ,
             <a href="/tag/web-design.html" style="background-color:  ">web design</a>
                 ]
@@ -554,21 +562,21 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 [
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/benjamin-serrousi.html" style="background-color: lightyellow ">Benjamin Serrousi</a>
+            <a href="/tag/benjamin-serrousi.html" style="background-color: lightskyblue ">Benjamin Serrousi</a>
                 ,
-            <a href="/tag/featured.html" style="background-color: lightskyblue ">featured</a>
+            <a href="/tag/featured.html" style="background-color: lightblue ">featured</a>
                 ,
-            <a href="/tag/grant-watson.html" style="background-color: lightseagreen ">Grant Watson</a>
+            <a href="/tag/grant-watson.html" style="background-color: lightblue ">Grant Watson</a>
                 ,
-            <a href="/tag/julieta-aguinaco.html" style="background-color: lightyellow ">Julieta Aguinaco</a>
+            <a href="/tag/julieta-aguinaco.html" style="background-color: lightseagreen ">Julieta Aguinaco</a>
                 ,
-            <a href="/tag/paula-cheiffi.html" style="background-color: lightgreen ">Paula Cheiffi</a>
+            <a href="/tag/paula-cheiffi.html" style="background-color: aqua ">Paula Cheiffi</a>
                 ,
-            <a href="/tag/peter-pal-pelbart.html" style="background-color: lightcyan ">Peter Pál Pelbart</a>
+            <a href="/tag/peter-pal-pelbart.html" style="background-color: lightyellow ">Peter Pál Pelbart</a>
                 ,
-            <a href="/tag/sarah-demoen.html" style="background-color: lightblue ">Sarah Demoen</a>
+            <a href="/tag/sarah-demoen.html" style="background-color: lightyellow ">Sarah Demoen</a>
                 ,
-            <a href="/tag/suely-rolnik.html" style="background-color: lightcyan ">Suely Rolnik</a>
+            <a href="/tag/suely-rolnik.html" style="background-color: lightblue ">Suely Rolnik</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ]
@@ -582,81 +590,81 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/nlp.html" style="background-color: lightyellow ">NLP</a>
+            <a href="/tag/nlp.html" style="background-color: aqua ">NLP</a>
                 ,
-            <a href="/tag/offence-detection.html" style="background-color: lightyellow ">Offence Detection</a>
+            <a href="/tag/offence-detection.html" style="background-color: lightcyan ">Offence Detection</a>
                 ,
-            <a href="/tag/toxicity.html" style="background-color: lightskyblue ">Toxicity</a>
+            <a href="/tag/toxicity.html" style="background-color: lightgreen ">Toxicity</a>
                 ,
             <a href="/tag/johannes-schaefer.html" style="background-color: lightyellow ">Johannes Schaefer</a>
                 ,
-            <a href="/tag/the-university-of-coimbra.html" style="background-color: aqua ">The University of Coimbra</a>
+            <a href="/tag/the-university-of-coimbra.html" style="background-color: lightyellow ">The University of Coimbra</a>
                 ,
-            <a href="/tag/cisuc.html" style="background-color: lightseagreen ">CISUC</a>
+            <a href="/tag/cisuc.html" style="background-color: lightgreen ">CISUC</a>
                 ,
-            <a href="/tag/hugo-goncalo-oliveira.html" style="background-color: lightblue ">Hugo Gonçalo Oliveira</a>
+            <a href="/tag/hugo-goncalo-oliveira.html" style="background-color: lightyellow ">Hugo Gonçalo Oliveira</a>
                 ,
-            <a href="/tag/humour-generation.html" style="background-color: lightcyan ">Humour Generation</a>
+            <a href="/tag/humour-generation.html" style="background-color: lightblue ">Humour Generation</a>
                 ,
-            <a href="/tag/clips.html" style="background-color: lightyellow ">CLiPS</a>
+            <a href="/tag/clips.html" style="background-color: lightseagreen ">CLiPS</a>
                 ,
             <a href="/tag/emrg.html" style="background-color: lightyellow ">EMRG</a>
                 ,
-            <a href="/tag/acdc.html" style="background-color: lightcyan ">ACDC</a>
+            <a href="/tag/acdc.html" style="background-color: lightyellow ">ACDC</a>
                 ,
             <a href="/tag/hildesheim.html" style="background-color: lightyellow ">Hildesheim</a>
                 ,
             <a href="/tag/johannes-schaefer.html" style="background-color:  ">Johannes Schaefer</a>
                 ,
-            <a href="/tag/nlg.html" style="background-color: lightyellow ">NLG</a>
+            <a href="/tag/nlg.html" style="background-color: lightseagreen ">NLG</a>
                 ,
-            <a href="/tag/ai-ethics.html" style="background-color: aqua ">AI & ETHICS</a>
+            <a href="/tag/ai-ethics.html" style="background-color: lightyellow ">AI & ETHICS</a>
                 ,
             <a href="/tag/the-internet-of-things.html" style="background-color: lightcoral ">The Internet of Things</a>
                 ,
             <a href="/tag/asibot.html" style="background-color: lightyellow ">Asibot</a>
                 ,
-            <a href="/tag/language-generation.html" style="background-color: lightyellow ">Language Generation</a>
+            <a href="/tag/language-generation.html" style="background-color: aqua ">Language Generation</a>
                 ,
-            <a href="/tag/conference.html" style="background-color: lightpink ">Conference</a>
+            <a href="/tag/conference.html" style="background-color: lightyellow ">Conference</a>
                 ,
-            <a href="/tag/workshop.html" style="background-color: lightskyblue ">Workshop</a>
+            <a href="/tag/workshop.html" style="background-color: lightcoral ">Workshop</a>
                 ,
-            <a href="/tag/invited-talk.html" style="background-color: lightgreen ">Invited Talk</a>
+            <a href="/tag/invited-talk.html" style="background-color: lightyellow ">Invited Talk</a>
                 ,
             <a href="/tag/language-generation.html" style="background-color:  ">Language Generation</a>
                 ,
-            <a href="/tag/dutch-book-week.html" style="background-color: lightpink ">Dutch book week</a>
+            <a href="/tag/dutch-book-week.html" style="background-color: lightcyan ">Dutch book week</a>
                 ,
-            <a href="/tag/nederland-leest.html" style="background-color: lightblue ">Nederland Leest</a>
+            <a href="/tag/nederland-leest.html" style="background-color: lightyellow ">Nederland Leest</a>
                 ,
-            <a href="/tag/sci-fi.html" style="background-color: lightcyan ">Sci-fi</a>
+            <a href="/tag/sci-fi.html" style="background-color: lightcoral ">Sci-fi</a>
                 ,
-            <a href="/tag/ronald-giphart.html" style="background-color: lightblue ">Ronald Giphart</a>
+            <a href="/tag/ronald-giphart.html" style="background-color: lightgreen ">Ronald Giphart</a>
                 ,
-            <a href="/tag/neural-language-generation.html" style="background-color: lightskyblue ">Neural Language Generation</a>
+            <a href="/tag/neural-language-generation.html" style="background-color: lightcoral ">Neural Language Generation</a>
                 ,
-            <a href="/tag/enrique-manjavacas.html" style="background-color: lightcyan ">Enrique Manjavacas</a>
+            <a href="/tag/enrique-manjavacas.html" style="background-color: lightskyblue ">Enrique Manjavacas</a>
                 ,
-            <a href="/tag/mike-kestemont.html" style="background-color: lightseagreen ">Mike Kestemont</a>
+            <a href="/tag/mike-kestemont.html" style="background-color: lightcoral ">Mike Kestemont</a>
                 ,
-            <a href="/tag/folgert-karsdorp.html" style="background-color: lightyellow ">Folgert Karsdorp</a>
+            <a href="/tag/folgert-karsdorp.html" style="background-color: lightseagreen ">Folgert Karsdorp</a>
                 ,
-            <a href="/tag/fwo.html" style="background-color: lightcoral ">FWO</a>
+            <a href="/tag/fwo.html" style="background-color: lightyellow ">FWO</a>
                 ,
-            <a href="/tag/grants.html" style="background-color: lightgreen ">Grants</a>
+            <a href="/tag/grants.html" style="background-color: lightyellow ">Grants</a>
                 ,
-            <a href="/tag/phd.html" style="background-color: lightblue ">PhD</a>
+            <a href="/tag/phd.html" style="background-color: lightgreen ">PhD</a>
                 ,
-            <a href="/tag/2017.html" style="background-color: lightcyan ">'2017</a>
+            <a href="/tag/2017.html" style="background-color: lightblue ">'2017</a>
                 ,
             <a href="/tag/inlg.html" style="background-color: lightseagreen ">inlg</a>
                 ,
             <a href="/tag/nlg.html" style="background-color:  ">nlg</a>
                 ,
-            <a href="/tag/santiago-di-compestela.html" style="background-color: lightcoral ">santiago di compestela</a>
+            <a href="/tag/santiago-di-compestela.html" style="background-color: lightgreen ">santiago di compestela</a>
                 ,
-            <a href="/tag/workshop-committee.html" style="background-color: lightcyan ">workshop committee'</a>
+            <a href="/tag/workshop-committee.html" style="background-color: aqua ">workshop committee'</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
@@ -668,7 +676,7 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/ai-stories.html" style="background-color: lightgreen ">AI stories</a>
+            <a href="/tag/ai-stories.html" style="background-color: lightseagreen ">AI stories</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">conference</a>
                 ]
@@ -682,15 +690,15 @@ Youâ€™ll Always Be My # 1 at INFLIGHT ARI, Hobart (AUS) 2012.</p>
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/aberdeen.html" style="background-color: lightcoral ">aberdeen</a>
+            <a href="/tag/aberdeen.html" style="background-color: lightyellow ">aberdeen</a>
                 ,
-            <a href="/tag/artist-talk.html" style="background-color: lightpink ">Artist Talk</a>
+            <a href="/tag/artist-talk.html" style="background-color: lightyellow ">Artist Talk</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/grays-school-of-art.html" style="background-color: lightseagreen ">grays school of art</a>
+            <a href="/tag/grays-school-of-art.html" style="background-color: lightcyan ">grays school of art</a>
                 ,
-            <a href="/tag/resources-in-art-making.html" style="background-color: lightyellow ">resources in art making</a>
+            <a href="/tag/resources-in-art-making.html" style="background-color: lightcoral ">resources in art making</a>
                 ]
   </ul>
 </div>

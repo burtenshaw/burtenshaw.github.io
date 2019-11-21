@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css"/> 
+
+
+<script>
+        $(document).ready(function() {
+             $('#tipue_search_input').tipuesearch({
+                  'mode': 'json',
+                  'contentLocation': 'tipuesearch_content.json'
+             });
+        });
+    </script>
+
+
+
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 
 <head>
@@ -27,6 +44,7 @@
     <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
 
 
@@ -41,24 +59,14 @@
 
         <div class="row">
             <div class="col-sm-12">
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/">Burtenshaw</a> 
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="pages/more_than_work.html">MORE_THAN_WORK<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="pages/right_now.html">RIGHT_NOW<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="pages/contact.html">CONTACT<span class="sr-only">(current)</span></a>
-        </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <form action="/">
+    <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+    <div style="clear: both;"></div>
+</form>
+
+ <div id="tipue_search_content"></div>
 </nav>            </div>
         </div>
 
@@ -92,11 +100,11 @@
 <div class="tags-list">
 <span class="label label-default tags">Tags</span>
         [
-	<a href="/tag/active-project.html" style="background-color: lightblue ">'active project</a>
+	<a href="/tag/active-project.html" style="background-color: lightcyan ">'active project</a>
         ,
-	<a href="/tag/open-to-participation.html" style="background-color: lightyellow ">open to participation</a>
+	<a href="/tag/open-to-participation.html" style="background-color: aqua ">open to participation</a>
         ,
-	<a href="/tag/waste.html" style="background-color: lightyellow ">waste'</a>
+	<a href="/tag/waste.html" style="background-color: lightblue ">waste'</a>
         ]
 </div>    
 </footer><!-- /.post-info -->                    </div>
@@ -142,15 +150,15 @@
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
-            <a href="/tag/isabelle-sully.html" style="background-color: lightgreen ">Isabelle Sully</a>
+            <a href="/tag/isabelle-sully.html" style="background-color: lightpink ">Isabelle Sully</a>
                 ,
-            <a href="/tag/publishing.html" style="background-color: lightblue ">Publishing</a>
+            <a href="/tag/publishing.html" style="background-color: aqua ">Publishing</a>
                 ,
             <a href="/tag/sarah-jones.html" style="background-color:  ">Sarah Jones</a>
                 ,
-            <a href="/tag/utrecht.html" style="background-color: lightyellow ">Utrecht</a>
+            <a href="/tag/utrecht.html" style="background-color: lightcyan ">Utrecht</a>
                 ,
-            <a href="/tag/werkplaats.html" style="background-color: lightcoral ">Werkplaats</a>
+            <a href="/tag/werkplaats.html" style="background-color: lightblue ">Werkplaats</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">'Dutch art Institute</a>
                 ,
@@ -160,9 +168,9 @@
                 ,
             <a href="/tag/sarah-jones.html" style="background-color:  ">Sarah Jones</a>
                 ,
-            <a href="/tag/taak.html" style="background-color: lightyellow ">TAAK</a>
+            <a href="/tag/taak.html" style="background-color: lightseagreen ">TAAK</a>
                 ,
-            <a href="/tag/texas.html" style="background-color: lightyellow ">Texas'</a>
+            <a href="/tag/texas.html" style="background-color: lightskyblue ">Texas'</a>
                 ,
             <a href="/tag/amir-avraham.html" style="background-color:  ">Amir Avraham</a>
                 ,
@@ -172,19 +180,19 @@
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/sarah-jones-isabelle-sully.html" style="background-color: lightcoral ">Sarah Jones. Isabelle Sully</a>
+            <a href="/tag/sarah-jones-isabelle-sully.html" style="background-color: lightyellow ">Sarah Jones. Isabelle Sully</a>
                 ,
             <a href="/tag/utrecht.html" style="background-color:  ">Utrecht</a>
                 ,
-            <a href="/tag/werkplaats-typografie.html" style="background-color: lightyellow ">Werkplaats typografie</a>
+            <a href="/tag/werkplaats-typografie.html" style="background-color: aqua ">Werkplaats typografie</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/active-project.html" style="background-color: lightblue ">'active project</a>
+            <a href="/tag/active-project.html" style="background-color: lightcyan ">'active project</a>
                 ,
-            <a href="/tag/open-to-participation.html" style="background-color: lightyellow ">open to participation</a>
+            <a href="/tag/open-to-participation.html" style="background-color: aqua ">open to participation</a>
                 ,
-            <a href="/tag/waste.html" style="background-color: lightyellow ">waste'</a>
+            <a href="/tag/waste.html" style="background-color: lightblue ">waste'</a>
                 ,
             <a href="/tag/granite.html" style="background-color: lightyellow ">'granite</a>
                 ,
@@ -194,7 +202,7 @@
                 ,
             <a href="/tag/scotland.html" style="background-color:  ">scotland</a>
                 ,
-            <a href="/tag/scottish-sculpture-workshop.html" style="background-color: lightblue ">scottish sculpture workshop'</a>
+            <a href="/tag/scottish-sculpture-workshop.html" style="background-color: lightyellow ">scottish sculpture workshop'</a>
                 ,
             <a href="/tag/performance.html" style="background-color:  ">'performance</a>
                 ,
@@ -202,9 +210,9 @@
                 ,
             <a href="/tag/sculpture.html" style="background-color:  ">sculpture'</a>
                 ,
-            <a href="/tag/critical-forum.html" style="background-color: lightpink ">'critical forum</a>
+            <a href="/tag/critical-forum.html" style="background-color: lightyellow ">'critical forum</a>
                 ,
-            <a href="/tag/discourse.html" style="background-color: lightcoral ">discourse</a>
+            <a href="/tag/discourse.html" style="background-color: lightseagreen ">discourse</a>
                 ,
             <a href="/tag/scotland.html" style="background-color:  ">scotland</a>
                 ,
@@ -220,19 +228,19 @@
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/art.html" style="background-color: lightcoral ">Art</a>
+            <a href="/tag/art.html" style="background-color: lightcyan ">Art</a>
                 ,
             <a href="/tag/renee-ridgway.html" style="background-color: lightcyan ">Renée Ridgway</a>
                 ,
-            <a href="/tag/ai.html" style="background-color: lightcoral ">AI</a>
+            <a href="/tag/ai.html" style="background-color: lightyellow ">AI</a>
                 ,
-            <a href="/tag/dialogue-systems.html" style="background-color: aqua ">Dialogue Systems</a>
+            <a href="/tag/dialogue-systems.html" style="background-color: lightblue ">Dialogue Systems</a>
                 ,
-            <a href="/tag/bochum.html" style="background-color: lightyellow ">Bochum</a>
+            <a href="/tag/bochum.html" style="background-color: aqua ">Bochum</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/antwerp.html" style="background-color: lightcyan ">antwerp</a>
+            <a href="/tag/antwerp.html" style="background-color: lightyellow ">antwerp</a>
                 ,
             <a href="/tag/research-grant.html" style="background-color: aqua ">research grant</a>
                 ,
@@ -240,71 +248,71 @@
                 ,
             <a href="/tag/nlg.html" style="background-color:  ">NLG</a>
                 ,
-            <a href="/tag/narratives.html" style="background-color: lightpink ">Narratives</a>
+            <a href="/tag/narratives.html" style="background-color: lightgreen ">Narratives</a>
                 ,
-            <a href="/tag/2016.html" style="background-color: lightseagreen ">'2016</a>
+            <a href="/tag/2016.html" style="background-color: aqua ">'2016</a>
                 ,
-            <a href="/tag/arnhem.html" style="background-color: lightseagreen ">Arnhem</a>
+            <a href="/tag/arnhem.html" style="background-color: aqua ">Arnhem</a>
                 ,
             <a href="/tag/bassam-el-baroni.html" style="background-color: lightyellow ">Bassam el Baroni</a>
                 ,
-            <a href="/tag/dai.html" style="background-color: lightcyan ">DAI</a>
+            <a href="/tag/dai.html" style="background-color: lightseagreen ">DAI</a>
                 ,
             <a href="/tag/prometheanism.html" style="background-color: lightyellow ">Prometheanism'</a>
                 ,
-            <a href="/tag/2015.html" style="background-color: lightpink ">2015</a>
+            <a href="/tag/2015.html" style="background-color: lightgreen ">2015</a>
                 ,
-            <a href="/tag/affect-theory.html" style="background-color: lightgreen ">affect theory</a>
+            <a href="/tag/affect-theory.html" style="background-color: lightpink ">affect theory</a>
                 ,
-            <a href="/tag/did-you-feel-it.html" style="background-color: lightcoral ">Did you feel it?</a>
+            <a href="/tag/did-you-feel-it.html" style="background-color: lightpink ">Did you feel it?</a>
                 ,
-            <a href="/tag/dutch-art-institute.html" style="background-color: lightcoral ">Dutch art Institute</a>
+            <a href="/tag/dutch-art-institute.html" style="background-color: lightyellow ">Dutch art Institute</a>
                 ,
-            <a href="/tag/erica-scourti.html" style="background-color: lightcyan ">Erica Scourti</a>
+            <a href="/tag/erica-scourti.html" style="background-color: lightblue ">Erica Scourti</a>
                 ,
-            <a href="/tag/mark-fisher.html" style="background-color: lightyellow ">Mark Fisher</a>
+            <a href="/tag/mark-fisher.html" style="background-color: lightcyan ">Mark Fisher</a>
                 ,
             <a href="/tag/mercedes-bunz.html" style="background-color: lightyellow ">Mercedes Bunz</a>
                 ,
-            <a href="/tag/nishant-shah.html" style="background-color: lightyellow ">Nishant Shah</a>
+            <a href="/tag/nishant-shah.html" style="background-color: lightgreen ">Nishant Shah</a>
                 ,
-            <a href="/tag/open.html" style="background-color: lightcoral ">Open!</a>
+            <a href="/tag/open.html" style="background-color: lightyellow ">Open!</a>
                 ,
-            <a href="/tag/symposium.html" style="background-color: lightskyblue ">symposium</a>
+            <a href="/tag/symposium.html" style="background-color: lightyellow ">symposium</a>
                 ,
             <a href="/tag/veridiana-zuria.html" style="background-color: lightyellow ">Veridiana Zuria</a>
                 ,
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/apple-watch.html" style="background-color: lightyellow ">Apple watch</a>
+            <a href="/tag/apple-watch.html" style="background-color: lightblue ">Apple watch</a>
                 ,
-            <a href="/tag/coop-academy.html" style="background-color: lightpink ">Coop Academy</a>
+            <a href="/tag/coop-academy.html" style="background-color: lightyellow ">Coop Academy</a>
                 ,
             <a href="/tag/did-you-feel-it.html" style="background-color:  ">Did you feel it?</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
-            <a href="/tag/exmachina.html" style="background-color: lightcoral ">exmachina</a>
+            <a href="/tag/exmachina.html" style="background-color: lightseagreen ">exmachina</a>
                 ,
-            <a href="/tag/nike-run.html" style="background-color: lightseagreen ">Nike run</a>
+            <a href="/tag/nike-run.html" style="background-color: lightblue ">Nike run</a>
                 ,
             <a href="/tag/open.html" style="background-color:  ">Open!</a>
                 ,
-            <a href="/tag/the-call-centre.html" style="background-color: lightcoral ">The Call Centre</a>
+            <a href="/tag/the-call-centre.html" style="background-color: lightcyan ">The Call Centre</a>
                 ,
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/alex-jeronymides-norie.html" style="background-color: lightgreen ">Alex Jeronymides-Norie</a>
+            <a href="/tag/alex-jeronymides-norie.html" style="background-color: lightyellow ">Alex Jeronymides-Norie</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/dai-final-show.html" style="background-color: lightpink ">DAI-final-show</a>
+            <a href="/tag/dai-final-show.html" style="background-color: lightcoral ">DAI-final-show</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
             <a href="/tag/nike-run.html" style="background-color:  ">Nike run</a>
                 ,
-            <a href="/tag/showroom-arnhem.html" style="background-color: lightcyan ">Showroom Arnhem</a>
+            <a href="/tag/showroom-arnhem.html" style="background-color: lightseagreen ">Showroom Arnhem</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
@@ -316,7 +324,7 @@
                 ,
             <a href="/tag/welcome-to-econotopia.html" style="background-color:  ">Welcome to econotopia</a>
                 ,
-            <a href="/tag/california-college-of-art.html" style="background-color: aqua ">California College of Art</a>
+            <a href="/tag/california-college-of-art.html" style="background-color: lightyellow ">California College of Art</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
@@ -332,21 +340,21 @@
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured'</a>
                 ,
-            <a href="/tag/alt.html" style="background-color: lightcoral ">'alt</a>
+            <a href="/tag/alt.html" style="background-color: lightcyan ">'alt</a>
                 ,
             <a href="/tag/amsterdam.html" style="background-color:  ">amsterdam</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/new-world-academy.html" style="background-color: lightyellow ">new world academy'</a>
+            <a href="/tag/new-world-academy.html" style="background-color: lightseagreen ">new world academy'</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
             <a href="/tag/catalonia-spain.html" style="background-color: lightpink ">'catalonia. spain</a>
                 ,
-            <a href="/tag/cercca.html" style="background-color: lightcoral ">cercca</a>
+            <a href="/tag/cercca.html" style="background-color: lightgreen ">cercca</a>
                 ,
-            <a href="/tag/el-pla-de-manlleu.html" style="background-color: lightskyblue ">el pla de manlleu'</a>
+            <a href="/tag/el-pla-de-manlleu.html" style="background-color: lightyellow ">el pla de manlleu'</a>
                 ]
   </ul>
 </div>
@@ -362,25 +370,25 @@
                 ,
             <a href="/tag/damanhur.html" style="background-color: lightseagreen ">Damanhur</a>
                 ,
-            <a href="/tag/edinburgh.html" style="background-color: lightyellow ">Edinburgh</a>
+            <a href="/tag/edinburgh.html" style="background-color: lightcoral ">Edinburgh</a>
                 ,
-            <a href="/tag/edinburgh-science-festival.html" style="background-color: lightyellow ">Edinburgh Science Festival</a>
+            <a href="/tag/edinburgh-science-festival.html" style="background-color: lightskyblue ">Edinburgh Science Festival</a>
                 ,
             <a href="/tag/music-of-the-plants.html" style="background-color: lightyellow ">Music of the plants</a>
                 ,
             <a href="/tag/oliver-jennings.html" style="background-color: aqua ">Oliver Jennings</a>
                 ,
-            <a href="/tag/sarah-jones.html" style="background-color: lightgreen ">Sarah Jones</a>
+            <a href="/tag/sarah-jones.html" style="background-color: lightyellow ">Sarah Jones</a>
                 ,
-            <a href="/tag/summerhall.html" style="background-color: lightcyan ">Summerhall</a>
+            <a href="/tag/summerhall.html" style="background-color: lightyellow ">Summerhall</a>
                 ,
-            <a href="/tag/2014.html" style="background-color: lightcyan ">2014</a>
+            <a href="/tag/2014.html" style="background-color: lightseagreen ">2014</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/borders.html" style="background-color: lightcyan ">Borders</a>
+            <a href="/tag/borders.html" style="background-color: lightgreen ">Borders</a>
                 ,
-            <a href="/tag/curating.html" style="background-color: lightseagreen ">Curating</a>
+            <a href="/tag/curating.html" style="background-color: lightpink ">Curating</a>
                 ,
             <a href="/tag/dai.html" style="background-color:  ">DAI</a>
                 ,
@@ -388,41 +396,41 @@
                 ,
             <a href="/tag/julieta-aguinaco.html" style="background-color:  ">Julieta Aguinaco</a>
                 ,
-            <a href="/tag/marfa.html" style="background-color: lightcoral ">Marfa</a>
+            <a href="/tag/marfa.html" style="background-color: lightseagreen ">Marfa</a>
                 ,
-            <a href="/tag/mexico-city.html" style="background-color: lightyellow ">mexico city</a>
+            <a href="/tag/mexico-city.html" style="background-color: aqua ">mexico city</a>
                 ,
             <a href="/tag/sarah-demoen.html" style="background-color:  ">Sarah Demoen</a>
                 ,
             <a href="/tag/welcome-to-econotopia.html" style="background-color: lightyellow ">Welcome to econotopia</a>
                 ,
-            <a href="/tag/cooper-gallery-duncan-of-jordanstone-college-of-art-amp.html" style="background-color: lightseagreen ">Cooper Gallery, Duncan of Jordanstone College of Art &amp</a>
+            <a href="/tag/cooper-gallery-duncan-of-jordanstone-college-of-art-amp.html" style="background-color: lightcoral ">Cooper Gallery, Duncan of Jordanstone College of Art &amp</a>
                 ,
-            <a href="/tag/design-dundee-featured-generation-25-holly-knox-yeoman-jamming-sessions-writing-residency.html" style="background-color: lightyellow ">Design, dundee, featured, Generation 25, Holly Knox Yeoman, Jamming Sessions, Writing Residency</a>
+            <a href="/tag/design-dundee-featured-generation-25-holly-knox-yeoman-jamming-sessions-writing-residency.html" style="background-color: lightskyblue ">Design, dundee, featured, Generation 25, Holly Knox Yeoman, Jamming Sessions, Writing Residency</a>
                 ,
-            <a href="/tag/arbroath.html" style="background-color: lightyellow ">Arbroath</a>
+            <a href="/tag/arbroath.html" style="background-color: aqua ">Arbroath</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">Conference</a>
                 ,
             <a href="/tag/curating.html" style="background-color:  ">Curating</a>
                 ,
-            <a href="/tag/event-based-curating.html" style="background-color: lightyellow ">event based curating</a>
+            <a href="/tag/event-based-curating.html" style="background-color: lightcoral ">event based curating</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/fieldworks.html" style="background-color: lightblue ">Fieldworks</a>
+            <a href="/tag/fieldworks.html" style="background-color: lightpink ">Fieldworks</a>
                 ,
-            <a href="/tag/hospitalfields.html" style="background-color: lightyellow ">Hospitalfields</a>
+            <a href="/tag/hospitalfields.html" style="background-color: lightblue ">Hospitalfields</a>
                 ,
             <a href="/tag/betsy-pool.html" style="background-color: lightskyblue ">Betsy Pool</a>
                 ,
-            <a href="/tag/chelsea-flower-show.html" style="background-color: lightyellow ">Chelsea Flower Show</a>
+            <a href="/tag/chelsea-flower-show.html" style="background-color: lightcyan ">Chelsea Flower Show</a>
                 ,
             <a href="/tag/damanhur.html" style="background-color:  ">Damanhur</a>
                 ,
-            <a href="/tag/devodama.html" style="background-color: lightyellow ">Devodama</a>
+            <a href="/tag/devodama.html" style="background-color: lightseagreen ">Devodama</a>
                 ,
-            <a href="/tag/italy.html" style="background-color: lightskyblue ">Italy</a>
+            <a href="/tag/italy.html" style="background-color: lightyellow ">Italy</a>
                 ,
             <a href="/tag/london.html" style="background-color:  ">london</a>
                 ,
@@ -430,23 +438,23 @@
                 ,
             <a href="/tag/oliver-jennings.html" style="background-color:  ">Oliver Jennings</a>
                 ,
-            <a href="/tag/royal-horticultural-society.html" style="background-color: lightseagreen ">Royal Horticultural Society</a>
+            <a href="/tag/royal-horticultural-society.html" style="background-color: lightgreen ">Royal Horticultural Society</a>
                 ,
-            <a href="/tag/the-cave-studios.html" style="background-color: lightyellow ">The Cave Studios</a>
+            <a href="/tag/the-cave-studios.html" style="background-color: aqua ">The Cave Studios</a>
                 ,
-            <a href="/tag/deptford.html" style="background-color: lightseagreen ">'deptford</a>
+            <a href="/tag/deptford.html" style="background-color: lightyellow ">'deptford</a>
                 ,
-            <a href="/tag/monument.html" style="background-color: lightyellow ">monument</a>
+            <a href="/tag/monument.html" style="background-color: aqua ">monument</a>
                 ,
-            <a href="/tag/performance.html" style="background-color: aqua ">performance</a>
+            <a href="/tag/performance.html" style="background-color: lightgreen ">performance</a>
                 ,
-            <a href="/tag/tessfaria.html" style="background-color: lightcoral ">tessfaria'</a>
+            <a href="/tag/tessfaria.html" style="background-color: lightblue ">tessfaria'</a>
                 ,
-            <a href="/tag/dundee.html" style="background-color: lightyellow ">dundee</a>
+            <a href="/tag/dundee.html" style="background-color: lightblue ">dundee</a>
                 ,
             <a href="/tag/generator.html" style="background-color: lightseagreen ">generator</a>
                 ,
-            <a href="/tag/participation.html" style="background-color: aqua ">participation</a>
+            <a href="/tag/participation.html" style="background-color: lightyellow ">participation</a>
                 ,
             <a href="/tag/scotland.html" style="background-color: lightyellow ">scotland</a>
                 ]
@@ -464,31 +472,31 @@
                 ,
             <a href="/tag/london.html" style="background-color: lightyellow ">london</a>
                 ,
-            <a href="/tag/lucy-tomlins.html" style="background-color: lightgreen ">lucy tomlins</a>
+            <a href="/tag/lucy-tomlins.html" style="background-color: lightyellow ">lucy tomlins</a>
                 ,
-            <a href="/tag/marsha-bradfield.html" style="background-color: lightyellow ">marsha bradfield</a>
+            <a href="/tag/marsha-bradfield.html" style="background-color: lightblue ">marsha bradfield</a>
                 ,
-            <a href="/tag/sculpture.html" style="background-color: lightcoral ">sculpture</a>
+            <a href="/tag/sculpture.html" style="background-color: lightyellow ">sculpture</a>
                 ,
-            <a href="/tag/web-design.html" style="background-color: lightyellow ">web design'</a>
+            <a href="/tag/web-design.html" style="background-color: lightblue ">web design'</a>
                 ,
-            <a href="/tag/aberdeenshire.html" style="background-color: lightyellow ">aberdeenshire</a>
+            <a href="/tag/aberdeenshire.html" style="background-color: lightpink ">aberdeenshire</a>
                 ,
-            <a href="/tag/craft.html" style="background-color: lightcoral ">craft</a>
+            <a href="/tag/craft.html" style="background-color: lightyellow ">craft</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/heather-maslen.html" style="background-color: lightcoral ">heather maslen</a>
+            <a href="/tag/heather-maslen.html" style="background-color: lightskyblue ">heather maslen</a>
                 ,
             <a href="/tag/nuno-sacramento.html" style="background-color: lightyellow ">nuno sacramento</a>
                 ,
-            <a href="/tag/sera-irvine.html" style="background-color: lightpink ">sera irvine</a>
+            <a href="/tag/sera-irvine.html" style="background-color: lightyellow ">sera irvine</a>
                 ,
-            <a href="/tag/skill.html" style="background-color: lightyellow ">skill</a>
+            <a href="/tag/skill.html" style="background-color: lightcyan ">skill</a>
                 ,
-            <a href="/tag/the-scottish-sculpture-workshop.html" style="background-color: aqua ">the scottish sculpture workshop</a>
+            <a href="/tag/the-scottish-sculpture-workshop.html" style="background-color: lightyellow ">the scottish sculpture workshop</a>
                 ,
-            <a href="/tag/trades.html" style="background-color: lightpink ">trades</a>
+            <a href="/tag/trades.html" style="background-color: aqua ">trades</a>
                 ,
             <a href="/tag/web-design.html" style="background-color:  ">web design</a>
                 ]
@@ -504,19 +512,19 @@
                 [
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/benjamin-serrousi.html" style="background-color: lightblue ">Benjamin Serrousi</a>
+            <a href="/tag/benjamin-serrousi.html" style="background-color: lightpink ">Benjamin Serrousi</a>
                 ,
             <a href="/tag/featured.html" style="background-color: lightgreen ">featured</a>
                 ,
-            <a href="/tag/grant-watson.html" style="background-color: lightgreen ">Grant Watson</a>
+            <a href="/tag/grant-watson.html" style="background-color: lightyellow ">Grant Watson</a>
                 ,
-            <a href="/tag/julieta-aguinaco.html" style="background-color: lightpink ">Julieta Aguinaco</a>
+            <a href="/tag/julieta-aguinaco.html" style="background-color: lightgreen ">Julieta Aguinaco</a>
                 ,
             <a href="/tag/paula-cheiffi.html" style="background-color: lightyellow ">Paula Cheiffi</a>
                 ,
-            <a href="/tag/peter-pal-pelbart.html" style="background-color: lightcyan ">Peter Pál Pelbart</a>
+            <a href="/tag/peter-pal-pelbart.html" style="background-color: aqua ">Peter Pál Pelbart</a>
                 ,
-            <a href="/tag/sarah-demoen.html" style="background-color: lightyellow ">Sarah Demoen</a>
+            <a href="/tag/sarah-demoen.html" style="background-color: lightcyan ">Sarah Demoen</a>
                 ,
             <a href="/tag/suely-rolnik.html" style="background-color: lightyellow ">Suely Rolnik</a>
                 ,
@@ -532,85 +540,85 @@
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/nlp.html" style="background-color: lightyellow ">NLP</a>
+            <a href="/tag/nlp.html" style="background-color: lightcyan ">NLP</a>
                 ,
-            <a href="/tag/offence-detection.html" style="background-color: lightpink ">Offence Detection</a>
+            <a href="/tag/offence-detection.html" style="background-color: lightyellow ">Offence Detection</a>
                 ,
-            <a href="/tag/toxicity.html" style="background-color: lightyellow ">Toxicity</a>
+            <a href="/tag/toxicity.html" style="background-color: lightskyblue ">Toxicity</a>
                 ,
-            <a href="/tag/johannes-schaefer.html" style="background-color: lightblue ">Johannes Schaefer</a>
+            <a href="/tag/johannes-schaefer.html" style="background-color: lightpink ">Johannes Schaefer</a>
                 ,
-            <a href="/tag/the-university-of-coimbra.html" style="background-color: lightgreen ">The University of Coimbra</a>
+            <a href="/tag/the-university-of-coimbra.html" style="background-color: lightcoral ">The University of Coimbra</a>
                 ,
-            <a href="/tag/cisuc.html" style="background-color: lightblue ">CISUC</a>
+            <a href="/tag/cisuc.html" style="background-color: lightyellow ">CISUC</a>
                 ,
-            <a href="/tag/hugo-goncalo-oliveira.html" style="background-color: lightseagreen ">Hugo Gonçalo Oliveira</a>
+            <a href="/tag/hugo-goncalo-oliveira.html" style="background-color: lightcyan ">Hugo Gonçalo Oliveira</a>
                 ,
             <a href="/tag/humour-generation.html" style="background-color: lightgreen ">Humour Generation</a>
                 ,
-            <a href="/tag/clips.html" style="background-color: lightyellow ">CLiPS</a>
+            <a href="/tag/clips.html" style="background-color: lightgreen ">CLiPS</a>
                 ,
-            <a href="/tag/emrg.html" style="background-color: lightcyan ">EMRG</a>
+            <a href="/tag/emrg.html" style="background-color: lightyellow ">EMRG</a>
                 ,
-            <a href="/tag/acdc.html" style="background-color: lightgreen ">ACDC</a>
+            <a href="/tag/acdc.html" style="background-color: aqua ">ACDC</a>
                 ,
-            <a href="/tag/hildesheim.html" style="background-color: lightcoral ">Hildesheim</a>
+            <a href="/tag/hildesheim.html" style="background-color: aqua ">Hildesheim</a>
                 ,
             <a href="/tag/johannes-schaefer.html" style="background-color:  ">Johannes Schaefer</a>
                 ,
-            <a href="/tag/nlg.html" style="background-color: lightgreen ">NLG</a>
+            <a href="/tag/nlg.html" style="background-color: lightyellow ">NLG</a>
                 ,
-            <a href="/tag/ai-ethics.html" style="background-color: lightblue ">AI & ETHICS</a>
+            <a href="/tag/ai-ethics.html" style="background-color: aqua ">AI & ETHICS</a>
                 ,
-            <a href="/tag/the-internet-of-things.html" style="background-color: lightcyan ">The Internet of Things</a>
+            <a href="/tag/the-internet-of-things.html" style="background-color: lightblue ">The Internet of Things</a>
                 ,
-            <a href="/tag/asibot.html" style="background-color: lightskyblue ">Asibot</a>
+            <a href="/tag/asibot.html" style="background-color: lightyellow ">Asibot</a>
                 ,
-            <a href="/tag/language-generation.html" style="background-color: aqua ">Language Generation</a>
+            <a href="/tag/language-generation.html" style="background-color: lightgreen ">Language Generation</a>
                 ,
             <a href="/tag/conference.html" style="background-color: lightyellow ">Conference</a>
                 ,
-            <a href="/tag/workshop.html" style="background-color: lightseagreen ">Workshop</a>
+            <a href="/tag/workshop.html" style="background-color: lightyellow ">Workshop</a>
                 ,
             <a href="/tag/invited-talk.html" style="background-color: lightyellow ">Invited Talk</a>
                 ,
             <a href="/tag/language-generation.html" style="background-color:  ">Language Generation</a>
                 ,
-            <a href="/tag/dutch-book-week.html" style="background-color: lightcoral ">Dutch book week</a>
+            <a href="/tag/dutch-book-week.html" style="background-color: lightyellow ">Dutch book week</a>
                 ,
-            <a href="/tag/nederland-leest.html" style="background-color: lightpink ">Nederland Leest</a>
+            <a href="/tag/nederland-leest.html" style="background-color: lightgreen ">Nederland Leest</a>
                 ,
             <a href="/tag/sci-fi.html" style="background-color: lightpink ">Sci-fi</a>
                 ,
-            <a href="/tag/ronald-giphart.html" style="background-color: lightcyan ">Ronald Giphart</a>
+            <a href="/tag/ronald-giphart.html" style="background-color: lightseagreen ">Ronald Giphart</a>
                 ,
-            <a href="/tag/neural-language-generation.html" style="background-color: lightskyblue ">Neural Language Generation</a>
+            <a href="/tag/neural-language-generation.html" style="background-color: lightyellow ">Neural Language Generation</a>
                 ,
-            <a href="/tag/enrique-manjavacas.html" style="background-color: lightyellow ">Enrique Manjavacas</a>
+            <a href="/tag/enrique-manjavacas.html" style="background-color: aqua ">Enrique Manjavacas</a>
                 ,
-            <a href="/tag/mike-kestemont.html" style="background-color: lightskyblue ">Mike Kestemont</a>
+            <a href="/tag/mike-kestemont.html" style="background-color: lightcyan ">Mike Kestemont</a>
                 ,
-            <a href="/tag/folgert-karsdorp.html" style="background-color: lightyellow ">Folgert Karsdorp</a>
+            <a href="/tag/folgert-karsdorp.html" style="background-color: aqua ">Folgert Karsdorp</a>
                 ,
             <a href="/tag/fwo.html" style="background-color: lightyellow ">FWO</a>
                 ,
-            <a href="/tag/grants.html" style="background-color: lightcoral ">Grants</a>
+            <a href="/tag/grants.html" style="background-color: lightblue ">Grants</a>
                 ,
-            <a href="/tag/phd.html" style="background-color: lightcyan ">PhD</a>
+            <a href="/tag/phd.html" style="background-color: lightyellow ">PhD</a>
                 ,
-            <a href="/tag/2017.html" style="background-color: lightblue ">'2017</a>
+            <a href="/tag/2017.html" style="background-color: lightskyblue ">'2017</a>
                 ,
-            <a href="/tag/inlg.html" style="background-color: lightyellow ">inlg</a>
+            <a href="/tag/inlg.html" style="background-color: lightcoral ">inlg</a>
                 ,
             <a href="/tag/nlg.html" style="background-color:  ">nlg</a>
                 ,
-            <a href="/tag/santiago-di-compestela.html" style="background-color: lightblue ">santiago di compestela</a>
+            <a href="/tag/santiago-di-compestela.html" style="background-color: lightyellow ">santiago di compestela</a>
                 ,
-            <a href="/tag/workshop-committee.html" style="background-color: lightpink ">workshop committee'</a>
+            <a href="/tag/workshop-committee.html" style="background-color: lightseagreen ">workshop committee'</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/atlanta.html" style="background-color: lightseagreen ">Atlanta</a>
+            <a href="/tag/atlanta.html" style="background-color: lightyellow ">Atlanta</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">conference</a>
                 ,
@@ -618,7 +626,7 @@
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/ai-stories.html" style="background-color: lightskyblue ">AI stories</a>
+            <a href="/tag/ai-stories.html" style="background-color: lightyellow ">AI stories</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">conference</a>
                 ]
@@ -634,13 +642,13 @@
                 [
             <a href="/tag/aberdeen.html" style="background-color: lightyellow ">aberdeen</a>
                 ,
-            <a href="/tag/artist-talk.html" style="background-color: lightblue ">Artist Talk</a>
+            <a href="/tag/artist-talk.html" style="background-color: lightgreen ">Artist Talk</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
             <a href="/tag/grays-school-of-art.html" style="background-color: lightyellow ">grays school of art</a>
                 ,
-            <a href="/tag/resources-in-art-making.html" style="background-color: lightcyan ">resources in art making</a>
+            <a href="/tag/resources-in-art-making.html" style="background-color: lightcoral ">resources in art making</a>
                 ]
   </ul>
 </div>

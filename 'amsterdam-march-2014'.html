@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css"/> 
+
+
+<script>
+        $(document).ready(function() {
+             $('#tipue_search_input').tipuesearch({
+                  'mode': 'json',
+                  'contentLocation': 'tipuesearch_content.json'
+             });
+        });
+    </script>
+
+
+
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 
 <head>
@@ -27,6 +44,7 @@
     <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
 
 
@@ -41,24 +59,14 @@
 
         <div class="row">
             <div class="col-sm-12">
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/">Burtenshaw</a> 
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="pages/more_than_work.html">MORE_THAN_WORK<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="pages/right_now.html">RIGHT_NOW<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="pages/contact.html">CONTACT<span class="sr-only">(current)</span></a>
-        </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <form action="/">
+    <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+    <div style="clear: both;"></div>
+</form>
+
+ <div id="tipue_search_content"></div>
 </nav>            </div>
         </div>
 
@@ -92,7 +100,7 @@
 <div class="tags-list">
 <span class="label label-default tags">Tags</span>
         [
-	<a href="/tag/amsterdam.html" style="background-color: lightyellow ">'amsterdam</a>
+	<a href="/tag/amsterdam.html" style="background-color: lightcoral ">'amsterdam</a>
         ,
 	<a href="/tag/featured.html" style="background-color:  ">featured'</a>
         ]
@@ -128,23 +136,23 @@ country, that I pass in and out of, a little better.</p>
                 [
             <a href="/tag/2014.html" style="background-color:  ">2014</a>
                 ,
-            <a href="/tag/amir-avraham.html" style="background-color: lightyellow ">Amir Avraham</a>
+            <a href="/tag/amir-avraham.html" style="background-color: aqua ">Amir Avraham</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/casco.html" style="background-color: lightcyan ">casco</a>
+            <a href="/tag/casco.html" style="background-color: lightcoral ">casco</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
-            <a href="/tag/isabelle-sully.html" style="background-color: lightcyan ">Isabelle Sully</a>
+            <a href="/tag/isabelle-sully.html" style="background-color: lightyellow ">Isabelle Sully</a>
                 ,
-            <a href="/tag/publishing.html" style="background-color: lightyellow ">Publishing</a>
+            <a href="/tag/publishing.html" style="background-color: lightseagreen ">Publishing</a>
                 ,
             <a href="/tag/sarah-jones.html" style="background-color:  ">Sarah Jones</a>
                 ,
-            <a href="/tag/utrecht.html" style="background-color: lightyellow ">Utrecht</a>
+            <a href="/tag/utrecht.html" style="background-color: lightgreen ">Utrecht</a>
                 ,
-            <a href="/tag/werkplaats.html" style="background-color: lightseagreen ">Werkplaats</a>
+            <a href="/tag/werkplaats.html" style="background-color: lightcyan ">Werkplaats</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">'Dutch art Institute</a>
                 ,
@@ -154,9 +162,9 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/sarah-jones.html" style="background-color:  ">Sarah Jones</a>
                 ,
-            <a href="/tag/taak.html" style="background-color: lightcoral ">TAAK</a>
+            <a href="/tag/taak.html" style="background-color: lightpink ">TAAK</a>
                 ,
-            <a href="/tag/texas.html" style="background-color: lightyellow ">Texas'</a>
+            <a href="/tag/texas.html" style="background-color: lightgreen ">Texas'</a>
                 ,
             <a href="/tag/amir-avraham.html" style="background-color:  ">Amir Avraham</a>
                 ,
@@ -166,7 +174,7 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/sarah-jones-isabelle-sully.html" style="background-color: lightyellow ">Sarah Jones. Isabelle Sully</a>
+            <a href="/tag/sarah-jones-isabelle-sully.html" style="background-color: lightseagreen ">Sarah Jones. Isabelle Sully</a>
                 ,
             <a href="/tag/utrecht.html" style="background-color:  ">Utrecht</a>
                 ,
@@ -174,21 +182,21 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/active-project.html" style="background-color: lightyellow ">'active project</a>
+            <a href="/tag/active-project.html" style="background-color: lightskyblue ">'active project</a>
                 ,
             <a href="/tag/open-to-participation.html" style="background-color: lightyellow ">open to participation</a>
                 ,
-            <a href="/tag/waste.html" style="background-color: lightcyan ">waste'</a>
+            <a href="/tag/waste.html" style="background-color: aqua ">waste'</a>
                 ,
-            <a href="/tag/granite.html" style="background-color: lightskyblue ">'granite</a>
+            <a href="/tag/granite.html" style="background-color: lightcoral ">'granite</a>
                 ,
-            <a href="/tag/neon-lighting.html" style="background-color: lightskyblue ">neon lighting</a>
+            <a href="/tag/neon-lighting.html" style="background-color: lightyellow ">neon lighting</a>
                 ,
-            <a href="/tag/pizza.html" style="background-color: lightseagreen ">pizza</a>
+            <a href="/tag/pizza.html" style="background-color: aqua ">pizza</a>
                 ,
             <a href="/tag/scotland.html" style="background-color:  ">scotland</a>
                 ,
-            <a href="/tag/scottish-sculpture-workshop.html" style="background-color: lightyellow ">scottish sculpture workshop'</a>
+            <a href="/tag/scottish-sculpture-workshop.html" style="background-color: lightcyan ">scottish sculpture workshop'</a>
                 ,
             <a href="/tag/performance.html" style="background-color:  ">'performance</a>
                 ,
@@ -196,7 +204,7 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/sculpture.html" style="background-color:  ">sculpture'</a>
                 ,
-            <a href="/tag/critical-forum.html" style="background-color: lightcoral ">'critical forum</a>
+            <a href="/tag/critical-forum.html" style="background-color: lightpink ">'critical forum</a>
                 ,
             <a href="/tag/discourse.html" style="background-color: lightyellow ">discourse</a>
                 ,
@@ -214,65 +222,65 @@ country, that I pass in and out of, a little better.</p>
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/art.html" style="background-color: aqua ">Art</a>
+            <a href="/tag/art.html" style="background-color: lightblue ">Art</a>
                 ,
-            <a href="/tag/renee-ridgway.html" style="background-color: lightskyblue ">Renée Ridgway</a>
+            <a href="/tag/renee-ridgway.html" style="background-color: aqua ">Renée Ridgway</a>
                 ,
             <a href="/tag/ai.html" style="background-color: lightyellow ">AI</a>
                 ,
-            <a href="/tag/dialogue-systems.html" style="background-color: lightyellow ">Dialogue Systems</a>
+            <a href="/tag/dialogue-systems.html" style="background-color: lightblue ">Dialogue Systems</a>
                 ,
-            <a href="/tag/bochum.html" style="background-color: lightyellow ">Bochum</a>
+            <a href="/tag/bochum.html" style="background-color: lightblue ">Bochum</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/antwerp.html" style="background-color: lightyellow ">antwerp</a>
+            <a href="/tag/antwerp.html" style="background-color: lightseagreen ">antwerp</a>
                 ,
-            <a href="/tag/research-grant.html" style="background-color: lightcoral ">research grant</a>
+            <a href="/tag/research-grant.html" style="background-color: aqua ">research grant</a>
                 ,
             <a href="/tag/nlp.html" style="background-color:  ">NLP</a>
                 ,
             <a href="/tag/nlg.html" style="background-color:  ">NLG</a>
                 ,
-            <a href="/tag/narratives.html" style="background-color: lightskyblue ">Narratives</a>
+            <a href="/tag/narratives.html" style="background-color: lightyellow ">Narratives</a>
                 ,
-            <a href="/tag/2016.html" style="background-color: lightyellow ">'2016</a>
+            <a href="/tag/2016.html" style="background-color: lightpink ">'2016</a>
                 ,
-            <a href="/tag/arnhem.html" style="background-color: lightyellow ">Arnhem</a>
+            <a href="/tag/arnhem.html" style="background-color: lightcoral ">Arnhem</a>
                 ,
             <a href="/tag/bassam-el-baroni.html" style="background-color: lightyellow ">Bassam el Baroni</a>
                 ,
-            <a href="/tag/dai.html" style="background-color: lightblue ">DAI</a>
+            <a href="/tag/dai.html" style="background-color: lightyellow ">DAI</a>
                 ,
-            <a href="/tag/prometheanism.html" style="background-color: lightskyblue ">Prometheanism'</a>
+            <a href="/tag/prometheanism.html" style="background-color: aqua ">Prometheanism'</a>
                 ,
             <a href="/tag/2015.html" style="background-color: lightyellow ">2015</a>
                 ,
-            <a href="/tag/affect-theory.html" style="background-color: lightskyblue ">affect theory</a>
+            <a href="/tag/affect-theory.html" style="background-color: lightcyan ">affect theory</a>
                 ,
-            <a href="/tag/did-you-feel-it.html" style="background-color: aqua ">Did you feel it?</a>
+            <a href="/tag/did-you-feel-it.html" style="background-color: lightpink ">Did you feel it?</a>
                 ,
-            <a href="/tag/dutch-art-institute.html" style="background-color: lightyellow ">Dutch art Institute</a>
+            <a href="/tag/dutch-art-institute.html" style="background-color: lightskyblue ">Dutch art Institute</a>
                 ,
-            <a href="/tag/erica-scourti.html" style="background-color: lightskyblue ">Erica Scourti</a>
+            <a href="/tag/erica-scourti.html" style="background-color: lightcoral ">Erica Scourti</a>
                 ,
             <a href="/tag/mark-fisher.html" style="background-color: lightyellow ">Mark Fisher</a>
                 ,
-            <a href="/tag/mercedes-bunz.html" style="background-color: lightgreen ">Mercedes Bunz</a>
+            <a href="/tag/mercedes-bunz.html" style="background-color: lightyellow ">Mercedes Bunz</a>
                 ,
-            <a href="/tag/nishant-shah.html" style="background-color: lightskyblue ">Nishant Shah</a>
+            <a href="/tag/nishant-shah.html" style="background-color: lightyellow ">Nishant Shah</a>
                 ,
             <a href="/tag/open.html" style="background-color: lightyellow ">Open!</a>
                 ,
-            <a href="/tag/symposium.html" style="background-color: lightskyblue ">symposium</a>
+            <a href="/tag/symposium.html" style="background-color: lightcyan ">symposium</a>
                 ,
-            <a href="/tag/veridiana-zuria.html" style="background-color: lightpink ">Veridiana Zuria</a>
+            <a href="/tag/veridiana-zuria.html" style="background-color: lightblue ">Veridiana Zuria</a>
                 ,
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/apple-watch.html" style="background-color: lightpink ">Apple watch</a>
+            <a href="/tag/apple-watch.html" style="background-color: lightyellow ">Apple watch</a>
                 ,
-            <a href="/tag/coop-academy.html" style="background-color: lightpink ">Coop Academy</a>
+            <a href="/tag/coop-academy.html" style="background-color: aqua ">Coop Academy</a>
                 ,
             <a href="/tag/did-you-feel-it.html" style="background-color:  ">Did you feel it?</a>
                 ,
@@ -284,15 +292,15 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/open.html" style="background-color:  ">Open!</a>
                 ,
-            <a href="/tag/the-call-centre.html" style="background-color: lightpink ">The Call Centre</a>
+            <a href="/tag/the-call-centre.html" style="background-color: lightblue ">The Call Centre</a>
                 ,
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/alex-jeronymides-norie.html" style="background-color: lightgreen ">Alex Jeronymides-Norie</a>
+            <a href="/tag/alex-jeronymides-norie.html" style="background-color: aqua ">Alex Jeronymides-Norie</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/dai-final-show.html" style="background-color: lightyellow ">DAI-final-show</a>
+            <a href="/tag/dai-final-show.html" style="background-color: lightgreen ">DAI-final-show</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
@@ -310,7 +318,7 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/welcome-to-econotopia.html" style="background-color:  ">Welcome to econotopia</a>
                 ,
-            <a href="/tag/california-college-of-art.html" style="background-color: lightpink ">California College of Art</a>
+            <a href="/tag/california-college-of-art.html" style="background-color: lightseagreen ">California College of Art</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
@@ -322,25 +330,25 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/welcome-to-econotopia.html" style="background-color:  ">Welcome to econotopia</a>
                 ,
-            <a href="/tag/amsterdam.html" style="background-color: lightyellow ">'amsterdam</a>
+            <a href="/tag/amsterdam.html" style="background-color: lightcoral ">'amsterdam</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured'</a>
                 ,
-            <a href="/tag/alt.html" style="background-color: lightskyblue ">'alt</a>
+            <a href="/tag/alt.html" style="background-color: aqua ">'alt</a>
                 ,
             <a href="/tag/amsterdam.html" style="background-color:  ">amsterdam</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/new-world-academy.html" style="background-color: aqua ">new world academy'</a>
+            <a href="/tag/new-world-academy.html" style="background-color: lightcoral ">new world academy'</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/catalonia-spain.html" style="background-color: lightcyan ">'catalonia. spain</a>
+            <a href="/tag/catalonia-spain.html" style="background-color: lightpink ">'catalonia. spain</a>
                 ,
-            <a href="/tag/cercca.html" style="background-color: aqua ">cercca</a>
+            <a href="/tag/cercca.html" style="background-color: lightseagreen ">cercca</a>
                 ,
-            <a href="/tag/el-pla-de-manlleu.html" style="background-color: lightcoral ">el pla de manlleu'</a>
+            <a href="/tag/el-pla-de-manlleu.html" style="background-color: lightgreen ">el pla de manlleu'</a>
                 ]
   </ul>
 </div>
@@ -354,27 +362,27 @@ country, that I pass in and out of, a little better.</p>
                 [
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/damanhur.html" style="background-color: lightseagreen ">Damanhur</a>
+            <a href="/tag/damanhur.html" style="background-color: lightyellow ">Damanhur</a>
                 ,
-            <a href="/tag/edinburgh.html" style="background-color: lightskyblue ">Edinburgh</a>
+            <a href="/tag/edinburgh.html" style="background-color: lightyellow ">Edinburgh</a>
                 ,
-            <a href="/tag/edinburgh-science-festival.html" style="background-color: lightpink ">Edinburgh Science Festival</a>
+            <a href="/tag/edinburgh-science-festival.html" style="background-color: aqua ">Edinburgh Science Festival</a>
                 ,
-            <a href="/tag/music-of-the-plants.html" style="background-color: lightyellow ">Music of the plants</a>
+            <a href="/tag/music-of-the-plants.html" style="background-color: lightcyan ">Music of the plants</a>
                 ,
-            <a href="/tag/oliver-jennings.html" style="background-color: lightblue ">Oliver Jennings</a>
+            <a href="/tag/oliver-jennings.html" style="background-color: lightyellow ">Oliver Jennings</a>
                 ,
             <a href="/tag/sarah-jones.html" style="background-color: lightyellow ">Sarah Jones</a>
                 ,
-            <a href="/tag/summerhall.html" style="background-color: lightyellow ">Summerhall</a>
+            <a href="/tag/summerhall.html" style="background-color: lightpink ">Summerhall</a>
                 ,
-            <a href="/tag/2014.html" style="background-color: lightblue ">2014</a>
+            <a href="/tag/2014.html" style="background-color: lightgreen ">2014</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/borders.html" style="background-color: lightblue ">Borders</a>
+            <a href="/tag/borders.html" style="background-color: lightcyan ">Borders</a>
                 ,
-            <a href="/tag/curating.html" style="background-color: lightseagreen ">Curating</a>
+            <a href="/tag/curating.html" style="background-color: lightyellow ">Curating</a>
                 ,
             <a href="/tag/dai.html" style="background-color:  ">DAI</a>
                 ,
@@ -382,9 +390,9 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/julieta-aguinaco.html" style="background-color:  ">Julieta Aguinaco</a>
                 ,
-            <a href="/tag/marfa.html" style="background-color: lightyellow ">Marfa</a>
+            <a href="/tag/marfa.html" style="background-color: lightgreen ">Marfa</a>
                 ,
-            <a href="/tag/mexico-city.html" style="background-color: lightcyan ">mexico city</a>
+            <a href="/tag/mexico-city.html" style="background-color: lightpink ">mexico city</a>
                 ,
             <a href="/tag/sarah-demoen.html" style="background-color:  ">Sarah Demoen</a>
                 ,
@@ -392,7 +400,7 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/cooper-gallery-duncan-of-jordanstone-college-of-art-amp.html" style="background-color: lightyellow ">Cooper Gallery, Duncan of Jordanstone College of Art &amp</a>
                 ,
-            <a href="/tag/design-dundee-featured-generation-25-holly-knox-yeoman-jamming-sessions-writing-residency.html" style="background-color: lightyellow ">Design, dundee, featured, Generation 25, Holly Knox Yeoman, Jamming Sessions, Writing Residency</a>
+            <a href="/tag/design-dundee-featured-generation-25-holly-knox-yeoman-jamming-sessions-writing-residency.html" style="background-color: lightpink ">Design, dundee, featured, Generation 25, Holly Knox Yeoman, Jamming Sessions, Writing Residency</a>
                 ,
             <a href="/tag/arbroath.html" style="background-color: lightyellow ">Arbroath</a>
                 ,
@@ -400,23 +408,23 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/curating.html" style="background-color:  ">Curating</a>
                 ,
-            <a href="/tag/event-based-curating.html" style="background-color: lightblue ">event based curating</a>
+            <a href="/tag/event-based-curating.html" style="background-color: lightseagreen ">event based curating</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/fieldworks.html" style="background-color: lightcoral ">Fieldworks</a>
+            <a href="/tag/fieldworks.html" style="background-color: lightpink ">Fieldworks</a>
                 ,
-            <a href="/tag/hospitalfields.html" style="background-color: lightyellow ">Hospitalfields</a>
+            <a href="/tag/hospitalfields.html" style="background-color: lightcyan ">Hospitalfields</a>
                 ,
-            <a href="/tag/betsy-pool.html" style="background-color: lightyellow ">Betsy Pool</a>
+            <a href="/tag/betsy-pool.html" style="background-color: lightseagreen ">Betsy Pool</a>
                 ,
-            <a href="/tag/chelsea-flower-show.html" style="background-color: lightyellow ">Chelsea Flower Show</a>
+            <a href="/tag/chelsea-flower-show.html" style="background-color: lightcoral ">Chelsea Flower Show</a>
                 ,
             <a href="/tag/damanhur.html" style="background-color:  ">Damanhur</a>
                 ,
-            <a href="/tag/devodama.html" style="background-color: lightseagreen ">Devodama</a>
+            <a href="/tag/devodama.html" style="background-color: lightblue ">Devodama</a>
                 ,
-            <a href="/tag/italy.html" style="background-color: lightskyblue ">Italy</a>
+            <a href="/tag/italy.html" style="background-color: aqua ">Italy</a>
                 ,
             <a href="/tag/london.html" style="background-color:  ">london</a>
                 ,
@@ -424,25 +432,25 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/oliver-jennings.html" style="background-color:  ">Oliver Jennings</a>
                 ,
-            <a href="/tag/royal-horticultural-society.html" style="background-color: lightyellow ">Royal Horticultural Society</a>
+            <a href="/tag/royal-horticultural-society.html" style="background-color: lightskyblue ">Royal Horticultural Society</a>
                 ,
-            <a href="/tag/the-cave-studios.html" style="background-color: lightpink ">The Cave Studios</a>
+            <a href="/tag/the-cave-studios.html" style="background-color: lightskyblue ">The Cave Studios</a>
                 ,
-            <a href="/tag/deptford.html" style="background-color: aqua ">'deptford</a>
+            <a href="/tag/deptford.html" style="background-color: lightcyan ">'deptford</a>
                 ,
-            <a href="/tag/monument.html" style="background-color: lightyellow ">monument</a>
+            <a href="/tag/monument.html" style="background-color: lightgreen ">monument</a>
                 ,
-            <a href="/tag/performance.html" style="background-color: lightseagreen ">performance</a>
+            <a href="/tag/performance.html" style="background-color: lightcyan ">performance</a>
                 ,
-            <a href="/tag/tessfaria.html" style="background-color: lightyellow ">tessfaria'</a>
+            <a href="/tag/tessfaria.html" style="background-color: lightgreen ">tessfaria'</a>
                 ,
-            <a href="/tag/dundee.html" style="background-color: lightskyblue ">dundee</a>
+            <a href="/tag/dundee.html" style="background-color: lightpink ">dundee</a>
                 ,
-            <a href="/tag/generator.html" style="background-color: lightseagreen ">generator</a>
+            <a href="/tag/generator.html" style="background-color: lightpink ">generator</a>
                 ,
-            <a href="/tag/participation.html" style="background-color: lightblue ">participation</a>
+            <a href="/tag/participation.html" style="background-color: lightpink ">participation</a>
                 ,
-            <a href="/tag/scotland.html" style="background-color: lightyellow ">scotland</a>
+            <a href="/tag/scotland.html" style="background-color: lightpink ">scotland</a>
                 ]
   </ul>
 </div>
@@ -456,33 +464,33 @@ country, that I pass in and out of, a little better.</p>
                 [
             <a href="/tag/featured.html" style="background-color:  ">'featured</a>
                 ,
-            <a href="/tag/london.html" style="background-color: lightyellow ">london</a>
+            <a href="/tag/london.html" style="background-color: lightcoral ">london</a>
                 ,
-            <a href="/tag/lucy-tomlins.html" style="background-color: lightcoral ">lucy tomlins</a>
+            <a href="/tag/lucy-tomlins.html" style="background-color: lightgreen ">lucy tomlins</a>
                 ,
-            <a href="/tag/marsha-bradfield.html" style="background-color: lightseagreen ">marsha bradfield</a>
+            <a href="/tag/marsha-bradfield.html" style="background-color: lightblue ">marsha bradfield</a>
                 ,
-            <a href="/tag/sculpture.html" style="background-color: lightyellow ">sculpture</a>
+            <a href="/tag/sculpture.html" style="background-color: lightcyan ">sculpture</a>
                 ,
             <a href="/tag/web-design.html" style="background-color: lightyellow ">web design'</a>
                 ,
             <a href="/tag/aberdeenshire.html" style="background-color: lightblue ">aberdeenshire</a>
                 ,
-            <a href="/tag/craft.html" style="background-color: lightpink ">craft</a>
+            <a href="/tag/craft.html" style="background-color: lightyellow ">craft</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/heather-maslen.html" style="background-color: lightgreen ">heather maslen</a>
+            <a href="/tag/heather-maslen.html" style="background-color: lightpink ">heather maslen</a>
                 ,
-            <a href="/tag/nuno-sacramento.html" style="background-color: lightseagreen ">nuno sacramento</a>
+            <a href="/tag/nuno-sacramento.html" style="background-color: aqua ">nuno sacramento</a>
                 ,
-            <a href="/tag/sera-irvine.html" style="background-color: lightpink ">sera irvine</a>
+            <a href="/tag/sera-irvine.html" style="background-color: lightyellow ">sera irvine</a>
                 ,
-            <a href="/tag/skill.html" style="background-color: lightcyan ">skill</a>
+            <a href="/tag/skill.html" style="background-color: lightyellow ">skill</a>
                 ,
-            <a href="/tag/the-scottish-sculpture-workshop.html" style="background-color: aqua ">the scottish sculpture workshop</a>
+            <a href="/tag/the-scottish-sculpture-workshop.html" style="background-color: lightyellow ">the scottish sculpture workshop</a>
                 ,
-            <a href="/tag/trades.html" style="background-color: lightcyan ">trades</a>
+            <a href="/tag/trades.html" style="background-color: lightyellow ">trades</a>
                 ,
             <a href="/tag/web-design.html" style="background-color:  ">web design</a>
                 ]
@@ -498,21 +506,21 @@ country, that I pass in and out of, a little better.</p>
                 [
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/benjamin-serrousi.html" style="background-color: lightskyblue ">Benjamin Serrousi</a>
+            <a href="/tag/benjamin-serrousi.html" style="background-color: aqua ">Benjamin Serrousi</a>
                 ,
-            <a href="/tag/featured.html" style="background-color: lightseagreen ">featured</a>
+            <a href="/tag/featured.html" style="background-color: aqua ">featured</a>
                 ,
-            <a href="/tag/grant-watson.html" style="background-color: lightskyblue ">Grant Watson</a>
+            <a href="/tag/grant-watson.html" style="background-color: lightgreen ">Grant Watson</a>
                 ,
-            <a href="/tag/julieta-aguinaco.html" style="background-color: lightpink ">Julieta Aguinaco</a>
+            <a href="/tag/julieta-aguinaco.html" style="background-color: lightcoral ">Julieta Aguinaco</a>
                 ,
-            <a href="/tag/paula-cheiffi.html" style="background-color: lightskyblue ">Paula Cheiffi</a>
+            <a href="/tag/paula-cheiffi.html" style="background-color: lightcoral ">Paula Cheiffi</a>
                 ,
             <a href="/tag/peter-pal-pelbart.html" style="background-color: lightyellow ">Peter Pál Pelbart</a>
                 ,
             <a href="/tag/sarah-demoen.html" style="background-color: lightyellow ">Sarah Demoen</a>
                 ,
-            <a href="/tag/suely-rolnik.html" style="background-color: lightseagreen ">Suely Rolnik</a>
+            <a href="/tag/suely-rolnik.html" style="background-color: lightcoral ">Suely Rolnik</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ]
@@ -526,93 +534,93 @@ country, that I pass in and out of, a little better.</p>
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/nlp.html" style="background-color: lightyellow ">NLP</a>
+            <a href="/tag/nlp.html" style="background-color: lightblue ">NLP</a>
                 ,
             <a href="/tag/offence-detection.html" style="background-color: lightyellow ">Offence Detection</a>
                 ,
-            <a href="/tag/toxicity.html" style="background-color: lightyellow ">Toxicity</a>
+            <a href="/tag/toxicity.html" style="background-color: lightseagreen ">Toxicity</a>
                 ,
-            <a href="/tag/johannes-schaefer.html" style="background-color: lightcoral ">Johannes Schaefer</a>
+            <a href="/tag/johannes-schaefer.html" style="background-color: lightgreen ">Johannes Schaefer</a>
                 ,
-            <a href="/tag/the-university-of-coimbra.html" style="background-color: lightseagreen ">The University of Coimbra</a>
+            <a href="/tag/the-university-of-coimbra.html" style="background-color: lightgreen ">The University of Coimbra</a>
                 ,
-            <a href="/tag/cisuc.html" style="background-color: aqua ">CISUC</a>
+            <a href="/tag/cisuc.html" style="background-color: lightyellow ">CISUC</a>
                 ,
             <a href="/tag/hugo-goncalo-oliveira.html" style="background-color: lightyellow ">Hugo Gonçalo Oliveira</a>
                 ,
-            <a href="/tag/humour-generation.html" style="background-color: lightcyan ">Humour Generation</a>
+            <a href="/tag/humour-generation.html" style="background-color: lightyellow ">Humour Generation</a>
                 ,
-            <a href="/tag/clips.html" style="background-color: aqua ">CLiPS</a>
+            <a href="/tag/clips.html" style="background-color: lightyellow ">CLiPS</a>
                 ,
-            <a href="/tag/emrg.html" style="background-color: lightyellow ">EMRG</a>
+            <a href="/tag/emrg.html" style="background-color: lightgreen ">EMRG</a>
                 ,
-            <a href="/tag/acdc.html" style="background-color: lightskyblue ">ACDC</a>
+            <a href="/tag/acdc.html" style="background-color: lightyellow ">ACDC</a>
                 ,
             <a href="/tag/hildesheim.html" style="background-color: lightyellow ">Hildesheim</a>
                 ,
             <a href="/tag/johannes-schaefer.html" style="background-color:  ">Johannes Schaefer</a>
                 ,
-            <a href="/tag/nlg.html" style="background-color: lightseagreen ">NLG</a>
+            <a href="/tag/nlg.html" style="background-color: lightgreen ">NLG</a>
                 ,
-            <a href="/tag/ai-ethics.html" style="background-color: lightyellow ">AI & ETHICS</a>
+            <a href="/tag/ai-ethics.html" style="background-color: lightpink ">AI & ETHICS</a>
                 ,
-            <a href="/tag/the-internet-of-things.html" style="background-color: lightcoral ">The Internet of Things</a>
+            <a href="/tag/the-internet-of-things.html" style="background-color: lightyellow ">The Internet of Things</a>
                 ,
-            <a href="/tag/asibot.html" style="background-color: lightseagreen ">Asibot</a>
+            <a href="/tag/asibot.html" style="background-color: lightskyblue ">Asibot</a>
                 ,
-            <a href="/tag/language-generation.html" style="background-color: lightskyblue ">Language Generation</a>
+            <a href="/tag/language-generation.html" style="background-color: lightpink ">Language Generation</a>
                 ,
-            <a href="/tag/conference.html" style="background-color: aqua ">Conference</a>
+            <a href="/tag/conference.html" style="background-color: lightcyan ">Conference</a>
                 ,
-            <a href="/tag/workshop.html" style="background-color: lightblue ">Workshop</a>
+            <a href="/tag/workshop.html" style="background-color: lightyellow ">Workshop</a>
                 ,
-            <a href="/tag/invited-talk.html" style="background-color: lightyellow ">Invited Talk</a>
+            <a href="/tag/invited-talk.html" style="background-color: lightcoral ">Invited Talk</a>
                 ,
             <a href="/tag/language-generation.html" style="background-color:  ">Language Generation</a>
                 ,
             <a href="/tag/dutch-book-week.html" style="background-color: lightyellow ">Dutch book week</a>
                 ,
-            <a href="/tag/nederland-leest.html" style="background-color: lightgreen ">Nederland Leest</a>
+            <a href="/tag/nederland-leest.html" style="background-color: lightcoral ">Nederland Leest</a>
                 ,
             <a href="/tag/sci-fi.html" style="background-color: lightcoral ">Sci-fi</a>
                 ,
-            <a href="/tag/ronald-giphart.html" style="background-color: lightcyan ">Ronald Giphart</a>
+            <a href="/tag/ronald-giphart.html" style="background-color: lightcoral ">Ronald Giphart</a>
                 ,
-            <a href="/tag/neural-language-generation.html" style="background-color: lightgreen ">Neural Language Generation</a>
+            <a href="/tag/neural-language-generation.html" style="background-color: lightskyblue ">Neural Language Generation</a>
                 ,
-            <a href="/tag/enrique-manjavacas.html" style="background-color: lightyellow ">Enrique Manjavacas</a>
+            <a href="/tag/enrique-manjavacas.html" style="background-color: lightcyan ">Enrique Manjavacas</a>
                 ,
-            <a href="/tag/mike-kestemont.html" style="background-color: lightcyan ">Mike Kestemont</a>
+            <a href="/tag/mike-kestemont.html" style="background-color: lightyellow ">Mike Kestemont</a>
                 ,
-            <a href="/tag/folgert-karsdorp.html" style="background-color: lightgreen ">Folgert Karsdorp</a>
+            <a href="/tag/folgert-karsdorp.html" style="background-color: lightpink ">Folgert Karsdorp</a>
                 ,
-            <a href="/tag/fwo.html" style="background-color: lightskyblue ">FWO</a>
+            <a href="/tag/fwo.html" style="background-color: lightyellow ">FWO</a>
                 ,
             <a href="/tag/grants.html" style="background-color: lightyellow ">Grants</a>
                 ,
-            <a href="/tag/phd.html" style="background-color: lightyellow ">PhD</a>
+            <a href="/tag/phd.html" style="background-color: lightblue ">PhD</a>
                 ,
-            <a href="/tag/2017.html" style="background-color: lightcyan ">'2017</a>
+            <a href="/tag/2017.html" style="background-color: lightcoral ">'2017</a>
                 ,
-            <a href="/tag/inlg.html" style="background-color: lightblue ">inlg</a>
+            <a href="/tag/inlg.html" style="background-color: lightseagreen ">inlg</a>
                 ,
             <a href="/tag/nlg.html" style="background-color:  ">nlg</a>
                 ,
             <a href="/tag/santiago-di-compestela.html" style="background-color: lightcoral ">santiago di compestela</a>
                 ,
-            <a href="/tag/workshop-committee.html" style="background-color: lightseagreen ">workshop committee'</a>
+            <a href="/tag/workshop-committee.html" style="background-color: lightcoral ">workshop committee'</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/atlanta.html" style="background-color: lightyellow ">Atlanta</a>
+            <a href="/tag/atlanta.html" style="background-color: lightpink ">Atlanta</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">conference</a>
                 ,
-            <a href="/tag/iccc.html" style="background-color: aqua ">ICCC</a>
+            <a href="/tag/iccc.html" style="background-color: lightcyan ">ICCC</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/ai-stories.html" style="background-color: lightcoral ">AI stories</a>
+            <a href="/tag/ai-stories.html" style="background-color: lightpink ">AI stories</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">conference</a>
                 ]
@@ -626,7 +634,7 @@ country, that I pass in and out of, a little better.</p>
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/aberdeen.html" style="background-color: lightskyblue ">aberdeen</a>
+            <a href="/tag/aberdeen.html" style="background-color: lightcoral ">aberdeen</a>
                 ,
             <a href="/tag/artist-talk.html" style="background-color: lightcoral ">Artist Talk</a>
                 ,
@@ -634,7 +642,7 @@ country, that I pass in and out of, a little better.</p>
                 ,
             <a href="/tag/grays-school-of-art.html" style="background-color: aqua ">grays school of art</a>
                 ,
-            <a href="/tag/resources-in-art-making.html" style="background-color: aqua ">resources in art making</a>
+            <a href="/tag/resources-in-art-making.html" style="background-color: lightyellow ">resources in art making</a>
                 ]
   </ul>
 </div>

@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css"/> 
+
+
+<script>
+        $(document).ready(function() {
+             $('#tipue_search_input').tipuesearch({
+                  'mode': 'json',
+                  'contentLocation': 'tipuesearch_content.json'
+             });
+        });
+    </script>
+
+
+
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 
 <head>
@@ -27,6 +44,7 @@
     <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
 
 
@@ -41,24 +59,14 @@
 
         <div class="row">
             <div class="col-sm-12">
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/">Burtenshaw</a> 
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="pages/more_than_work.html">MORE_THAN_WORK<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="pages/right_now.html">RIGHT_NOW<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="pages/contact.html">CONTACT<span class="sr-only">(current)</span></a>
-        </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <form action="/">
+    <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+    <div style="clear: both;"></div>
+</form>
+
+ <div id="tipue_search_content"></div>
 </nav>            </div>
         </div>
 
@@ -94,15 +102,15 @@
         [
 	<a href="/tag/2017.html" style="background-color:  ">2017</a>
         ,
-	<a href="/tag/antwerp.html" style="background-color: lightskyblue ">antwerp</a>
+	<a href="/tag/antwerp.html" style="background-color: lightyellow ">antwerp</a>
         ,
-	<a href="/tag/research-grant.html" style="background-color: lightpink ">research grant</a>
+	<a href="/tag/research-grant.html" style="background-color: lightgreen ">research grant</a>
         ,
 	<a href="/tag/nlp.html" style="background-color:  ">NLP</a>
         ,
 	<a href="/tag/nlg.html" style="background-color:  ">NLG</a>
         ,
-	<a href="/tag/narratives.html" style="background-color: lightgreen ">Narratives</a>
+	<a href="/tag/narratives.html" style="background-color: lightpink ">Narratives</a>
         ]
 </div>    
 </footer><!-- /.post-info -->                    </div>
@@ -147,23 +155,23 @@ to natural language input by generating stories and poems.</p>
                 [
             <a href="/tag/2014.html" style="background-color:  ">2014</a>
                 ,
-            <a href="/tag/amir-avraham.html" style="background-color: lightcyan ">Amir Avraham</a>
+            <a href="/tag/amir-avraham.html" style="background-color: aqua ">Amir Avraham</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/casco.html" style="background-color: lightyellow ">casco</a>
+            <a href="/tag/casco.html" style="background-color: lightseagreen ">casco</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
-            <a href="/tag/isabelle-sully.html" style="background-color: lightyellow ">Isabelle Sully</a>
+            <a href="/tag/isabelle-sully.html" style="background-color: lightseagreen ">Isabelle Sully</a>
                 ,
-            <a href="/tag/publishing.html" style="background-color: lightyellow ">Publishing</a>
+            <a href="/tag/publishing.html" style="background-color: lightpink ">Publishing</a>
                 ,
             <a href="/tag/sarah-jones.html" style="background-color:  ">Sarah Jones</a>
                 ,
-            <a href="/tag/utrecht.html" style="background-color: aqua ">Utrecht</a>
+            <a href="/tag/utrecht.html" style="background-color: lightgreen ">Utrecht</a>
                 ,
-            <a href="/tag/werkplaats.html" style="background-color: lightseagreen ">Werkplaats</a>
+            <a href="/tag/werkplaats.html" style="background-color: lightyellow ">Werkplaats</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">'Dutch art Institute</a>
                 ,
@@ -175,7 +183,7 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/taak.html" style="background-color: lightyellow ">TAAK</a>
                 ,
-            <a href="/tag/texas.html" style="background-color: lightgreen ">Texas'</a>
+            <a href="/tag/texas.html" style="background-color: lightblue ">Texas'</a>
                 ,
             <a href="/tag/amir-avraham.html" style="background-color:  ">Amir Avraham</a>
                 ,
@@ -185,7 +193,7 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/sarah-jones-isabelle-sully.html" style="background-color: lightcoral ">Sarah Jones. Isabelle Sully</a>
+            <a href="/tag/sarah-jones-isabelle-sully.html" style="background-color: lightyellow ">Sarah Jones. Isabelle Sully</a>
                 ,
             <a href="/tag/utrecht.html" style="background-color:  ">Utrecht</a>
                 ,
@@ -193,21 +201,21 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/active-project.html" style="background-color: lightblue ">'active project</a>
+            <a href="/tag/active-project.html" style="background-color: lightgreen ">'active project</a>
                 ,
-            <a href="/tag/open-to-participation.html" style="background-color: aqua ">open to participation</a>
+            <a href="/tag/open-to-participation.html" style="background-color: lightseagreen ">open to participation</a>
                 ,
-            <a href="/tag/waste.html" style="background-color: aqua ">waste'</a>
+            <a href="/tag/waste.html" style="background-color: lightyellow ">waste'</a>
                 ,
-            <a href="/tag/granite.html" style="background-color: lightcoral ">'granite</a>
+            <a href="/tag/granite.html" style="background-color: lightseagreen ">'granite</a>
                 ,
-            <a href="/tag/neon-lighting.html" style="background-color: lightyellow ">neon lighting</a>
+            <a href="/tag/neon-lighting.html" style="background-color: aqua ">neon lighting</a>
                 ,
-            <a href="/tag/pizza.html" style="background-color: lightblue ">pizza</a>
+            <a href="/tag/pizza.html" style="background-color: lightyellow ">pizza</a>
                 ,
             <a href="/tag/scotland.html" style="background-color:  ">scotland</a>
                 ,
-            <a href="/tag/scottish-sculpture-workshop.html" style="background-color: lightpink ">scottish sculpture workshop'</a>
+            <a href="/tag/scottish-sculpture-workshop.html" style="background-color: aqua ">scottish sculpture workshop'</a>
                 ,
             <a href="/tag/performance.html" style="background-color:  ">'performance</a>
                 ,
@@ -215,9 +223,9 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/sculpture.html" style="background-color:  ">sculpture'</a>
                 ,
-            <a href="/tag/critical-forum.html" style="background-color: lightcoral ">'critical forum</a>
+            <a href="/tag/critical-forum.html" style="background-color: lightseagreen ">'critical forum</a>
                 ,
-            <a href="/tag/discourse.html" style="background-color: lightyellow ">discourse</a>
+            <a href="/tag/discourse.html" style="background-color: lightskyblue ">discourse</a>
                 ,
             <a href="/tag/scotland.html" style="background-color:  ">scotland</a>
                 ,
@@ -233,81 +241,81 @@ to natural language input by generating stories and poems.</p>
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/art.html" style="background-color: lightpink ">Art</a>
+            <a href="/tag/art.html" style="background-color: lightyellow ">Art</a>
                 ,
-            <a href="/tag/renee-ridgway.html" style="background-color: lightcoral ">Renée Ridgway</a>
+            <a href="/tag/renee-ridgway.html" style="background-color: lightblue ">Renée Ridgway</a>
                 ,
             <a href="/tag/ai.html" style="background-color: lightseagreen ">AI</a>
                 ,
-            <a href="/tag/dialogue-systems.html" style="background-color: lightcoral ">Dialogue Systems</a>
+            <a href="/tag/dialogue-systems.html" style="background-color: lightyellow ">Dialogue Systems</a>
                 ,
-            <a href="/tag/bochum.html" style="background-color: lightcyan ">Bochum</a>
+            <a href="/tag/bochum.html" style="background-color: lightgreen ">Bochum</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/antwerp.html" style="background-color: lightskyblue ">antwerp</a>
+            <a href="/tag/antwerp.html" style="background-color: lightyellow ">antwerp</a>
                 ,
-            <a href="/tag/research-grant.html" style="background-color: lightpink ">research grant</a>
+            <a href="/tag/research-grant.html" style="background-color: lightgreen ">research grant</a>
                 ,
             <a href="/tag/nlp.html" style="background-color:  ">NLP</a>
                 ,
             <a href="/tag/nlg.html" style="background-color:  ">NLG</a>
                 ,
-            <a href="/tag/narratives.html" style="background-color: lightgreen ">Narratives</a>
+            <a href="/tag/narratives.html" style="background-color: lightpink ">Narratives</a>
                 ,
-            <a href="/tag/2016.html" style="background-color: lightblue ">'2016</a>
+            <a href="/tag/2016.html" style="background-color: lightyellow ">'2016</a>
                 ,
-            <a href="/tag/arnhem.html" style="background-color: lightseagreen ">Arnhem</a>
+            <a href="/tag/arnhem.html" style="background-color: lightgreen ">Arnhem</a>
                 ,
-            <a href="/tag/bassam-el-baroni.html" style="background-color: lightgreen ">Bassam el Baroni</a>
+            <a href="/tag/bassam-el-baroni.html" style="background-color: lightcoral ">Bassam el Baroni</a>
                 ,
-            <a href="/tag/dai.html" style="background-color: aqua ">DAI</a>
+            <a href="/tag/dai.html" style="background-color: lightyellow ">DAI</a>
                 ,
-            <a href="/tag/prometheanism.html" style="background-color: lightyellow ">Prometheanism'</a>
+            <a href="/tag/prometheanism.html" style="background-color: lightseagreen ">Prometheanism'</a>
                 ,
-            <a href="/tag/2015.html" style="background-color: lightyellow ">2015</a>
+            <a href="/tag/2015.html" style="background-color: lightblue ">2015</a>
                 ,
-            <a href="/tag/affect-theory.html" style="background-color: lightblue ">affect theory</a>
+            <a href="/tag/affect-theory.html" style="background-color: lightpink ">affect theory</a>
                 ,
-            <a href="/tag/did-you-feel-it.html" style="background-color: lightpink ">Did you feel it?</a>
+            <a href="/tag/did-you-feel-it.html" style="background-color: lightcyan ">Did you feel it?</a>
                 ,
-            <a href="/tag/dutch-art-institute.html" style="background-color: lightgreen ">Dutch art Institute</a>
+            <a href="/tag/dutch-art-institute.html" style="background-color: aqua ">Dutch art Institute</a>
                 ,
             <a href="/tag/erica-scourti.html" style="background-color: lightseagreen ">Erica Scourti</a>
                 ,
-            <a href="/tag/mark-fisher.html" style="background-color: aqua ">Mark Fisher</a>
+            <a href="/tag/mark-fisher.html" style="background-color: lightseagreen ">Mark Fisher</a>
                 ,
             <a href="/tag/mercedes-bunz.html" style="background-color: lightgreen ">Mercedes Bunz</a>
                 ,
-            <a href="/tag/nishant-shah.html" style="background-color: aqua ">Nishant Shah</a>
+            <a href="/tag/nishant-shah.html" style="background-color: lightyellow ">Nishant Shah</a>
                 ,
-            <a href="/tag/open.html" style="background-color: lightpink ">Open!</a>
+            <a href="/tag/open.html" style="background-color: lightyellow ">Open!</a>
                 ,
-            <a href="/tag/symposium.html" style="background-color: lightyellow ">symposium</a>
+            <a href="/tag/symposium.html" style="background-color: aqua ">symposium</a>
                 ,
-            <a href="/tag/veridiana-zuria.html" style="background-color: lightyellow ">Veridiana Zuria</a>
+            <a href="/tag/veridiana-zuria.html" style="background-color: lightblue ">Veridiana Zuria</a>
                 ,
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/apple-watch.html" style="background-color: lightyellow ">Apple watch</a>
+            <a href="/tag/apple-watch.html" style="background-color: lightgreen ">Apple watch</a>
                 ,
-            <a href="/tag/coop-academy.html" style="background-color: lightskyblue ">Coop Academy</a>
+            <a href="/tag/coop-academy.html" style="background-color: lightblue ">Coop Academy</a>
                 ,
             <a href="/tag/did-you-feel-it.html" style="background-color:  ">Did you feel it?</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
-            <a href="/tag/exmachina.html" style="background-color: lightpink ">exmachina</a>
+            <a href="/tag/exmachina.html" style="background-color: lightcoral ">exmachina</a>
                 ,
-            <a href="/tag/nike-run.html" style="background-color: lightyellow ">Nike run</a>
+            <a href="/tag/nike-run.html" style="background-color: aqua ">Nike run</a>
                 ,
             <a href="/tag/open.html" style="background-color:  ">Open!</a>
                 ,
-            <a href="/tag/the-call-centre.html" style="background-color: aqua ">The Call Centre</a>
+            <a href="/tag/the-call-centre.html" style="background-color: lightyellow ">The Call Centre</a>
                 ,
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/alex-jeronymides-norie.html" style="background-color: lightpink ">Alex Jeronymides-Norie</a>
+            <a href="/tag/alex-jeronymides-norie.html" style="background-color: lightyellow ">Alex Jeronymides-Norie</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
@@ -317,7 +325,7 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/nike-run.html" style="background-color:  ">Nike run</a>
                 ,
-            <a href="/tag/showroom-arnhem.html" style="background-color: lightskyblue ">Showroom Arnhem</a>
+            <a href="/tag/showroom-arnhem.html" style="background-color: aqua ">Showroom Arnhem</a>
                 ,
             <a href="/tag/dutch-art-institute.html" style="background-color:  ">Dutch art Institute</a>
                 ,
@@ -345,21 +353,21 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured'</a>
                 ,
-            <a href="/tag/alt.html" style="background-color: lightyellow ">'alt</a>
+            <a href="/tag/alt.html" style="background-color: lightskyblue ">'alt</a>
                 ,
             <a href="/tag/amsterdam.html" style="background-color:  ">amsterdam</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/new-world-academy.html" style="background-color: lightcyan ">new world academy'</a>
+            <a href="/tag/new-world-academy.html" style="background-color: lightyellow ">new world academy'</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/catalonia-spain.html" style="background-color: lightcoral ">'catalonia. spain</a>
+            <a href="/tag/catalonia-spain.html" style="background-color: lightgreen ">'catalonia. spain</a>
                 ,
-            <a href="/tag/cercca.html" style="background-color: lightpink ">cercca</a>
+            <a href="/tag/cercca.html" style="background-color: lightyellow ">cercca</a>
                 ,
-            <a href="/tag/el-pla-de-manlleu.html" style="background-color: aqua ">el pla de manlleu'</a>
+            <a href="/tag/el-pla-de-manlleu.html" style="background-color: lightpink ">el pla de manlleu'</a>
                 ]
   </ul>
 </div>
@@ -373,27 +381,27 @@ to natural language input by generating stories and poems.</p>
                 [
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/damanhur.html" style="background-color: lightcoral ">Damanhur</a>
+            <a href="/tag/damanhur.html" style="background-color: lightpink ">Damanhur</a>
                 ,
-            <a href="/tag/edinburgh.html" style="background-color: lightseagreen ">Edinburgh</a>
+            <a href="/tag/edinburgh.html" style="background-color: lightcyan ">Edinburgh</a>
                 ,
-            <a href="/tag/edinburgh-science-festival.html" style="background-color: lightblue ">Edinburgh Science Festival</a>
+            <a href="/tag/edinburgh-science-festival.html" style="background-color: lightyellow ">Edinburgh Science Festival</a>
                 ,
-            <a href="/tag/music-of-the-plants.html" style="background-color: lightblue ">Music of the plants</a>
+            <a href="/tag/music-of-the-plants.html" style="background-color: lightgreen ">Music of the plants</a>
                 ,
-            <a href="/tag/oliver-jennings.html" style="background-color: lightcoral ">Oliver Jennings</a>
+            <a href="/tag/oliver-jennings.html" style="background-color: lightyellow ">Oliver Jennings</a>
                 ,
-            <a href="/tag/sarah-jones.html" style="background-color: lightcoral ">Sarah Jones</a>
+            <a href="/tag/sarah-jones.html" style="background-color: lightpink ">Sarah Jones</a>
                 ,
-            <a href="/tag/summerhall.html" style="background-color: lightblue ">Summerhall</a>
+            <a href="/tag/summerhall.html" style="background-color: lightyellow ">Summerhall</a>
                 ,
-            <a href="/tag/2014.html" style="background-color: lightyellow ">2014</a>
+            <a href="/tag/2014.html" style="background-color: lightblue ">2014</a>
                 ,
             <a href="/tag/arnhem.html" style="background-color:  ">Arnhem</a>
                 ,
-            <a href="/tag/borders.html" style="background-color: lightyellow ">Borders</a>
+            <a href="/tag/borders.html" style="background-color: lightskyblue ">Borders</a>
                 ,
-            <a href="/tag/curating.html" style="background-color: aqua ">Curating</a>
+            <a href="/tag/curating.html" style="background-color: lightyellow ">Curating</a>
                 ,
             <a href="/tag/dai.html" style="background-color:  ">DAI</a>
                 ,
@@ -401,41 +409,41 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/julieta-aguinaco.html" style="background-color:  ">Julieta Aguinaco</a>
                 ,
-            <a href="/tag/marfa.html" style="background-color: lightyellow ">Marfa</a>
+            <a href="/tag/marfa.html" style="background-color: lightpink ">Marfa</a>
                 ,
-            <a href="/tag/mexico-city.html" style="background-color: lightpink ">mexico city</a>
+            <a href="/tag/mexico-city.html" style="background-color: lightcoral ">mexico city</a>
                 ,
             <a href="/tag/sarah-demoen.html" style="background-color:  ">Sarah Demoen</a>
                 ,
-            <a href="/tag/welcome-to-econotopia.html" style="background-color: lightgreen ">Welcome to econotopia</a>
+            <a href="/tag/welcome-to-econotopia.html" style="background-color: lightyellow ">Welcome to econotopia</a>
                 ,
             <a href="/tag/cooper-gallery-duncan-of-jordanstone-college-of-art-amp.html" style="background-color: lightyellow ">Cooper Gallery, Duncan of Jordanstone College of Art &amp</a>
                 ,
             <a href="/tag/design-dundee-featured-generation-25-holly-knox-yeoman-jamming-sessions-writing-residency.html" style="background-color: lightyellow ">Design, dundee, featured, Generation 25, Holly Knox Yeoman, Jamming Sessions, Writing Residency</a>
                 ,
-            <a href="/tag/arbroath.html" style="background-color: lightblue ">Arbroath</a>
+            <a href="/tag/arbroath.html" style="background-color: aqua ">Arbroath</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">Conference</a>
                 ,
             <a href="/tag/curating.html" style="background-color:  ">Curating</a>
                 ,
-            <a href="/tag/event-based-curating.html" style="background-color: lightyellow ">event based curating</a>
+            <a href="/tag/event-based-curating.html" style="background-color: lightskyblue ">event based curating</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/fieldworks.html" style="background-color: lightgreen ">Fieldworks</a>
+            <a href="/tag/fieldworks.html" style="background-color: lightpink ">Fieldworks</a>
                 ,
-            <a href="/tag/hospitalfields.html" style="background-color: lightpink ">Hospitalfields</a>
+            <a href="/tag/hospitalfields.html" style="background-color: lightgreen ">Hospitalfields</a>
                 ,
-            <a href="/tag/betsy-pool.html" style="background-color: lightgreen ">Betsy Pool</a>
+            <a href="/tag/betsy-pool.html" style="background-color: lightcyan ">Betsy Pool</a>
                 ,
-            <a href="/tag/chelsea-flower-show.html" style="background-color: lightyellow ">Chelsea Flower Show</a>
+            <a href="/tag/chelsea-flower-show.html" style="background-color: lightseagreen ">Chelsea Flower Show</a>
                 ,
             <a href="/tag/damanhur.html" style="background-color:  ">Damanhur</a>
                 ,
-            <a href="/tag/devodama.html" style="background-color: lightyellow ">Devodama</a>
+            <a href="/tag/devodama.html" style="background-color: lightgreen ">Devodama</a>
                 ,
-            <a href="/tag/italy.html" style="background-color: lightgreen ">Italy</a>
+            <a href="/tag/italy.html" style="background-color: lightyellow ">Italy</a>
                 ,
             <a href="/tag/london.html" style="background-color:  ">london</a>
                 ,
@@ -443,25 +451,25 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/oliver-jennings.html" style="background-color:  ">Oliver Jennings</a>
                 ,
-            <a href="/tag/royal-horticultural-society.html" style="background-color: lightgreen ">Royal Horticultural Society</a>
+            <a href="/tag/royal-horticultural-society.html" style="background-color: lightyellow ">Royal Horticultural Society</a>
                 ,
-            <a href="/tag/the-cave-studios.html" style="background-color: lightgreen ">The Cave Studios</a>
+            <a href="/tag/the-cave-studios.html" style="background-color: lightblue ">The Cave Studios</a>
                 ,
-            <a href="/tag/deptford.html" style="background-color: lightcyan ">'deptford</a>
+            <a href="/tag/deptford.html" style="background-color: lightgreen ">'deptford</a>
                 ,
             <a href="/tag/monument.html" style="background-color: lightyellow ">monument</a>
                 ,
-            <a href="/tag/performance.html" style="background-color: lightgreen ">performance</a>
+            <a href="/tag/performance.html" style="background-color: lightyellow ">performance</a>
                 ,
-            <a href="/tag/tessfaria.html" style="background-color: lightyellow ">tessfaria'</a>
+            <a href="/tag/tessfaria.html" style="background-color: lightskyblue ">tessfaria'</a>
                 ,
-            <a href="/tag/dundee.html" style="background-color: lightcoral ">dundee</a>
+            <a href="/tag/dundee.html" style="background-color: lightgreen ">dundee</a>
                 ,
-            <a href="/tag/generator.html" style="background-color: lightyellow ">generator</a>
+            <a href="/tag/generator.html" style="background-color: lightcyan ">generator</a>
                 ,
             <a href="/tag/participation.html" style="background-color: lightyellow ">participation</a>
                 ,
-            <a href="/tag/scotland.html" style="background-color: lightcoral ">scotland</a>
+            <a href="/tag/scotland.html" style="background-color: lightcyan ">scotland</a>
                 ]
   </ul>
 </div>
@@ -477,31 +485,31 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/london.html" style="background-color: lightyellow ">london</a>
                 ,
-            <a href="/tag/lucy-tomlins.html" style="background-color: aqua ">lucy tomlins</a>
+            <a href="/tag/lucy-tomlins.html" style="background-color: lightblue ">lucy tomlins</a>
                 ,
-            <a href="/tag/marsha-bradfield.html" style="background-color: lightskyblue ">marsha bradfield</a>
+            <a href="/tag/marsha-bradfield.html" style="background-color: aqua ">marsha bradfield</a>
                 ,
-            <a href="/tag/sculpture.html" style="background-color: lightcyan ">sculpture</a>
+            <a href="/tag/sculpture.html" style="background-color: lightgreen ">sculpture</a>
                 ,
-            <a href="/tag/web-design.html" style="background-color: lightyellow ">web design'</a>
+            <a href="/tag/web-design.html" style="background-color: lightcoral ">web design'</a>
                 ,
-            <a href="/tag/aberdeenshire.html" style="background-color: lightyellow ">aberdeenshire</a>
+            <a href="/tag/aberdeenshire.html" style="background-color: lightskyblue ">aberdeenshire</a>
                 ,
-            <a href="/tag/craft.html" style="background-color: lightblue ">craft</a>
+            <a href="/tag/craft.html" style="background-color: lightpink ">craft</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
-            <a href="/tag/heather-maslen.html" style="background-color: lightseagreen ">heather maslen</a>
+            <a href="/tag/heather-maslen.html" style="background-color: lightcyan ">heather maslen</a>
                 ,
             <a href="/tag/nuno-sacramento.html" style="background-color: lightyellow ">nuno sacramento</a>
                 ,
             <a href="/tag/sera-irvine.html" style="background-color: lightyellow ">sera irvine</a>
                 ,
-            <a href="/tag/skill.html" style="background-color: lightyellow ">skill</a>
+            <a href="/tag/skill.html" style="background-color: lightseagreen ">skill</a>
                 ,
-            <a href="/tag/the-scottish-sculpture-workshop.html" style="background-color: lightseagreen ">the scottish sculpture workshop</a>
+            <a href="/tag/the-scottish-sculpture-workshop.html" style="background-color: lightskyblue ">the scottish sculpture workshop</a>
                 ,
-            <a href="/tag/trades.html" style="background-color: lightyellow ">trades</a>
+            <a href="/tag/trades.html" style="background-color: aqua ">trades</a>
                 ,
             <a href="/tag/web-design.html" style="background-color:  ">web design</a>
                 ]
@@ -517,21 +525,21 @@ to natural language input by generating stories and poems.</p>
                 [
             <a href="/tag/2015.html" style="background-color:  ">2015</a>
                 ,
-            <a href="/tag/benjamin-serrousi.html" style="background-color: aqua ">Benjamin Serrousi</a>
+            <a href="/tag/benjamin-serrousi.html" style="background-color: lightpink ">Benjamin Serrousi</a>
                 ,
             <a href="/tag/featured.html" style="background-color: lightcyan ">featured</a>
                 ,
-            <a href="/tag/grant-watson.html" style="background-color: aqua ">Grant Watson</a>
+            <a href="/tag/grant-watson.html" style="background-color: lightskyblue ">Grant Watson</a>
                 ,
-            <a href="/tag/julieta-aguinaco.html" style="background-color: lightblue ">Julieta Aguinaco</a>
+            <a href="/tag/julieta-aguinaco.html" style="background-color: aqua ">Julieta Aguinaco</a>
                 ,
-            <a href="/tag/paula-cheiffi.html" style="background-color: lightyellow ">Paula Cheiffi</a>
+            <a href="/tag/paula-cheiffi.html" style="background-color: lightcyan ">Paula Cheiffi</a>
                 ,
-            <a href="/tag/peter-pal-pelbart.html" style="background-color: lightcoral ">Peter Pál Pelbart</a>
+            <a href="/tag/peter-pal-pelbart.html" style="background-color: aqua ">Peter Pál Pelbart</a>
                 ,
-            <a href="/tag/sarah-demoen.html" style="background-color: lightcyan ">Sarah Demoen</a>
+            <a href="/tag/sarah-demoen.html" style="background-color: lightyellow ">Sarah Demoen</a>
                 ,
-            <a href="/tag/suely-rolnik.html" style="background-color: lightblue ">Suely Rolnik</a>
+            <a href="/tag/suely-rolnik.html" style="background-color: lightyellow ">Suely Rolnik</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ]
@@ -545,45 +553,45 @@ to natural language input by generating stories and poems.</p>
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/nlp.html" style="background-color: lightblue ">NLP</a>
+            <a href="/tag/nlp.html" style="background-color: lightcyan ">NLP</a>
                 ,
-            <a href="/tag/offence-detection.html" style="background-color: lightcyan ">Offence Detection</a>
+            <a href="/tag/offence-detection.html" style="background-color: lightblue ">Offence Detection</a>
                 ,
             <a href="/tag/toxicity.html" style="background-color: lightyellow ">Toxicity</a>
                 ,
-            <a href="/tag/johannes-schaefer.html" style="background-color: lightblue ">Johannes Schaefer</a>
+            <a href="/tag/johannes-schaefer.html" style="background-color: aqua ">Johannes Schaefer</a>
                 ,
-            <a href="/tag/the-university-of-coimbra.html" style="background-color: lightgreen ">The University of Coimbra</a>
+            <a href="/tag/the-university-of-coimbra.html" style="background-color: lightyellow ">The University of Coimbra</a>
                 ,
             <a href="/tag/cisuc.html" style="background-color: lightcyan ">CISUC</a>
                 ,
             <a href="/tag/hugo-goncalo-oliveira.html" style="background-color: lightyellow ">Hugo Gonçalo Oliveira</a>
                 ,
-            <a href="/tag/humour-generation.html" style="background-color: lightseagreen ">Humour Generation</a>
+            <a href="/tag/humour-generation.html" style="background-color: lightyellow ">Humour Generation</a>
                 ,
             <a href="/tag/clips.html" style="background-color: lightyellow ">CLiPS</a>
                 ,
-            <a href="/tag/emrg.html" style="background-color: lightyellow ">EMRG</a>
+            <a href="/tag/emrg.html" style="background-color: lightpink ">EMRG</a>
                 ,
-            <a href="/tag/acdc.html" style="background-color: lightseagreen ">ACDC</a>
+            <a href="/tag/acdc.html" style="background-color: lightyellow ">ACDC</a>
                 ,
             <a href="/tag/hildesheim.html" style="background-color: aqua ">Hildesheim</a>
                 ,
             <a href="/tag/johannes-schaefer.html" style="background-color:  ">Johannes Schaefer</a>
                 ,
-            <a href="/tag/nlg.html" style="background-color: lightcoral ">NLG</a>
+            <a href="/tag/nlg.html" style="background-color: lightcyan ">NLG</a>
                 ,
-            <a href="/tag/ai-ethics.html" style="background-color: lightseagreen ">AI & ETHICS</a>
+            <a href="/tag/ai-ethics.html" style="background-color: aqua ">AI & ETHICS</a>
                 ,
-            <a href="/tag/the-internet-of-things.html" style="background-color: lightcyan ">The Internet of Things</a>
+            <a href="/tag/the-internet-of-things.html" style="background-color: lightgreen ">The Internet of Things</a>
                 ,
-            <a href="/tag/asibot.html" style="background-color: lightyellow ">Asibot</a>
+            <a href="/tag/asibot.html" style="background-color: aqua ">Asibot</a>
                 ,
             <a href="/tag/language-generation.html" style="background-color: lightyellow ">Language Generation</a>
                 ,
-            <a href="/tag/conference.html" style="background-color: lightskyblue ">Conference</a>
+            <a href="/tag/conference.html" style="background-color: aqua ">Conference</a>
                 ,
-            <a href="/tag/workshop.html" style="background-color: lightcoral ">Workshop</a>
+            <a href="/tag/workshop.html" style="background-color: lightgreen ">Workshop</a>
                 ,
             <a href="/tag/invited-talk.html" style="background-color: lightyellow ">Invited Talk</a>
                 ,
@@ -591,47 +599,47 @@ to natural language input by generating stories and poems.</p>
                 ,
             <a href="/tag/dutch-book-week.html" style="background-color: lightpink ">Dutch book week</a>
                 ,
-            <a href="/tag/nederland-leest.html" style="background-color: lightseagreen ">Nederland Leest</a>
+            <a href="/tag/nederland-leest.html" style="background-color: lightgreen ">Nederland Leest</a>
                 ,
-            <a href="/tag/sci-fi.html" style="background-color: lightyellow ">Sci-fi</a>
+            <a href="/tag/sci-fi.html" style="background-color: lightseagreen ">Sci-fi</a>
                 ,
-            <a href="/tag/ronald-giphart.html" style="background-color: lightskyblue ">Ronald Giphart</a>
+            <a href="/tag/ronald-giphart.html" style="background-color: lightseagreen ">Ronald Giphart</a>
                 ,
-            <a href="/tag/neural-language-generation.html" style="background-color: lightpink ">Neural Language Generation</a>
+            <a href="/tag/neural-language-generation.html" style="background-color: aqua ">Neural Language Generation</a>
                 ,
             <a href="/tag/enrique-manjavacas.html" style="background-color: lightyellow ">Enrique Manjavacas</a>
                 ,
-            <a href="/tag/mike-kestemont.html" style="background-color: lightyellow ">Mike Kestemont</a>
+            <a href="/tag/mike-kestemont.html" style="background-color: lightskyblue ">Mike Kestemont</a>
                 ,
-            <a href="/tag/folgert-karsdorp.html" style="background-color: lightyellow ">Folgert Karsdorp</a>
+            <a href="/tag/folgert-karsdorp.html" style="background-color: lightseagreen ">Folgert Karsdorp</a>
                 ,
-            <a href="/tag/fwo.html" style="background-color: lightyellow ">FWO</a>
+            <a href="/tag/fwo.html" style="background-color: lightgreen ">FWO</a>
                 ,
-            <a href="/tag/grants.html" style="background-color: lightyellow ">Grants</a>
+            <a href="/tag/grants.html" style="background-color: lightblue ">Grants</a>
                 ,
-            <a href="/tag/phd.html" style="background-color: lightgreen ">PhD</a>
+            <a href="/tag/phd.html" style="background-color: lightyellow ">PhD</a>
                 ,
-            <a href="/tag/2017.html" style="background-color: lightcyan ">'2017</a>
+            <a href="/tag/2017.html" style="background-color: lightyellow ">'2017</a>
                 ,
-            <a href="/tag/inlg.html" style="background-color: lightgreen ">inlg</a>
+            <a href="/tag/inlg.html" style="background-color: lightcyan ">inlg</a>
                 ,
             <a href="/tag/nlg.html" style="background-color:  ">nlg</a>
                 ,
-            <a href="/tag/santiago-di-compestela.html" style="background-color: lightyellow ">santiago di compestela</a>
+            <a href="/tag/santiago-di-compestela.html" style="background-color: lightcyan ">santiago di compestela</a>
                 ,
-            <a href="/tag/workshop-committee.html" style="background-color: lightpink ">workshop committee'</a>
+            <a href="/tag/workshop-committee.html" style="background-color: aqua ">workshop committee'</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/atlanta.html" style="background-color: lightcoral ">Atlanta</a>
+            <a href="/tag/atlanta.html" style="background-color: lightyellow ">Atlanta</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">conference</a>
                 ,
-            <a href="/tag/iccc.html" style="background-color: lightpink ">ICCC</a>
+            <a href="/tag/iccc.html" style="background-color: lightcoral ">ICCC</a>
                 ,
             <a href="/tag/2017.html" style="background-color:  ">2017</a>
                 ,
-            <a href="/tag/ai-stories.html" style="background-color: lightgreen ">AI stories</a>
+            <a href="/tag/ai-stories.html" style="background-color: lightcyan ">AI stories</a>
                 ,
             <a href="/tag/conference.html" style="background-color:  ">conference</a>
                 ]
@@ -645,15 +653,15 @@ to natural language input by generating stories and poems.</p>
   </button>
   <ul class="dropdown-menu tags-list">
                 [
-            <a href="/tag/aberdeen.html" style="background-color: lightcyan ">aberdeen</a>
+            <a href="/tag/aberdeen.html" style="background-color: lightyellow ">aberdeen</a>
                 ,
-            <a href="/tag/artist-talk.html" style="background-color: lightseagreen ">Artist Talk</a>
+            <a href="/tag/artist-talk.html" style="background-color: lightgreen ">Artist Talk</a>
                 ,
             <a href="/tag/featured.html" style="background-color:  ">featured</a>
                 ,
             <a href="/tag/grays-school-of-art.html" style="background-color: lightpink ">grays school of art</a>
                 ,
-            <a href="/tag/resources-in-art-making.html" style="background-color: lightskyblue ">resources in art making</a>
+            <a href="/tag/resources-in-art-making.html" style="background-color: lightpink ">resources in art making</a>
                 ]
   </ul>
 </div>
